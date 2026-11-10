@@ -1,0 +1,9 @@
+{
+  "archive": "E:\\AI_project\\SmartTicket-AI\\artifacts\\releases\\SmartTicket-AI-20261110T033920217923Z.zip",
+  "files": 300,
+  "bytes": 2583897,
+  "archive_sha256": "486e242694821785985f024267a4190f70637071cd174502c04272e052c03e7c",
+  "all_members_hash_verified": true,
+  "configured_secret_scan_passed": true,
+  "environments_databases_keys_and_model_weights_included": false
+}

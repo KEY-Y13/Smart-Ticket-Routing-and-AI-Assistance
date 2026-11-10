@@ -1,0 +1,53 @@
+{
+  "at": "2026-11-10T03:31:16.356866+00:00",
+  "python": "3.12.16 | packaged by conda-forge | (main, Oct 26 2026, 11:29:01) [MSC v.1944 64 bit (AMD64)]",
+  "checks": [
+    {
+      "name": "dependencies",
+      "returncode": 0,
+      "args": [
+        "pip",
+        "check"
+      ]
+    },
+    {
+      "name": "lint",
+      "returncode": 0,
+      "args": [
+        "ruff",
+        "check",
+        ".",
+        "--exclude",
+        ".conda"
+      ]
+    },
+    {
+      "name": "format",
+      "returncode": 0,
+      "args": [
+        "ruff",
+        "format",
+        "--check",
+        ".",
+        "--exclude",
+        ".conda"
+      ]
+    },
+    {
+      "name": "tests",
+      "returncode": 0,
+      "args": [
+        "pytest",
+        "-q",
+        "--junitxml",
+        "E:\\AI_project\\SmartTicket-AI\\artifacts\\validation\\20261110T033017105714Z\\junit.xml"
+      ]
+    },
+    {
+      "name": "source_unchanged_during_validation",
+      "returncode": 0
+    }
+  ],
+  "source_sha256": "18f91d219651b647622b973dba6e0604b0bd491ae73347f7c3a8424421d95d85",
+  "scope": "reference backend, RAG contracts and NLP units on temporary SQLite; real MySQL/ML/retrieval/browser/deployment have separate reports"
+}

@@ -1,0 +1,9 @@
+{
+  "data_source": "bitext/Bitext-retail-ecommerce-llm-chatbot-training-dataset",
+  "revision": "12dd624ddcd3057382b2faad661bcda1fa869491",
+  "license": "CDLA-Sharing-1.0",
+  "license_text_source": "https://raw.githubusercontent.com/bitext/customer-support-llm-chatbot-training-dataset/main/LICENSE.txt",
+  "license_text_sha256": "f6054388eae4947a769ca2020c54e6d394eb01c41d58db55bb6cfd24ce71cdd8",
+  "transform": "English hybrid-synthetic customer messages translated/adapted by local Qwen7B; original source IDs and hashes retained in lineage",
+  "code_license_distinct_from_data": true
+}

@@ -1,0 +1,1831 @@
+{
+  "source_selected": 1908,
+  "unique_candidates": 1573,
+  "approved": 1238,
+  "class_counts": {
+    "0": 280,
+    "5": 224,
+    "2": 276,
+    "3": 112,
+    "1": 253,
+    "4": 93
+  },
+  "excluded_before_review": [
+    {
+      "id": "bitext-17544",
+      "reason": "sample_schema_length"
+    },
+    {
+      "id": "bitext-17624",
+      "reason": "sample_schema_length"
+    },
+    {
+      "id": "bitext-18045",
+      "reason": "sample_schema_length"
+    },
+    {
+      "id": "bitext-30467",
+      "reason": "sample_schema_length"
+    },
+    {
+      "id": "bitext-30475",
+      "reason": "sample_schema_length"
+    },
+    {
+      "id": "bitext-30888",
+      "reason": "sample_schema_length"
+    },
+    {
+      "id": "bitext-16149",
+      "reason": "sample_schema_length"
+    },
+    {
+      "id": "bitext-07486",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-41234",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-22831",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-07186",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-30472",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-17690",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-17975",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-18073",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-18162",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21230",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21252",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21265",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21276",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21289",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21291",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21343",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21347",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21354",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21402",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21407",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21433",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21453",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21484",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21491",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21498",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21506",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21507",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21515",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21516",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21524",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21538",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21565",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21577",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21600",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21603",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21604",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21605",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21610",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21613",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21635",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21666",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21667",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21671",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21673",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21679",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21680",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21693",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21704",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21715",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21716",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21734",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21741",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21753",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21761",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21768",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21776",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21793",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21794",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21808",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21809",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21810",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21844",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21846",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21857",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21871",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21901",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21935",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21937",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21940",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21945",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21953",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21967",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21976",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-22000",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-22003",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-22008",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-22018",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-22035",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-22065",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-22071",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-22096",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-22106",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-22110",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-22131",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21313",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21527",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21599",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21737",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-22012",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-22143",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-06737",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-06759",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-06840",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-06925",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-06967",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-07038",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-07081",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-07135",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-07230",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-07235",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-07242",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-07244",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-07268",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-07279",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-07361",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-07373",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-07376",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-07381",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-07387",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-07450",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-07451",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-07501",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-07537",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-07551",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-07553",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-07563",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-07572",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-18084",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-18127",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-16146",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-19639",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-16413",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-16717",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-04487",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-34655",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-03925",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-03990",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-27655",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-27815",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-26758",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-26853",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-17877",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-10967",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-11052",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-11128",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-11151",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-11378",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-11455",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-11504",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-22097",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-27175",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-28056",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-27858",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-05267",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-30455",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-22047",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-06155",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-04562",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-04413",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-04503",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-26438",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-04475",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-26785",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-04224",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-04147",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-04560",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-16863",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-26718",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-04128",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-04564",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-26449",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-16927",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-04402",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-17123",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-03722",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-19112",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-20128",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-18120",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-19178",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-19197",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-19400",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-19489",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-19789",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-19834",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-20082",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-20110",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-17513",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-17460",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-19705",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-18589",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-17921",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-19827",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-19511",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-19546",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-19769",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-19919",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-19637",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-19716",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-20005",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-20092",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-17870",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-17880",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-17928",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-19182",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-19304",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-19366",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-19415",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-19420",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-19498",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-19505",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-19507",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-19604",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-19667",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-19713",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-19723",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-19831",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-19889",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-19925",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-20041",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-20157",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-17726",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-17905",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-18121",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-20061",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-17933",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-19947",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-18119",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-18062",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-19055",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-19040",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-18106",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-09961",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-41214",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-11091",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-10756",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-10998",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-11082",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-11173",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-11255",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-11282",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-11400",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-41570",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-41778",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-34424",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-34623",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-11027",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-11318",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-11406",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-41341",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-34940",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-41706",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-10946",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-09900",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-34588",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-34458",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-34729",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-41238",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-10972",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-41655",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-11465",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-41422",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-41589",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-10942",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-10405",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-11260",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-41497",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-41441",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-30761",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-30940",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-11768",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-11969",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-11973",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-29922",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-31018",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-12284",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-30824",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-27676",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-24856",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-11949",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-24052",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-30680",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-30871",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-30981",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-11990",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-27825",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-30915",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-30966",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-30885",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-27399",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-29705",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-30978",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-24993",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-23269",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-30791",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-24819",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-30483",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-30496",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-23604",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-24694",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-25081",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-27974",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-25120",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21470",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21745",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21439",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21477",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21568",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21754",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21961",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21999",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21699",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21879",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21975",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-22090",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-22061",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21668",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21566",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21338",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-22057",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-21744",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-07313",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-15649",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-05535",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-05239",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-15838",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-15937",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-16171",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-07297",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-07173",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-05269",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-07334",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-07442",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-15739",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-16188",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-05346",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-05359",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-07183",
+      "reason": "normalized_exact_duplicate"
+    },
+    {
+      "id": "bitext-07378",
+      "reason": "normalized_exact_duplicate"
+    }
+  ],
+  "reviewer_audit": {
+    "checked_unique_approved": 90,
+    "label_agreement": 0.9888888888888889,
+    "natural_rate": 0.9888888888888889,
+    "reference": "Codex AI Chinese-intent audit, not human gold accuracy",
+    "checks": [
+      {
+        "id": "bitext-04901",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-07486",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-34098",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-41234",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-04228",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-22736",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-22831",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-03732",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-41755",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-17490",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-07186",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-18162",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-18685",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-05451",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-10859",
+        "label_match": false,
+        "natural": true
+      },
+      {
+        "id": "bitext-21940",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-11324",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-05775",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-34653",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-09918",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-21313",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-16513",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-12215",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-10368",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-19369",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-06967",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-18484",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-18127",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-26387",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-24180",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-34902",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-18617",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-16030",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-03826",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-34340",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-41541",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-11659",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-19639",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-22570",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-18632",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-16717",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-16422",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-18440",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-21444",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-04317",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-17029",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-06680",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-34453",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-21616",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-24803",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-34354",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-19920",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-26189",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-05731",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-22930",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-26680",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-18193",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-16526",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-22007",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-05185",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-05877",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-19657",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-21926",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-17877",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-11378",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-05555",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-19958",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-06359",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-17188",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-22097",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-17984",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-22939",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-05257",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-27645",
+        "label_match": true,
+        "natural": false
+      },
+      {
+        "id": "bitext-41384",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-40919",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-21640",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-21401",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-41255",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-20161",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-05623",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-07035",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-18746",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-21862",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-23246",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-21434",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-21561",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-10548",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-06446",
+        "label_match": true,
+        "natural": true
+      },
+      {
+        "id": "bitext-18999",
+        "label_match": true,
+        "natural": true
+      }
+    ],
+    "passed": true
+  },
+  "split_counts": {
+    "train": 952,
+    "validation": 144,
+    "test": 142
+  },
+  "group_audit": {
+    "group_count": 1148,
+    "exact_duplicate_pairs": 0,
+    "near_duplicate_pairs": 48,
+    "similarity_threshold": 0.82,
+    "semantic_leakage_review": "not_automatically_proven"
+  },
+  "human_review": false,
+  "classifier_training_started": false,
+  "source_snapshot_id": "4",
+  "source_license": "CDLA-Sharing-1.0",
+  "production_scope": "excluded by user"
+}

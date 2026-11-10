@@ -1,0 +1,13 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: docker/offline.Dockerfile
+  migrate:
+    build:
+      context: .
+      dockerfile: docker/offline.Dockerfile
+  retrieval:
+    build:
+      context: .
+      dockerfile: docker/retrieval-offline.Dockerfile

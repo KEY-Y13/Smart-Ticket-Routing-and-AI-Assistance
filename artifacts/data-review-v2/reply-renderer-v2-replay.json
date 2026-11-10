@@ -1,0 +1,394 @@
+{
+  "new_paid_calls": 0,
+  "results": [
+    {
+      "id": "live-01",
+      "question": "订单还没出库想改收货地址怎么办？",
+      "historical_output_sha256": "dc8e5697b7f22212c052f13f1ba0999b3e116e84c35e5d5d747f46674527a3c5",
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[1] 【虚构3C业务演示政策，非真实企业规定】\n订单未出库时可提交修改地址申请，由客服核对收件信息后人工处理；已出库订单不能直接改写收货地址，应联系承运方核查是否支持拦截。不得向客户保证拦截成功。",
+      "method": "OFFLINE_RENDERER_REPLAY_OF_EXISTING_EVIDENCE_NOT_NEW_LLM_CALL",
+      "codex_assessment": "ACCEPTABLE_AS_REVIEW_REQUIRED_EVIDENCE_DRAFT"
+    },
+    {
+      "id": "live-02",
+      "question": "没有发货的订单怎么取消？",
+      "historical_output_sha256": "108bc04a33e862826ddb7886f5f0d9317019c8f0cd0a249c0d693ae1b479b1fc",
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[2] 【虚构3C业务演示政策，非真实企业规定】\n客户申请取消未发货订单时，先核实订单归属与仓储状态，再提交人工取消申请。创建售后工单不代表订单已经取消，取消结果以业务记录为准。",
+      "method": "OFFLINE_RENDERER_REPLAY_OF_EXISTING_EVIDENCE_NOT_NEW_LLM_CALL",
+      "codex_assessment": "ACCEPTABLE_AS_REVIEW_REQUIRED_EVIDENCE_DRAFT"
+    },
+    {
+      "id": "live-03",
+      "question": "一个订单为什么只收到部分商品？",
+      "historical_output_sha256": "10304dd9983925d07c14164501045d0f2016b67af0f8ba3d3249abdc04a57565",
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[3] 【虚构3C业务演示政策，非真实企业规定】\n同一订单可能包含多个包裹。客服应逐条查询物流记录并核对商品明细，向客户说明各包裹当前状态，不把一个包裹签收视为整单全部收到。",
+      "method": "OFFLINE_RENDERER_REPLAY_OF_EXISTING_EVIDENCE_NOT_NEW_LLM_CALL",
+      "codex_assessment": "ACCEPTABLE_AS_REVIEW_REQUIRED_EVIDENCE_DRAFT"
+    },
+    {
+      "id": "live-04",
+      "question": "电子发票需要哪些资料？",
+      "historical_output_sha256": "8fc717cafd38046028c22314214d6337204bff180dc1f3e52a4003c9579f181b",
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[4] 【虚构3C业务演示政策，非真实企业规定】\n电子发票申请需提供已核对的订单编号与正确抬头；企业抬头还需核对税号。客服只记录申请，不编造开票时间或发票号码。",
+      "method": "OFFLINE_RENDERER_REPLAY_OF_EXISTING_EVIDENCE_NOT_NEW_LLM_CALL",
+      "codex_assessment": "ACCEPTABLE_AS_REVIEW_REQUIRED_EVIDENCE_DRAFT"
+    },
+    {
+      "id": "live-05",
+      "question": "买完降价能直接退差价吗？",
+      "historical_output_sha256": "d2010d7a168b9ef36162e437a175d6cb52c423300ebcbd42a25ba325e6116799",
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[5] 【虚构3C业务演示政策，非真实企业规定】\n客户反馈下单价格与活动价格不一致时，应收集下单时间、商品规格和活动凭证，转人工核对活动适用条件。不得自动承诺退还差价。",
+      "method": "OFFLINE_RENDERER_REPLAY_OF_EXISTING_EVIDENCE_NOT_NEW_LLM_CALL",
+      "codex_assessment": "ACCEPTABLE_AS_REVIEW_REQUIRED_EVIDENCE_DRAFT"
+    },
+    {
+      "id": "live-06",
+      "question": "下单容量选错了能改型号吗？",
+      "historical_output_sha256": "b011fde91a6b9df625e68dc3297429287384f5a517862c4fc47003b21cbd9b61",
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[6] 【虚构3C业务演示政策，非真实企业规定】\n客户选错颜色、容量或型号时，先核对是否出库。未出库可申请人工核查换货方案，已出库按对应退换货条件处理，不直接改写订单商品快照。",
+      "method": "OFFLINE_RENDERER_REPLAY_OF_EXISTING_EVIDENCE_NOT_NEW_LLM_CALL",
+      "codex_assessment": "ACCEPTABLE_AS_REVIEW_REQUIRED_EVIDENCE_DRAFT"
+    },
+    {
+      "id": "live-07",
+      "question": "订单编号正确但查不到怎么办？",
+      "historical_output_sha256": "fb61f49e96d230df77adac120e9ca46363f6d9ee24c4fb039567b163a14ee1fd",
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[7] 【虚构3C业务演示政策，非真实企业规定】\n订单号查询不到时，应核对编号格式、登录账户和购买渠道。格式正确不证明订单存在，不存在或归属不匹配时明确返回无法查询，不猜测交易状态。",
+      "method": "OFFLINE_RENDERER_REPLAY_OF_EXISTING_EVIDENCE_NOT_NEW_LLM_CALL",
+      "codex_assessment": "ACCEPTABLE_AS_REVIEW_REQUIRED_EVIDENCE_DRAFT"
+    },
+    {
+      "id": "live-08",
+      "question": "同一单好像被扣了两次钱怎么办？",
+      "historical_output_sha256": "725793ea4c05d44b037c0e2888f60428947a8da05b9c627228d28a02d5266849",
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[8] 【虚构3C业务演示政策，非真实企业规定】\n客户反馈重复扣款时，收集支付时间、金额和脱敏流水尾号，逐条核对支付记录。不能仅凭两张截图认定重复支付，也不能自动发起退款。",
+      "method": "OFFLINE_RENDERER_REPLAY_OF_EXISTING_EVIDENCE_NOT_NEW_LLM_CALL",
+      "codex_assessment": "ACCEPTABLE_AS_REVIEW_REQUIRED_EVIDENCE_DRAFT"
+    },
+    {
+      "id": "live-09",
+      "question": "支付一直处理中要再付一次吗？",
+      "historical_output_sha256": "51b9d7fc9f4a2e194de02cbedad9d7f95abf49c2638d63065ac540b780f5bc3c",
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[9] 【虚构3C业务演示政策，非真实企业规定】\n支付记录为处理中时，先确认支付渠道回执是否到达。客服告知当前可验证状态并等待人工核对，不引导客户反复付款，不把处理中描述成成功或失败。",
+      "method": "OFFLINE_RENDERER_REPLAY_OF_EXISTING_EVIDENCE_NOT_NEW_LLM_CALL",
+      "codex_assessment": "ACCEPTABLE_AS_REVIEW_REQUIRED_EVIDENCE_DRAFT"
+    },
+    {
+      "id": "live-10",
+      "question": "付款失败客服要我提供验证码吗？",
+      "historical_output_sha256": "0be24030f7bca6abcf61a05a69dd91f65ca1d09cf199b45bcbaf6184ac7a146d",
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[13] 【虚构3C业务演示政策，非真实企业规定】\n客服不得索取支付密码、完整银行卡号、短信验证码或动态口令。提交凭证前应遮挡无关个人信息，仅保留核查所需的金额、时间与流水尾号。",
+      "method": "OFFLINE_RENDERER_REPLAY_OF_EXISTING_EVIDENCE_NOT_NEW_LLM_CALL",
+      "codex_assessment": "ACCEPTABLE_AS_REVIEW_REQUIRED_EVIDENCE_DRAFT"
+    },
+    {
+      "id": "live-11",
+      "question": "优惠券用不了应该检查什么？",
+      "historical_output_sha256": "bcbcc0ca88d3579ac93d74bdd53f6eb85d810e250911cc73aff059930b268002",
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[11] 【虚构3C业务演示政策，非真实企业规定】\n优惠券无法使用时，核对有效期、适用商品、使用门槛与叠加限制。不能仅根据客户描述补发优惠或修改订单金额，需有明确活动依据并由人工处理。",
+      "method": "OFFLINE_RENDERER_REPLAY_OF_EXISTING_EVIDENCE_NOT_NEW_LLM_CALL",
+      "codex_assessment": "ACCEPTABLE_AS_REVIEW_REQUIRED_EVIDENCE_DRAFT"
+    },
+    {
+      "id": "live-12",
+      "question": "钱付了订单却显示待支付怎么办？",
+      "historical_output_sha256": "07c0e0fc838c11db25e24a98339ece1b97f86df73f4c345b38aeb94fcd59347e",
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[12] 【虚构3C业务演示政策，非真实企业规定】\n支付成功但订单状态未同步时，应关联支付流水与订单归属，登记状态同步异常。系统只展示已查询的记录，不自行把订单标记为已支付。\n[9] 【虚构3C业务演示政策，非真实企业规定】\n支付记录为处理中时，先确认支付渠道回执是否到达。客服告知当前可验证状态并等待人工核对，不引导客户反复付款，不把处理中描述成成功或失败。",
+      "method": "OFFLINE_RENDERER_REPLAY_OF_EXISTING_EVIDENCE_NOT_NEW_LLM_CALL",
+      "codex_assessment": "ACCEPTABLE_AS_REVIEW_REQUIRED_EVIDENCE_DRAFT"
+    },
+    {
+      "id": "live-13",
+      "question": "支付凭证哪些信息应该打码？",
+      "historical_output_sha256": "0be24030f7bca6abcf61a05a69dd91f65ca1d09cf199b45bcbaf6184ac7a146d",
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[13] 【虚构3C业务演示政策，非真实企业规定】\n客服不得索取支付密码、完整银行卡号、短信验证码或动态口令。提交凭证前应遮挡无关个人信息，仅保留核查所需的金额、时间与流水尾号。",
+      "method": "OFFLINE_RENDERER_REPLAY_OF_EXISTING_EVIDENCE_NOT_NEW_LLM_CALL",
+      "codex_assessment": "ACCEPTABLE_AS_REVIEW_REQUIRED_EVIDENCE_DRAFT"
+    },
+    {
+      "id": "live-14",
+      "question": "物流好多天不更新就是丢了吗？",
+      "historical_output_sha256": "da40c0c8233216e9782e2f9c55b6fa6607cdbf7f5c3421ae8abfb5d72a57ae8a",
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[14] 【虚构3C业务演示政策，非真实企业规定】\n物流轨迹长时间未更新时，先核对最新承运记录和扫描时间，再登记承运方核查。不能把轨迹停滞直接判定为丢件，也不能虚构预计到达日期。",
+      "method": "OFFLINE_RENDERER_REPLAY_OF_EXISTING_EVIDENCE_NOT_NEW_LLM_CALL",
+      "codex_assessment": "ACCEPTABLE_AS_REVIEW_REQUIRED_EVIDENCE_DRAFT"
+    },
+    {
+      "id": "live-15",
+      "question": "物流签收了可是我没拿到怎么办？",
+      "historical_output_sha256": "3fb1a3619e3a5ab4297634743396959c3eade2f963ddaded7ef8140293d1a7d8",
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[15] 【虚构3C业务演示政策，非真实企业规定】\n客户表示签收未收到时，应核对签收时间、代收点和本人是否授权代收，登记承运方核查。未经核实不得指责客户，也不得直接认定包裹已丢失。",
+      "method": "OFFLINE_RENDERER_REPLAY_OF_EXISTING_EVIDENCE_NOT_NEW_LLM_CALL",
+      "codex_assessment": "ACCEPTABLE_AS_REVIEW_REQUIRED_EVIDENCE_DRAFT"
+    },
+    {
+      "id": "live-16",
+      "question": "快递箱破了应该留下什么证据？",
+      "historical_output_sha256": "4242a29509aa6c9091a363e2e85afc07e63519a0f779c566df95fad0efbbfe51",
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[16] 【虚构3C业务演示政策，非真实企业规定】\n发现外包装破损时，建议客户保留包装、面单与开箱影像，记录商品是否受损。客服依据实际证据转售后审核，不要求客户冒险通电测试受损电器。",
+      "method": "OFFLINE_RENDERER_REPLAY_OF_EXISTING_EVIDENCE_NOT_NEW_LLM_CALL",
+      "codex_assessment": "ACCEPTABLE_AS_REVIEW_REQUIRED_EVIDENCE_DRAFT"
+    },
+    {
+      "id": "live-17",
+      "question": "拦截申请提交了是不是已经退回？",
+      "historical_output_sha256": "e59782eed76874c42924836c47032ee7ac53e9d34a524e1bf5353c809b98fe4e",
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[17] 【虚构3C业务演示政策，非真实企业规定】\n已发出包裹的拦截仅是申请，能否成功取决于承运方确认。客服登记客户诉求并追踪结果，未收到确认前不得宣称包裹已经退回仓库。",
+      "method": "OFFLINE_RENDERER_REPLAY_OF_EXISTING_EVIDENCE_NOT_NEW_LLM_CALL",
+      "codex_assessment": "ACCEPTABLE_AS_REVIEW_REQUIRED_EVIDENCE_DRAFT"
+    },
+    {
+      "id": "live-18",
+      "question": "收到的型号和订单不同怎么处理？",
+      "historical_output_sha256": "e3ad1c7e154b3abd6982c2ffbc4b601737eb7347a59db4797707217540cec0af",
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[18] 【虚构3C业务演示政策，非真实企业规定】\n客户收到的商品与订单不符时，收集订单规格、实物型号及脱敏面单照片，交由仓储人工核对。不得要求客户自行支付未知费用后再承诺补偿。\n[6] 【虚构3C业务演示政策，非真实企业规定】\n客户选错颜色、容量或型号时，先核对是否出库。未出库可申请人工核查换货方案，已出库按对应退换货条件处理，不直接改写订单商品快照。",
+      "method": "OFFLINE_RENDERER_REPLAY_OF_EXISTING_EVIDENCE_NOT_NEW_LLM_CALL",
+      "codex_assessment": "ACCEPTABLE_AS_REVIEW_REQUIRED_EVIDENCE_DRAFT"
+    },
+    {
+      "id": "live-19",
+      "question": "快递里面少一个配件怎么办？",
+      "historical_output_sha256": "d09cf596ce0209297dffd1b9021aa6c00cf6018e1330ef42d9cc7d9fdbb1620b",
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[19] 【虚构3C业务演示政策，非真实企业规定】\n包裹少件需先排除拆单发货，再核对装箱清单、重量与客户开箱记录。缺少证据时记录待补充信息，不能直接承诺补发或赔款。",
+      "method": "OFFLINE_RENDERER_REPLAY_OF_EXISTING_EVIDENCE_NOT_NEW_LLM_CALL",
+      "codex_assessment": "ACCEPTABLE_AS_REVIEW_REQUIRED_EVIDENCE_DRAFT"
+    },
+    {
+      "id": "live-20",
+      "question": "退货运费由谁承担需要核对什么？",
+      "historical_output_sha256": "a7d0609e7fd7f07309cee27941781db0e0b3e581d86cb41e20ca847c174b3768",
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[20] 【虚构3C业务演示政策，非真实企业规定】\n运费争议应核对订单约定、售后原因和承运收费凭证。费用承担由人工按有效政策核定，系统不得预先承诺免运费或报销金额。",
+      "method": "OFFLINE_RENDERER_REPLAY_OF_EXISTING_EVIDENCE_NOT_NEW_LLM_CALL",
+      "codex_assessment": "ACCEPTABLE_AS_REVIEW_REQUIRED_EVIDENCE_DRAFT"
+    },
+    {
+      "id": "live-21",
+      "question": "申请退款要准备哪些资料？",
+      "historical_output_sha256": "29857626f6eb569c751e61f959bb3cce02148954835414f19125f2b66f0fb6f0",
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[21] 【虚构3C业务演示政策，非真实企业规定】\n退款申请应关联本人订单，说明申请原因并提供必要凭证。提交申请不等于审核通过或款项到账，退款状态只以受控业务查询记录为准。",
+      "method": "OFFLINE_RENDERER_REPLAY_OF_EXISTING_EVIDENCE_NOT_NEW_LLM_CALL",
+      "codex_assessment": "ACCEPTABLE_AS_REVIEW_REQUIRED_EVIDENCE_DRAFT"
+    },
+    {
+      "id": "live-22",
+      "question": "退款审核通过就已经到账了吗？",
+      "historical_output_sha256": "9e0e4eb080b18bb523f81f013a6dca42a650809c00b7d5144f1ac072f895b9f5",
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[22] 【虚构3C业务演示政策，非真实企业规定】\n退款进度查询需要核对订单归属、退款记录状态和金额。审核中、退款中、已完成是不同阶段，不能将审核通过直接解释为银行卡已到账。",
+      "method": "OFFLINE_RENDERER_REPLAY_OF_EXISTING_EVIDENCE_NOT_NEW_LLM_CALL",
+      "codex_assessment": "ACCEPTABLE_AS_REVIEW_REQUIRED_EVIDENCE_DRAFT"
+    },
+    {
+      "id": "live-23",
+      "question": "退货地址只有短信通知能直接寄吗？",
+      "historical_output_sha256": "b24e57221b9ad5b016644d8ee93eca93c9d63672c5fb32380f93fc9f22221f23",
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[23] 【虚构3C业务演示政策，非真实企业规定】\n退货前必须通过已审核的售后记录确认退货地址及退货编号。不得从未知短信或聊天截图复制地址给客户，地址未确认时提醒客户暂缓寄回。",
+      "method": "OFFLINE_RENDERER_REPLAY_OF_EXISTING_EVIDENCE_NOT_NEW_LLM_CALL",
+      "codex_assessment": "ACCEPTABLE_AS_REVIEW_REQUIRED_EVIDENCE_DRAFT"
+    },
+    {
+      "id": "live-24",
+      "question": "退货要记录哪些配件？",
+      "historical_output_sha256": "c4fafe38d3e3d2e563064110514bc0ea68a8a58a91660260b89ffe2680849b90",
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[24] 【虚构3C业务演示政策，非真实企业规定】\n寄回商品前应记录主机、随机配件及包装情况，按售后审核要求妥善防护。是否缺失配件需据实登记，不能自动判定退款一定扣减。",
+      "method": "OFFLINE_RENDERER_REPLAY_OF_EXISTING_EVIDENCE_NOT_NEW_LLM_CALL",
+      "codex_assessment": "ACCEPTABLE_AS_REVIEW_REQUIRED_EVIDENCE_DRAFT"
+    },
+    {
+      "id": "live-25",
+      "question": "退回仓库签收后是不是已质检通过？",
+      "historical_output_sha256": "02db8c41ba7d72e9629ae9685505f062864e9f4b80c88ab306df6bb5d43bfd7c",
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[25] 【虚构3C业务演示政策，非真实企业规定】\n退货物流显示仓库签收只表示包裹送达，不等于质检完成。后续审核进度需核对仓储与售后记录，不虚构质检结论或具体退款日期。",
+      "method": "OFFLINE_RENDERER_REPLAY_OF_EXISTING_EVIDENCE_NOT_NEW_LLM_CALL",
+      "codex_assessment": "ACCEPTABLE_AS_REVIEW_REQUIRED_EVIDENCE_DRAFT"
+    },
+    {
+      "id": "live-26",
+      "question": "一个订单只退一件金额怎么确认？",
+      "historical_output_sha256": "77433859c2c28d8f139c754de7543e5ad2ffa6e3f2b28fcbf3eeaa31ba241492",
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[26] 【虚构3C业务演示政策，非真实企业规定】\n涉及部分退款时，必须核对商品明细、数量、已支付金额与已有退款记录，交由人工确认。AI 不负责计算或承诺最终赔付金额。",
+      "method": "OFFLINE_RENDERER_REPLAY_OF_EXISTING_EVIDENCE_NOT_NEW_LLM_CALL",
+      "codex_assessment": "ACCEPTABLE_AS_REVIEW_REQUIRED_EVIDENCE_DRAFT"
+    },
+    {
+      "id": "live-27",
+      "question": "退款被拒还能提交补充证据吗？",
+      "historical_output_sha256": "9f2b4f08f9f9e301d88607236130582f61dc50a69d5c20e55683cc94ebda0d9c",
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[27] 【虚构3C业务演示政策，非真实企业规定】\n客户对退款拒绝结果有异议时，记录拒绝原因、补充证据和申诉诉求，转人工复核。不能隐瞒拒绝状态，也不能擅自修改审核结论。",
+      "method": "OFFLINE_RENDERER_REPLAY_OF_EXISTING_EVIDENCE_NOT_NEW_LLM_CALL",
+      "codex_assessment": "ACCEPTABLE_AS_REVIEW_REQUIRED_EVIDENCE_DRAFT"
+    },
+    {
+      "id": "live-28",
+      "question": "退款已经处理中还可以撤销吗？",
+      "historical_output_sha256": "21731820321177c0d29b7564028d202a4f9e4d24cd4eca55a9ef7be144518836",
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[28] 【虚构3C业务演示政策，非真实企业规定】\n撤销退款需要核对当前处理阶段，由人工确认是否可撤回。若已执行资金退回，不保证能逆转；工单留言不代表业务退款状态已改变。",
+      "method": "OFFLINE_RENDERER_REPLAY_OF_EXISTING_EVIDENCE_NOT_NEW_LLM_CALL",
+      "codex_assessment": "ACCEPTABLE_AS_REVIEW_REQUIRED_EVIDENCE_DRAFT"
+    },
+    {
+      "id": "live-29",
+      "question": "设备开不了机还闻到异味怎么办？",
+      "historical_output_sha256": "108ab03233a0e4d591a48b2e753a5fe2b444ef4e5e48f321f16abda0e751f686",
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[29] 【虚构3C业务演示政策，非真实企业规定】\n设备无法开机时，先确认型号、供电状态与故障表现。存在鼓包、冒烟、异味或液体进入时应立即停止使用，转人工安全处理，不指导拆机或继续充电。\n[31] 【虚构3C业务演示政策，非真实企业规定】\n异常发热伴随异味、变形或灼热时，停止使用并断开外部电源，在安全条件下交人工核查。没有检测依据不能把所有发热都解释为正常现象。",
+      "method": "OFFLINE_RENDERER_REPLAY_OF_EXISTING_EVIDENCE_NOT_NEW_LLM_CALL",
+      "codex_assessment": "ACCEPTABLE_AS_REVIEW_REQUIRED_EVIDENCE_DRAFT"
+    },
+    {
+      "id": "live-30",
+      "question": "电池鼓起来还能充电测试吗？",
+      "historical_output_sha256": "f03151e01deff380bf3bc1f951ff5a297f575fd6fd7722df11d8a2db478b4dc3",
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[30] 【虚构3C业务演示政策，非真实企业规定】\n电池鼓包或明显变形时，应停止充电和使用，避免挤压、穿刺或自行拆解，并联系人工售后确认安全处置方案。不得建议普通快递直接寄送受损电池。\n[29] 【虚构3C业务演示政策，非真实企业规定】\n设备无法开机时，先确认型号、供电状态与故障表现。存在鼓包、冒烟、异味或液体进入时应立即停止使用，转人工安全处理，不指导拆机或继续充电。",
+      "method": "OFFLINE_RENDERER_REPLAY_OF_EXISTING_EVIDENCE_NOT_NEW_LLM_CALL",
+      "codex_assessment": "ACCEPTABLE_AS_REVIEW_REQUIRED_EVIDENCE_DRAFT"
+    },
+    {
+      "id": "live-31",
+      "question": "设备烫手又有焦味该怎么处理？",
+      "historical_output_sha256": "af1c848562bb0a1f353e54e5217b0a4db67c1f6da671f518e78bc30d18a0a869",
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[31] 【虚构3C业务演示政策，非真实企业规定】\n异常发热伴随异味、变形或灼热时，停止使用并断开外部电源，在安全条件下交人工核查。没有检测依据不能把所有发热都解释为正常现象。\n[29] 【虚构3C业务演示政策，非真实企业规定】\n设备无法开机时，先确认型号、供电状态与故障表现。存在鼓包、冒烟、异味或液体进入时应立即停止使用，转人工安全处理，不指导拆机或继续充电。",
+      "method": "OFFLINE_RENDERER_REPLAY_OF_EXISTING_EVIDENCE_NOT_NEW_LLM_CALL",
+      "codex_assessment": "ACCEPTABLE_AS_REVIEW_REQUIRED_EVIDENCE_DRAFT"
+    },
+    {
+      "id": "live-32",
+      "question": "屏幕闪烁需要提供什么信息？",
+      "historical_output_sha256": "3d2977f5086665abf5b15528a0c4a1fe237925daa1d6f19b592914192b643ab3",
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[32] 【虚构3C业务演示政策，非真实企业规定】\n屏幕黑屏、闪烁或触控异常需记录型号、出现时间和使用条件，收集可安全获取的照片。排查不要求客户拆机，是否保修以人工检测和有效政策为准。",
+      "method": "OFFLINE_RENDERER_REPLAY_OF_EXISTING_EVIDENCE_NOT_NEW_LLM_CALL",
+      "codex_assessment": "ACCEPTABLE_AS_REVIEW_REQUIRED_EVIDENCE_DRAFT"
+    },
+    {
+      "id": "live-33",
+      "question": "蓝牙耳机一侧没声音先查什么？",
+      "historical_output_sha256": "8ab4c8867ba8b539998dec46922ba7644795b2ee3ef36e5e86cb3cc3ddf3d2ad",
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[33] 【虚构3C业务演示政策，非真实企业规定】\n耳机无声时先确认左右声道、连接状态、音量设置和其他设备上的表现。排查应采用可逆操作，不承诺一定是质量缺陷，异常持续时提交人工检测。",
+      "method": "OFFLINE_RENDERER_REPLAY_OF_EXISTING_EVIDENCE_NOT_NEW_LLM_CALL",
+      "codex_assessment": "ACCEPTABLE_AS_REVIEW_REQUIRED_EVIDENCE_DRAFT"
+    },
+    {
+      "id": "live-34",
+      "question": "设备连不上网要把WiFi密码告诉客服吗？",
+      "historical_output_sha256": "5bce09541b461175c537a2a25955a6d034be94f71361cd279b097b856876124e",
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[34] 【虚构3C业务演示政策，非真实企业规定】\n连接故障可先核对设备型号、网络环境和错误提示。重置前提醒客户备份个人配置，不索取无线网络密码；避免把网络环境问题直接认定为硬件损坏。",
+      "method": "OFFLINE_RENDERER_REPLAY_OF_EXISTING_EVIDENCE_NOT_NEW_LLM_CALL",
+      "codex_assessment": "ACCEPTABLE_AS_REVIEW_REQUIRED_EVIDENCE_DRAFT"
+    },
+    {
+      "id": "live-35",
+      "question": "手机进水后能反复开机试试吗？",
+      "historical_output_sha256": "c0c1bbe0bc0e8c01b465721d6b2e4541b0f119f0b77ea849e89d31b01da33354",
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[35] 【虚构3C业务演示政策，非真实企业规定】\n设备进液后应停止通电，不指导烘烤、拆卸电池或反复开机。记录进液时间与现象并转人工检测；是否属于保修范围不能由AI自行判定。",
+      "method": "OFFLINE_RENDERER_REPLAY_OF_EXISTING_EVIDENCE_NOT_NEW_LLM_CALL",
+      "codex_assessment": "ACCEPTABLE_AS_REVIEW_REQUIRED_EVIDENCE_DRAFT"
+    },
+    {
+      "id": "live-37",
+      "question": "保修需要哪些证明？",
+      "historical_output_sha256": "4de2441df3d304e1fe2c2ca26381dc2f43a4489699e6946cd181b88f8ef35260",
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[37] 【虚构3C业务演示政策，非真实企业规定】\n保修核查需核对商品型号、购买凭证和设备序列号。序列号只用于必要售后核对，不能仅凭客户口述判断保修期限或最终维修费用。",
+      "method": "OFFLINE_RENDERER_REPLAY_OF_EXISTING_EVIDENCE_NOT_NEW_LLM_CALL",
+      "codex_assessment": "ACCEPTABLE_AS_REVIEW_REQUIRED_EVIDENCE_DRAFT"
+    },
+    {
+      "id": "live-38",
+      "question": "所有商品保修都固定一年吗？",
+      "historical_output_sha256": "027829687e4cf5016e45680ec88c37393aa6b9367b59ab490b5382f57c0f3784",
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[38] 【虚构3C业务演示政策，非真实企业规定】\n保修期限以当前有效商品政策与可验证购买记录为依据。不同商品可能适用不同规则，缺少政策或日期时明确需要人工确认，不给出通用固定年限。",
+      "method": "OFFLINE_RENDERER_REPLAY_OF_EXISTING_EVIDENCE_NOT_NEW_LLM_CALL",
+      "codex_assessment": "ACCEPTABLE_AS_REVIEW_REQUIRED_EVIDENCE_DRAFT"
+    },
+    {
+      "id": "live-39",
+      "question": "申请寄修之后就算维修好了吗？",
+      "historical_output_sha256": "15b0550e04f244997754cc377e75963c7761768f6c009ccf14b56e47de0d1e85",
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[39] 【虚构3C业务演示政策，非真实企业规定】\n寄修应先建立人工确认的售后记录，再核对收件信息、寄回要求和安全限制。寄修登记不等于维修完成，维修进度仅引用实际业务记录。",
+      "method": "OFFLINE_RENDERER_REPLAY_OF_EXISTING_EVIDENCE_NOT_NEW_LLM_CALL",
+      "codex_assessment": "ACCEPTABLE_AS_REVIEW_REQUIRED_EVIDENCE_DRAFT"
+    },
+    {
+      "id": "live-40",
+      "question": "检测没做之前可以承诺换新吗？",
+      "historical_output_sha256": "367f41eac4770a7d44ffb45c5eef39a5130aa8b098396d9d8739aed179a8ce2a",
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[40] 【虚构3C业务演示政策，非真实企业规定】\n是否换新需结合有效售后政策、检测结果与商品情况人工审核。AI 可展示相关依据，不得承诺无条件换新或具体替换库存。",
+      "method": "OFFLINE_RENDERER_REPLAY_OF_EXISTING_EVIDENCE_NOT_NEW_LLM_CALL",
+      "codex_assessment": "ACCEPTABLE_AS_REVIEW_REQUIRED_EVIDENCE_DRAFT"
+    },
+    {
+      "id": "live-41",
+      "question": "账号登录不上客服可以帮忙输验证码吗？",
+      "historical_output_sha256": "bdffad2f4dca8cdd39345a0d32febce322257e7b38b5240486ddf3dee87c5b19",
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[41] 【虚构3C业务演示政策，非真实企业规定】\n无法登录时先确认错误提示与账户识别信息，建议通过官方账户恢复入口处理。客服不索要密码或验证码，不在聊天中代替客户完成验证。\n[13] 【虚构3C业务演示政策，非真实企业规定】\n客服不得索取支付密码、完整银行卡号、短信验证码或动态口令。提交凭证前应遮挡无关个人信息，仅保留核查所需的金额、时间与流水尾号。",
+      "method": "OFFLINE_RENDERER_REPLAY_OF_EXISTING_EVIDENCE_NOT_NEW_LLM_CALL",
+      "codex_assessment": "ACCEPTABLE_AS_REVIEW_REQUIRED_EVIDENCE_DRAFT"
+    },
+    {
+      "id": "live-42",
+      "question": "原手机号停用了怎么更换绑定？",
+      "historical_output_sha256": "36853fe6ac9039fbf77b30dd5373333af8c0ed87275dd1a1aeeb333676be5f88",
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[42] 【虚构3C业务演示政策，非真实企业规定】\n更换绑定手机号需通过官方身份核验流程。无法访问原手机号时转人工账户恢复，工单中的自述不视为身份核验完成，不绕过验证码。",
+      "method": "OFFLINE_RENDERER_REPLAY_OF_EXISTING_EVIDENCE_NOT_NEW_LLM_CALL",
+      "codex_assessment": "ACCEPTABLE_AS_REVIEW_REQUIRED_EVIDENCE_DRAFT"
+    },
+    {
+      "id": "live-43",
+      "question": "能把新密码发给客服帮我设置吗？",
+      "historical_output_sha256": "0259474b3a31bee88701d69933cfcf16423d112ec5c3bebb9aaacef5998d1316",
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[43] 【虚构3C业务演示政策，非真实企业规定】\n密码重置应由客户在官方受控入口完成，不接收聊天中的明文密码。客服不得替客户设置固定初始密码，也不要求客户向第三方提供登录凭据。",
+      "method": "OFFLINE_RENDERER_REPLAY_OF_EXISTING_EVIDENCE_NOT_NEW_LLM_CALL",
+      "codex_assessment": "ACCEPTABLE_AS_REVIEW_REQUIRED_EVIDENCE_DRAFT"
+    },
+    {
+      "id": "live-44",
+      "question": "账号疑似被盗该走什么流程？",
+      "historical_output_sha256": "f308dce1ebe135c586c886cd80d0c3a3afebc296203360b77e1413ee281c09c2",
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[44] 【虚构3C业务演示政策，非真实企业规定】\n疑似账户被盗时，引导客户使用官方安全入口修改凭据并检查异常操作，及时转安全人工处理。客服不保证已冻结账户，也不泄露其他账户的信息。\n[49] 【虚构3C业务演示政策，非真实企业规定】\n涉及人身安全、账户盗用、金额争议或异常赔偿请求时，应转人工专门核查并记录原因。AI 不作责任认定，不提供自动付款、退款或赔偿执行。",
+      "method": "OFFLINE_RENDERER_REPLAY_OF_EXISTING_EVIDENCE_NOT_NEW_LLM_CALL",
+      "codex_assessment": "ACCEPTABLE_AS_REVIEW_REQUIRED_EVIDENCE_DRAFT"
+    },
+    {
+      "id": "live-45",
+      "question": "我能查询朋友的订单吗？",
+      "historical_output_sha256": "ad264095e64c5830005cbde0e487b6bfcda2a856eeda061928d0e7982b16f006",
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[45] 【虚构3C业务演示政策，非真实企业规定】\n客户只能查询自己名下订单。客服需同时满足工单归属和业务组查询授权；无法证明归属时不返回订单、支付、物流或退款信息。",
+      "method": "OFFLINE_RENDERER_REPLAY_OF_EXISTING_EVIDENCE_NOT_NEW_LLM_CALL",
+      "codex_assessment": "ACCEPTABLE_AS_REVIEW_REQUIRED_EVIDENCE_DRAFT"
+    },
+    {
+      "id": "live-46",
+      "question": "提交注销工单会立刻删除全部记录吗？",
+      "historical_output_sha256": "a791e1c6c6e796d2b21c6edaf4e739d60a92fe726251d85d3c774d7e4c3318ce",
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[46] 【虚构3C业务演示政策，非真实企业规定】\n注销申请需通过官方流程核验身份，并由人工告知未完结交易等处理要求。客服不得直接删除业务数据，也不得承诺全部审计记录立即消失。",
+      "method": "OFFLINE_RENDERER_REPLAY_OF_EXISTING_EVIDENCE_NOT_NEW_LLM_CALL",
+      "codex_assessment": "ACCEPTABLE_AS_REVIEW_REQUIRED_EVIDENCE_DRAFT"
+    },
+    {
+      "id": "live-47",
+      "question": "一张工单同时要退款和查快递怎么分类？",
+      "historical_output_sha256": "936828d3b97cbd6742c9f0dd39ede07a60256debba70509bd019ac3c6d4d7414",
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[47] 【虚构3C业务演示政策，非真实企业规定】\n同一消息包含退款、物流或质量等多个诉求时，应记录主要诉求和次要诉求，由人工确认处理顺序。分类标签只表达主要路由，不代表其他诉求可以忽略。",
+      "method": "OFFLINE_RENDERER_REPLAY_OF_EXISTING_EVIDENCE_NOT_NEW_LLM_CALL",
+      "codex_assessment": "ACCEPTABLE_AS_REVIEW_REQUIRED_EVIDENCE_DRAFT"
+    },
+    {
+      "id": "live-49",
+      "question": "涉及安全和赔偿的工单如何升级？",
+      "historical_output_sha256": "fb832ffa60bfa847a3e2fa9dd3b92d27c7bbc6ad214ea9c2392a3212d93e9c15",
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[49] 【虚构3C业务演示政策，非真实企业规定】\n涉及人身安全、账户盗用、金额争议或异常赔偿请求时，应转人工专门核查并记录原因。AI 不作责任认定，不提供自动付款、退款或赔偿执行。",
+      "method": "OFFLINE_RENDERER_REPLAY_OF_EXISTING_EVIDENCE_NOT_NEW_LLM_CALL",
+      "codex_assessment": "ACCEPTABLE_AS_REVIEW_REQUIRED_EVIDENCE_DRAFT"
+    },
+    {
+      "id": "live-50",
+      "question": "问题没解决重开后还保留旧记录吗？",
+      "historical_output_sha256": "33aab9f71563bbd4ff608ad64db7f69bc568b6cfd1b39bac4e1f95eb2b2f070c",
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[50] 【虚构3C业务演示政策，非真实企业规定】\n客户对已解决问题再次反馈时，应确认是否属于原问题和允许重开的时间窗口。系统重开后重新建立SLA周期并进入待分类分配，不抹除原有处理记录。",
+      "method": "OFFLINE_RENDERER_REPLAY_OF_EXISTING_EVIDENCE_NOT_NEW_LLM_CALL",
+      "codex_assessment": "ACCEPTABLE_AS_REVIEW_REQUIRED_EVIDENCE_DRAFT"
+    }
+  ],
+  "unresolved_refusals": [
+    "live-36",
+    "live-48"
+  ],
+  "historical_results_not_overwritten": true
+}

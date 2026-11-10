@@ -1,0 +1,280 @@
+{
+  "purpose": "formal",
+  "dataset_hash": "4307ca03cd8b51416a0776bb862c83cf5c418b9ba1ff7229c2a218a91b5818a0",
+  "split_manifest_hash": "aa1e8d152c92e8e3f2db8caf3cd4f8b063e1da12f33630f3bb7a08c4ee550a3e",
+  "source": "artifacts/runs/models-formal-20261110T030905867843Z/comparison.json",
+  "data_note": "1238条许可合成中文工单，经翻译/改编与AI主诉复核，固定同源分组切分；训练952、验证144、测试142。同一合成来源的离线结果，非人工金标准或真实业务准确率。",
+  "models": [
+    {
+      "model": "tfidf_rf",
+      "sample_count": 142,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "confusion_matrix": [
+        [
+          31,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          29,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          33,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          13,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          8,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          28
+        ]
+      ],
+      "latency": {
+        "count": 710,
+        "p50_ms": 10.38995006820187,
+        "p95_ms": 14.728640031535177,
+        "boundary": "single-item CPU pipeline predict_proba, including TF-IDF; warmed",
+        "concurrency": 1
+      },
+      "deployment_approved": false
+    },
+    {
+      "model": "tfidf_logreg",
+      "sample_count": 142,
+      "accuracy": 0.9929577464788732,
+      "macro_f1": 0.9947801973737868,
+      "precision": 0.9950980392156863,
+      "recall": 0.9946236559139785,
+      "confusion_matrix": [
+        [
+          30,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          29,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          33,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          13,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          8,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          28
+        ]
+      ],
+      "latency": {
+        "count": 710,
+        "p50_ms": 0.7733499514870346,
+        "p95_ms": 1.1847300047520548,
+        "boundary": "single-item CPU pipeline predict_proba, including TF-IDF; warmed",
+        "concurrency": 1
+      },
+      "deployment_approved": false
+    },
+    {
+      "model": "fasttext_char",
+      "sample_count": 142,
+      "accuracy": 0.9929577464788732,
+      "macro_f1": 0.9947801973737868,
+      "precision": 0.9950980392156863,
+      "recall": 0.9946236559139785,
+      "confusion_matrix": [
+        [
+          30,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          29,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          33,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          13,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          8,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          28
+        ]
+      ],
+      "latency": {
+        "count": 710,
+        "p50_ms": 0.019300030544400215,
+        "p95_ms": 0.02899498795159157,
+        "boundary": "single-item CPU character preprocessing + native predict; warmed",
+        "concurrency": 1
+      },
+      "deployment_approved": false
+    },
+    {
+      "model": "bert_base_chinese",
+      "sample_count": 142,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "confusion_matrix": [
+        [
+          31,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          29,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          33,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          13,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          8,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          28
+        ]
+      ],
+      "latency": {
+        "count": 426,
+        "p50_ms": 19.8697000159882,
+        "p95_ms": 24.716025014640763,
+        "boundary": "single-item tokenization, transfer, forward, softmax and labels loss; synchronized GPU, warmed",
+        "concurrency": 1
+      },
+      "deployment_approved": false
+    }
+  ],
+  "sample_count": 1238,
+  "split_counts": {
+    "train": 952,
+    "validation": 144,
+    "test": 142
+  },
+  "human_gold_certified": false
+}

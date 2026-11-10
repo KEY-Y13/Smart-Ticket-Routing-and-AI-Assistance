@@ -1,0 +1,31 @@
+name: smartticket-ai-restore-${SMARTTICKET_RESTORE_ID:?set a new drill ID}
+services:
+  restore-db:
+    image: mysql:8.4.11@sha256:0744ee5ef89ce6ccfa13de3e579fe6b9e27f93dd70da9c06d2c908b1b193fb8d
+    environment:
+      MYSQL_DATABASE: smartticket_ai
+      MYSQL_ROOT_PASSWORD_FILE: /run/secrets/root_password
+      MYSQL_ROOT_HOST: '%'
+    secrets: [root_password]
+    command: ['--character-set-server=utf8mb4', '--collation-server=utf8mb4_0900_ai_ci', '--default-time-zone=+00:00', '--local-infile=0']
+    volumes: [restored_data:/var/lib/mysql]
+    networks:
+      source_project:
+        aliases: ['smartticket-restore-${SMARTTICKET_RESTORE_ID}']
+    healthcheck:
+      test: ['CMD', 'mysqladmin', 'ping', '-h', '127.0.0.1']
+      interval: 5s
+      timeout: 3s
+      retries: 30
+      start_period: 40s
+    restart: 'no'
+    mem_limit: 768m
+secrets:
+  root_password: {file: ./.docker-secrets/root_password}
+volumes:
+  restored_data:
+    name: smartticket-ai_restore_${SMARTTICKET_RESTORE_ID}
+networks:
+  source_project:
+    external: true
+    name: smartticket-ai_default

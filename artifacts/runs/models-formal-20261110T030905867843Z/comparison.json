@@ -1,0 +1,573 @@
+{
+  "purpose": "formal",
+  "dataset_hash": "4307ca03cd8b51416a0776bb862c83cf5c418b9ba1ff7229c2a218a91b5818a0",
+  "split_manifest_hash": "aa1e8d152c92e8e3f2db8caf3cd4f8b063e1da12f33630f3bb7a08c4ee550a3e",
+  "label_map_hash": "96cc54ba42de219e7945c8318ba3f09a680651c7c5f456a5312c970ee77c4fce",
+  "models": {
+    "tfidf_rf": {
+      "source_report": "E:\\AI_project\\SmartTicket-AI\\artifacts\\runs\\models-formal-20261110T030905867843Z\\baselines\\comparison.json",
+      "test": {
+        "sample_count": 142,
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "classification_report": {
+          "订单问题": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 31.0
+          },
+          "支付问题": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 29.0
+          },
+          "物流问题": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 33.0
+          },
+          "售后退款": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 13.0
+          },
+          "商品质量问题": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 8.0
+          },
+          "账户问题": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 28.0
+          },
+          "accuracy": 1.0,
+          "macro avg": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 142.0
+          },
+          "weighted avg": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 142.0
+          }
+        },
+        "confusion_matrix": [
+          [
+            31,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            29,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            33,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            13,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            8,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            28
+          ]
+        ],
+        "confusion_matrix_axis": "row=true, column=predicted; label order=0..5"
+      },
+      "test_selective": {
+        "accepted_count": 142,
+        "sample_count": 142,
+        "coverage": 1.0,
+        "accepted_accuracy": 1.0
+      },
+      "latency": {
+        "count": 710,
+        "p50_ms": 10.38995006820187,
+        "p95_ms": 14.728640031535177,
+        "boundary": "single-item CPU pipeline predict_proba, including TF-IDF; warmed",
+        "concurrency": 1
+      },
+      "environment": {
+        "python": "3.12.16",
+        "platform": "Windows-11-10.0.26200-SP0",
+        "cpu": "AMD64 Family 25 Model 68 Stepping 1, AuthenticAMD",
+        "logical_cpu_count": 16,
+        "packages": {
+          "numpy": "2.5.4",
+          "scikit-learn": "1.9.1",
+          "scipy": "1.18.1",
+          "joblib": "1.6.0"
+        },
+        "measurement_device": "CPU",
+        "memory_measurement": "not_measured",
+        "gpu_memory_measurement": "not_applicable_cpu_run"
+      },
+      "model_bytes": 2025829
+    },
+    "tfidf_logreg": {
+      "source_report": "E:\\AI_project\\SmartTicket-AI\\artifacts\\runs\\models-formal-20261110T030905867843Z\\baselines\\comparison.json",
+      "test": {
+        "sample_count": 142,
+        "accuracy": 0.9929577464788732,
+        "macro_f1": 0.9947801973737868,
+        "classification_report": {
+          "订单问题": {
+            "precision": 1.0,
+            "recall": 0.967741935483871,
+            "f1-score": 0.9836065573770492,
+            "support": 31.0
+          },
+          "支付问题": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 29.0
+          },
+          "物流问题": {
+            "precision": 0.9705882352941176,
+            "recall": 1.0,
+            "f1-score": 0.9850746268656716,
+            "support": 33.0
+          },
+          "售后退款": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 13.0
+          },
+          "商品质量问题": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 8.0
+          },
+          "账户问题": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 28.0
+          },
+          "accuracy": 0.9929577464788732,
+          "macro avg": {
+            "precision": 0.9950980392156863,
+            "recall": 0.9946236559139785,
+            "f1-score": 0.9947801973737868,
+            "support": 142.0
+          },
+          "weighted avg": {
+            "precision": 0.9931648715824358,
+            "recall": 0.9929577464788732,
+            "f1-score": 0.9929525772201104,
+            "support": 142.0
+          }
+        },
+        "confusion_matrix": [
+          [
+            30,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            29,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            33,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            13,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            8,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            28
+          ]
+        ],
+        "confusion_matrix_axis": "row=true, column=predicted; label order=0..5"
+      },
+      "test_selective": {
+        "accepted_count": 142,
+        "sample_count": 142,
+        "coverage": 1.0,
+        "accepted_accuracy": 0.9929577464788732
+      },
+      "latency": {
+        "count": 710,
+        "p50_ms": 0.7733499514870346,
+        "p95_ms": 1.1847300047520548,
+        "boundary": "single-item CPU pipeline predict_proba, including TF-IDF; warmed",
+        "concurrency": 1
+      },
+      "environment": {
+        "python": "3.12.16",
+        "platform": "Windows-11-10.0.26200-SP0",
+        "cpu": "AMD64 Family 25 Model 68 Stepping 1, AuthenticAMD",
+        "logical_cpu_count": 16,
+        "packages": {
+          "numpy": "2.5.4",
+          "scikit-learn": "1.9.1",
+          "scipy": "1.18.1",
+          "joblib": "1.6.0"
+        },
+        "measurement_device": "CPU",
+        "memory_measurement": "not_measured",
+        "gpu_memory_measurement": "not_applicable_cpu_run"
+      },
+      "model_bytes": 132604
+    },
+    "fasttext_char": {
+      "source_report": "E:\\AI_project\\SmartTicket-AI\\artifacts\\runs\\models-formal-20261110T030905867843Z\\fasttext\\metrics.json",
+      "test": {
+        "sample_count": 142,
+        "accuracy": 0.9929577464788732,
+        "macro_f1": 0.9947801973737868,
+        "classification_report": {
+          "订单问题": {
+            "precision": 1.0,
+            "recall": 0.967741935483871,
+            "f1-score": 0.9836065573770492,
+            "support": 31.0
+          },
+          "支付问题": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 29.0
+          },
+          "物流问题": {
+            "precision": 0.9705882352941176,
+            "recall": 1.0,
+            "f1-score": 0.9850746268656716,
+            "support": 33.0
+          },
+          "售后退款": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 13.0
+          },
+          "商品质量问题": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 8.0
+          },
+          "账户问题": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 28.0
+          },
+          "accuracy": 0.9929577464788732,
+          "macro avg": {
+            "precision": 0.9950980392156863,
+            "recall": 0.9946236559139785,
+            "f1-score": 0.9947801973737868,
+            "support": 142.0
+          },
+          "weighted avg": {
+            "precision": 0.9931648715824358,
+            "recall": 0.9929577464788732,
+            "f1-score": 0.9929525772201104,
+            "support": 142.0
+          }
+        },
+        "confusion_matrix": [
+          [
+            30,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            29,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            33,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            13,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            8,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            28
+          ]
+        ],
+        "confusion_matrix_axis": "row=true, column=predicted; label order=0..5"
+      },
+      "test_selective": {
+        "accepted_count": 142,
+        "sample_count": 142,
+        "coverage": 1.0,
+        "accepted_accuracy": 0.9929577464788732
+      },
+      "latency": {
+        "count": 710,
+        "p50_ms": 0.019300030544400215,
+        "p95_ms": 0.02899498795159157,
+        "boundary": "single-item CPU character preprocessing + native predict; warmed",
+        "concurrency": 1
+      },
+      "environment": {
+        "python": "3.12.16",
+        "platform": "Windows-11-10.0.26200-SP0",
+        "measurement_device": "CPU",
+        "distribution": "third-party fasttext-wheel",
+        "native_path_bridge": "ASCII scratch for native IO; Python copies Unicode output paths",
+        "packages": {
+          "fasttext-wheel": "0.9.2",
+          "numpy": "1.26.4",
+          "psutil": "7.2.2"
+        },
+        "process_rss_bytes_after_reload": 192667648,
+        "process_peak_working_set_bytes": 193294336,
+        "memory_boundary": "whole worker lifetime, including original and reloaded model"
+      },
+      "model_bytes": 12880036
+    },
+    "bert_base_chinese": {
+      "source_report": "E:\\AI_project\\SmartTicket-AI\\artifacts\\runs\\models-formal-20261110T030905867843Z\\bert\\metrics.json",
+      "test": {
+        "sample_count": 142,
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "classification_report": {
+          "订单问题": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 31.0
+          },
+          "支付问题": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 29.0
+          },
+          "物流问题": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 33.0
+          },
+          "售后退款": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 13.0
+          },
+          "商品质量问题": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 8.0
+          },
+          "账户问题": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 28.0
+          },
+          "accuracy": 1.0,
+          "macro avg": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 142.0
+          },
+          "weighted avg": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 142.0
+          }
+        },
+        "confusion_matrix": [
+          [
+            31,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            29,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            33,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            13,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            8,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            28
+          ]
+        ],
+        "confusion_matrix_axis": "row=true, column=predicted; label order=0..5"
+      },
+      "test_selective": {
+        "accepted_count": 142,
+        "sample_count": 142,
+        "coverage": 1.0,
+        "accepted_accuracy": 1.0
+      },
+      "latency": {
+        "count": 426,
+        "p50_ms": 19.8697000159882,
+        "p95_ms": 24.716025014640763,
+        "boundary": "single-item tokenization, transfer, forward, softmax and labels loss; synchronized GPU, warmed",
+        "concurrency": 1
+      },
+      "environment": {
+        "python": "3.12.16",
+        "platform": "Windows-11-10.0.26200-SP0",
+        "packages": {
+          "torch": "2.5.1+cu121",
+          "transformers": "4.57.6",
+          "numpy": "2.5.4",
+          "psutil": "7.2.2",
+          "safetensors": "0.8.0"
+        },
+        "measurement_device": "cuda",
+        "gpu_name": "NVIDIA GeForce RTX 3060 Laptop GPU",
+        "torch_cuda_runtime": "12.1",
+        "process_rss_bytes": 1143123968,
+        "process_peak_working_set_bytes": 1944653824,
+        "cuda_peak_allocated_bytes": 1875367936,
+        "cuda_peak_reserved_bytes": 1952448512,
+        "bitwise_reproducibility_guaranteed": false
+      },
+      "model_bytes": 409664047
+    }
+  },
+  "limitations": [
+    "smoke 未复核合成小样本不构成正式模型或业务效果结论",
+    "不同设备与计时边界不可直接宣称模型速度优劣；请查看每模型 environment/latency",
+    "没有根据此对比自动批准任何模型部署"
+  ]
+}

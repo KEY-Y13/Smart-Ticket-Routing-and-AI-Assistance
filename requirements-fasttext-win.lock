@@ -1,0 +1,6 @@
+# Isolated worker only; do not install NumPy 1.x into the foundation environment.
+fasttext-wheel==0.9.2
+numpy==1.26.4
+psutil==7.2.2
+pybind11==3.1.0
+setuptools==84.2.1

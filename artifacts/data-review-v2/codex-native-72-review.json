@@ -1,0 +1,951 @@
+{
+  "method": "AI_CODEX_CLASSIFICATION_REVIEW",
+  "reviewer_model": "Codex",
+  "source_sha256": "98d791366f7819eb6546077876ad8d92f1a90c82dc3f5b3ad164304c5ba3d285",
+  "blind": false,
+  "review": {
+    "kind": "CLASSIFICATION",
+    "input": [
+      {
+        "id": "review-1",
+        "review_item_id": 1,
+        "content_hash": "1d6a241fd3f7e1cc882aedd56167bbf9a2cf706a9ae1335238f2ddb6204be5c6",
+        "english": null,
+        "chinese": "我刚下单才发现收货地址写成旧公司，付款后还能改成新地址吗？"
+      },
+      {
+        "id": "review-2",
+        "review_item_id": 2,
+        "content_hash": "9dcda38d1832c8b2d8d4be66e02a93438ae0504ad7975af3b83c9e26aae89375",
+        "english": null,
+        "chinese": "购物车里选了两块硬盘，确认页却只有一块，想核对订单商品数量。"
+      },
+      {
+        "id": "review-3",
+        "review_item_id": 3,
+        "content_hash": "81f5aadaec75e0b73fcd32cad76e68ec64182888aaa1ad18ebdff4df8615488a",
+        "english": null,
+        "chinese": "同一款路由器不小心提交了两张订单，请帮我取消其中还没付款的一张。"
+      },
+      {
+        "id": "review-4",
+        "review_item_id": 4,
+        "content_hash": "53683c0a7bc14136af40b8ca1bad0b91c37912fbb07e707bb2bc3cd2bab18bcd",
+        "english": null,
+        "chinese": "下单时忘记填写发票抬头，我需要给公司报销，哪里能补开电子发票？"
+      },
+      {
+        "id": "review-5",
+        "review_item_id": 5,
+        "content_hash": "209206455715714aa50d3d56c97defd3fccdaaf8f5ad4d35c549a0140de38584",
+        "english": null,
+        "chinese": "页面提示订单已经取消，可我没有点过取消，想查一下取消原因。"
+      },
+      {
+        "id": "review-6",
+        "review_item_id": 6,
+        "content_hash": "6403221a3a176cac3c0c2b34a7da7192bb1778eba7f2613ae97d4baebbb5a2a8",
+        "english": null,
+        "chinese": "想买的键盘一直不能提交订单，收货地址选好了，按钮仍是灰色。"
+      },
+      {
+        "id": "review-7",
+        "review_item_id": 7,
+        "content_hash": "b3edd1a958ece990bb933a4f95164f72e8d6bc476e51462ec6fad473f6f0e5c6",
+        "english": null,
+        "chinese": "手机支架的订单收件人名字少写一个字，请帮我更正收货信息。"
+      },
+      {
+        "id": "review-8",
+        "review_item_id": 8,
+        "content_hash": "04e5c97357c4286218c150d132139c629e0cf65f7b6af0234886ca6bfc2bdcb8",
+        "english": null,
+        "chinese": "优惠券在结算页显示可用，生成订单后优惠没了，请核对订单价格。"
+      },
+      {
+        "id": "review-9",
+        "review_item_id": 9,
+        "content_hash": "f14d4fa469befe2ba5e4d4813c41d06d2f1c1596370de1eeb60ec1fcfd39fe2d",
+        "english": null,
+        "chinese": "我的鼠标预售订单尾款入口找不到了，想了解该怎样完成这张订单。"
+      },
+      {
+        "id": "review-10",
+        "review_item_id": 10,
+        "content_hash": "8dfb0db40999698a8e1637b94b221bae272a89a93d19d3130e3b5c891cb1978c",
+        "english": null,
+        "chinese": "订单详情里的型号是黑色，我选的是白色，尚未发货能改规格吗？"
+      },
+      {
+        "id": "review-11",
+        "review_item_id": 11,
+        "content_hash": "e0b7923224a13ed43942f2262de0963040c3e272e1c4c7c58887d71a43de611d",
+        "english": null,
+        "chinese": "我需要导出上个月买显示器的订单清单，账户里只能看到最近几笔。"
+      },
+      {
+        "id": "review-12",
+        "review_item_id": 12,
+        "content_hash": "82f1439c99f114babb41024f2dd7a719d99bd36994659ef37e8dea1e59fa4613",
+        "english": null,
+        "chinese": "下单成功后没有收到确认通知，我想确认这张订单是否已经成立。"
+      },
+      {
+        "id": "review-13",
+        "review_item_id": 13,
+        "content_hash": "6b4d5d2c6432589db007bb5008be015f5c3f90cff624d4b344d50358748df73a",
+        "english": null,
+        "chinese": "银行卡已经扣款了，商城还是显示待支付，请帮我核实这笔交易有没有到账。"
+      },
+      {
+        "id": "review-14",
+        "review_item_id": 14,
+        "content_hash": "84b28fbe276e1833a5e01ba363c58819ee60604f31f10909e3e0bc1fcf58e010",
+        "english": null,
+        "chinese": "付款时网络卡住又点了一次，账单上出现两笔相同扣款，可能重复支付。"
+      },
+      {
+        "id": "review-15",
+        "review_item_id": 15,
+        "content_hash": "c3536dfdf2d1194df78a8050812f861346f22c910e3bfc44c784785312e6bb32",
+        "english": null,
+        "chinese": "结算收银台一直提示支付失败，我还没有被扣钱，应该怎样重新付款？"
+      },
+      {
+        "id": "review-16",
+        "review_item_id": 16,
+        "content_hash": "8ddf1247ecb028c2a5dd784d811a5aad307088aefa83278fc1ae1c261a462152",
+        "english": null,
+        "chinese": "微信支付显示成功，商城却跳回付款页面，我担心再次点击会重复扣款。"
+      },
+      {
+        "id": "review-17",
+        "review_item_id": 17,
+        "content_hash": "5b45c38c4aa77a27ba90279f2030ea77a8082c328b8e835cacba246cabfd622d",
+        "english": null,
+        "chinese": "银行卡付款弹出金额超限，这个支付渠道支持分次支付吗？"
+      },
+      {
+        "id": "review-18",
+        "review_item_id": 18,
+        "content_hash": "8031c7fcd02ab9a349aa6f4ea149a9f5a7fae94cb68078248f00a789e35b56a8",
+        "english": null,
+        "chinese": "付款验证码一直收不到，银行预留手机没有换，无法完成这笔支付。"
+      },
+      {
+        "id": "review-19",
+        "review_item_id": 19,
+        "content_hash": "8603733af69f595d9b5b5975b34233e1013220f2f4f4d5b126ad8cd8fdfb9fde",
+        "english": null,
+        "chinese": "我选的是余额付款，结果从银行卡扣了钱，想核对实际支付渠道。"
+      },
+      {
+        "id": "review-20",
+        "review_item_id": 20,
+        "content_hash": "cdf1d7cf95d70cae77d9e86010c90c4b44d83aaecb6c85c9c0236497fb925b87",
+        "english": null,
+        "chinese": "收银台二维码刚打开就提示失效，刷新后仍然不能扫码支付。"
+      },
+      {
+        "id": "review-21",
+        "review_item_id": 21,
+        "content_hash": "15f5e0930af0bdacd8732d9e613d45a63ecbbcead3b88ae16067e714a02833ab",
+        "english": null,
+        "chinese": "支付页面跳转到银行后白屏，我不知道是否扣款，想先查询交易结果。"
+      },
+      {
+        "id": "review-22",
+        "review_item_id": 22,
+        "content_hash": "939b428412b51ae2d0e5efbe70d52b4749b43ceb64a9b43ffae46dcb90e12904",
+        "english": null,
+        "chinese": "银行卡记录显示扣款后立即冲正，这张订单的付款现在算成功还是失败？"
+      },
+      {
+        "id": "review-23",
+        "review_item_id": 23,
+        "content_hash": "8020fe6b31e3418d62e7d04130f6c4ff15fe7cd38f9b9dae6593cce8d7b3cb9b",
+        "english": null,
+        "chinese": "用两张券结算后，收银台实际扣款比应付金额多了十元，需要核对支付金额。"
+      },
+      {
+        "id": "review-24",
+        "review_item_id": 24,
+        "content_hash": "bde2ce1ae604cac4aed87b77bb38349cfd63c41739698e10f798f25780ac2d3e",
+        "english": null,
+        "chinese": "我没有发起购物付款，却收到商城扣款通知，请协助核查这笔异常交易。"
+      },
+      {
+        "id": "review-25",
+        "review_item_id": 25,
+        "content_hash": "278e65614a39c7aa29d7671ef97b74e4f0b68378a5524f65b0a588b74418cd65",
+        "english": null,
+        "chinese": "显示器已经发出五天，快递轨迹一直停在同一个中转站，能帮忙催查吗？"
+      },
+      {
+        "id": "review-26",
+        "review_item_id": 26,
+        "content_hash": "013b23c669d9ad7e122b6e8777606799cd9136969ad895334047d596da782371",
+        "english": null,
+        "chinese": "物流显示已签收，但我和家人都没拿到包裹，门口也没有放。"
+      },
+      {
+        "id": "review-27",
+        "review_item_id": 27,
+        "content_hash": "37d28c7fb367d817aae98a5f0ab857880985e16361dc370e3cd64a0bf5f274bd",
+        "english": null,
+        "chinese": "订单状态是已发货，快递单号查询却提示不存在，请核实运单信息。"
+      },
+      {
+        "id": "review-28",
+        "review_item_id": 28,
+        "content_hash": "fe90c322934bc1419abfde8fc86fed04484ecedac69a1d6acb819e82a58a46e2",
+        "english": null,
+        "chinese": "耳机包裹到了隔壁城市，地址明明填写正确，可能被快递送错地方了。"
+      },
+      {
+        "id": "review-29",
+        "review_item_id": 29,
+        "content_hash": "7a627b06c129bca200cdcd40bc6a624f76ccbc4319243d44315d61220b7c8ec6",
+        "english": null,
+        "chinese": "快递员说电脑外箱挤破了，让我先联系商家处理运输破损，我还未签收。"
+      },
+      {
+        "id": "review-30",
+        "review_item_id": 30,
+        "content_hash": "3f8c6aa5b4e3c316e8d5c4ce2a499110cc9d561e04a26859227f5b397aaeb1bc",
+        "english": null,
+        "chinese": "我买了键鼠套装，快递只送来一个包裹，想确认另一个包裹发到哪里了。"
+      },
+      {
+        "id": "review-31",
+        "review_item_id": 31,
+        "content_hash": "3c80582db8ad7709542174fe4a54ccb43de8648c83a6b06fb230d9ba67ba70f7",
+        "english": null,
+        "chinese": "配送一直显示联系不上收件人，但我的手机正常，能否安排重新配送？"
+      },
+      {
+        "id": "review-32",
+        "review_item_id": 32,
+        "content_hash": "f9eac470d724350577dbd99cf1fbe822fab49f2df835607c8945b391a51392ea",
+        "english": null,
+        "chinese": "包裹被放进很远的自提点，我选择的是送货上门，请协调配送方式。"
+      },
+      {
+        "id": "review-33",
+        "review_item_id": 33,
+        "content_hash": "95814266fefc37733be85970a63698469e42d185af57eb604f4d3353a66b7f43",
+        "english": null,
+        "chinese": "快递通知商品在运输途中遗失，需要商家发起查件，请帮我处理。"
+      },
+      {
+        "id": "review-34",
+        "review_item_id": 34,
+        "content_hash": "291391b50ae45eb6468eed96e12b2e8d5ae91b1a7d8571fbdbffb651f25fa102",
+        "english": null,
+        "chinese": "我明天要出差，已经发出的相机能否通知快递暂缓派送？"
+      },
+      {
+        "id": "review-35",
+        "review_item_id": 35,
+        "content_hash": "a5e6c45f02af433628c4123f724f7661fb0a866f1fc4e90d620b84d24bb58f9c",
+        "english": null,
+        "chinese": "物流三天没有揽收记录，商家已经标记发货，想知道包裹究竟交寄没有。"
+      },
+      {
+        "id": "review-36",
+        "review_item_id": 36,
+        "content_hash": "87f3434150ab33b1c16a074134a731c68cdc8f648d30c59dbecaf99fa222444b",
+        "english": null,
+        "chinese": "运单上显示正在退回寄件人，我没有拒收，请帮我查一下物流异常原因。"
+      },
+      {
+        "id": "review-37",
+        "review_item_id": 37,
+        "content_hash": "3d7f751175bdb8cf2ab82a2c067becdcf55448e86e4e696e7ee81d3e9f8e8f98",
+        "english": null,
+        "chinese": "刚收到的平板不想要了，还没拆封，想了解怎样申请七天无理由退货。"
+      },
+      {
+        "id": "review-38",
+        "review_item_id": 38,
+        "content_hash": "b457fcd611ccbd9214b4cc1c03bb775330705eaedff73d3ee88fb125bd73c575",
+        "english": null,
+        "chinese": "退回的耳机商家已经签收一周，退款申请仍在审核，想查询退款进度。"
+      },
+      {
+        "id": "review-39",
+        "review_item_id": 39,
+        "content_hash": "f5906591ba3aac505e75f4bb9957f9e5fb2bb7e57dba5f1f192d4c30e380b709",
+        "english": null,
+        "chinese": "买错了充电器接口，需要换成另一种接口，请告诉我换货申请流程。"
+      },
+      {
+        "id": "review-40",
+        "review_item_id": 40,
+        "content_hash": "323e41813508cd4b923a5f0c7f5071c001ca41a3ab1c9853228675e8081d42f9",
+        "english": null,
+        "chinese": "我的退款申请被拒绝，页面没有明确理由，想请客服复核退货条件。"
+      },
+      {
+        "id": "review-41",
+        "review_item_id": 41,
+        "content_hash": "4f52c73e09ab79e8a9e7b014385432587a0483ca08e2a81d39357340cee09ae3",
+        "english": null,
+        "chinese": "申请退货后一直没有退货地址，我不知道应该把商品寄到哪里。"
+      },
+      {
+        "id": "review-42",
+        "review_item_id": 42,
+        "content_hash": "c1aded30111451fbe9d0b77498c5c1a8aee36945666d51e34ddc504303186d4c",
+        "english": null,
+        "chinese": "想退显示器，但原包装盒丢了，这种情况是否符合你们的退货政策？"
+      },
+      {
+        "id": "review-43",
+        "review_item_id": 43,
+        "content_hash": "99337ca1236fc5c3dfba4becc3ca3e48559a9aed84830318b765ad8163c9071b",
+        "english": null,
+        "chinese": "退货运费需要我先垫付吗，商品还在售后期内，请说明运费承担规则。"
+      },
+      {
+        "id": "review-44",
+        "review_item_id": 44,
+        "content_hash": "4a69637582823e52a1bb22f15ed77a1d56574923006a8009bbce6f073bfbfd09",
+        "english": null,
+        "chinese": "我提交了部分退款申请，只退一个配件，想确认需要寄回哪些东西。"
+      },
+      {
+        "id": "review-45",
+        "review_item_id": 45,
+        "content_hash": "497a9c7bdf2a4afea8c2a13db25403979e5bb70b410da036ae946fc2820fa86c",
+        "english": null,
+        "chinese": "商城显示退款完成，原支付账户却还没有收到退款，想查退款到账进度。"
+      },
+      {
+        "id": "review-46",
+        "review_item_id": 46,
+        "content_hash": "140c6ea2b256c23d380a4f0f61a7b51c6055014e29d967531dce7ff3b36d450a",
+        "english": null,
+        "chinese": "换货的新路由器还未寄出，我想把换货改成退货退款，需要如何操作？"
+      },
+      {
+        "id": "review-47",
+        "review_item_id": 47,
+        "content_hash": "b82b9cbe029410ec09c4c33979d08142bcf4b50bbfbc62a72825faa42cba38f1",
+        "english": null,
+        "chinese": "售后页面显示退货申请已超时关闭，我已按要求寄出，能否重新受理？"
+      },
+      {
+        "id": "review-48",
+        "review_item_id": 48,
+        "content_hash": "86a42fba408e3f69fcfbeb73261d0c8a8a6210b1b8ea914b4dd69ce909dd69e8",
+        "english": null,
+        "chinese": "买的相机附送赠品，退货时赠品是否也必须一起寄回，请说明售后规则。"
+      },
+      {
+        "id": "review-49",
+        "review_item_id": 49,
+        "content_hash": "e20cc8380dd771874418d0e48c96d3801ced485f2dd251c76c9329d722c6a53e",
+        "english": null,
+        "chinese": "新买的笔记本接上电源没有任何指示灯，也无法开机，想请人指导排查。"
+      },
+      {
+        "id": "review-50",
+        "review_item_id": 50,
+        "content_hash": "54233b85cb3c85a00ea9146e3d7b145d9b15b2d17b0f719765a3aa81cb7e9445",
+        "english": null,
+        "chinese": "蓝牙耳机右耳完全没有声音，换手机连接也一样，请判断可能哪里坏了。"
+      },
+      {
+        "id": "review-51",
+        "review_item_id": 51,
+        "content_hash": "b8c9aab9bc7c38baaa21fb96e40403f6837b04ab85e267b477d7120b74fa24a0",
+        "english": null,
+        "chinese": "显示器屏幕中央有一条竖直亮线，重新插拔信号线后仍存在，该怎么检测？"
+      },
+      {
+        "id": "review-52",
+        "review_item_id": 52,
+        "content_hash": "215e01f4e5afa9948f8fe658eafcd6cc7fab70bc3b38580441b8dfdea151f0bc",
+        "english": null,
+        "chinese": "移动硬盘复制文件会突然断开，在两台电脑上都复现，想排查产品故障。"
+      },
+      {
+        "id": "review-53",
+        "review_item_id": 53,
+        "content_hash": "2ae5728ae441f05ad6215650ca6f28b34c9c6769f9758dca716255c5fa82178d",
+        "english": null,
+        "chinese": "路由器每隔半小时自动重启，恢复出厂设置也没解决，请协助诊断。"
+      },
+      {
+        "id": "review-54",
+        "review_item_id": 54,
+        "content_hash": "1fd5863c434575b4e3e056f44113bd341513f0da3eedf0d305cbfd3ae85240ef",
+        "english": null,
+        "chinese": "机械键盘的空格键需要重按才响应，其他按键正常，想了解质量检测方法。"
+      },
+      {
+        "id": "review-55",
+        "review_item_id": 55,
+        "content_hash": "826eda560f7acde3c32eeac1d3d5a93e989da302ccfe581ef662757aac5a52a6",
+        "english": null,
+        "chinese": "充电宝充满后只能给手机充十分钟就没电，这个续航表现是否异常？"
+      },
+      {
+        "id": "review-56",
+        "review_item_id": 56,
+        "content_hash": "a4090807822beb132993c855d84791b8002958c7b509aba5de717700bf28afed",
+        "english": null,
+        "chinese": "摄像头画面持续出现彩色噪点，换光线和 USB 接口都无效，想寻求技术支持。"
+      },
+      {
+        "id": "review-57",
+        "review_item_id": 57,
+        "content_hash": "72bfb0e1026f2c5481d3e5bb65627823d0ac49957bb6e6a50260c85952eccb2e",
+        "english": null,
+        "chinese": "鼠标滚轮向下滚动时偶尔反向跳动，驱动已重装，能否协助定位故障？"
+      },
+      {
+        "id": "review-58",
+        "review_item_id": 58,
+        "content_hash": "f981d9c86de0857eb0ef52da3a47c97de859ad5a0ba80caba83abf6d2a58b36a",
+        "english": null,
+        "chinese": "平板在正常待机时机身明显鼓起，担心电池有问题，应当怎样安全处理？"
+      },
+      {
+        "id": "review-59",
+        "review_item_id": 59,
+        "content_hash": "9c805652f18c0fbac7860ed906e1170dad170a37dae5dab3c250cb15316bed0f",
+        "english": null,
+        "chinese": "打印机每张纸都有重复黑条，清洁后还是一样，我想确认是否机器质量问题。"
+      },
+      {
+        "id": "review-60",
+        "review_item_id": 60,
+        "content_hash": "2703ad5044a09788f5b02d680489f3a18929f237585092d21f87e22eed2fb1c4",
+        "english": null,
+        "chinese": "智能手表触摸屏局部无法点击，没有摔过也没进水，请提供故障排查建议。"
+      },
+      {
+        "id": "review-61",
+        "review_item_id": 61,
+        "content_hash": "80a864786090191539bc246928dc324acb8022d8e166a995067e2f896760315f",
+        "english": null,
+        "chinese": "登录商城时总提示密码错误，找回密码邮件也没收到，怎样恢复账户访问？"
+      },
+      {
+        "id": "review-62",
+        "review_item_id": 62,
+        "content_hash": "23f6c834c22167bab7bbe79eaeea510250d6e2536223d37d5a52a9a3d58d2d7d",
+        "english": null,
+        "chinese": "我更换了手机号，旧号码收不到验证码，现在无法登录原来的商城账号。"
+      },
+      {
+        "id": "review-63",
+        "review_item_id": 63,
+        "content_hash": "51d0df9ef141470bf5620ba8a438736f1d69a828173b253befa9e7a7967d87c8",
+        "english": null,
+        "chinese": "账户里出现了陌生的登录设备，想退出所有会话并加强账号安全。"
+      },
+      {
+        "id": "review-64",
+        "review_item_id": 64,
+        "content_hash": "203d236e23bd6ba68818bc8905115aa52fd41b94fe0d28e0509d5734ea8f6a86",
+        "english": null,
+        "chinese": "注册时提示邮箱已经被占用，我不记得注册过，应该怎样核实账户归属？"
+      },
+      {
+        "id": "review-65",
+        "review_item_id": 65,
+        "content_hash": "4b07c89f136cf58682cad9ae5c4b682cb18699c6c4c7d037783a1c9f5e9d29e6",
+        "english": null,
+        "chinese": "我想修改商城账户绑定邮箱，设置页面要求旧邮箱验证，但旧邮箱停用了。"
+      },
+      {
+        "id": "review-66",
+        "review_item_id": 66,
+        "content_hash": "af27aaef17b056c1e3f9869288d37b6bbc596ed7ffdb6b4d2f9843e78b236081",
+        "english": null,
+        "chinese": "账号突然被限制登录，页面只显示安全原因，想申请人工核查解封。"
+      },
+      {
+        "id": "review-67",
+        "review_item_id": 67,
+        "content_hash": "cfa4c7d2bba741fa664ccae98fa2d880484c56b1fb11c0c6b85e60a32b100af5",
+        "english": null,
+        "chinese": "登录后头像和昵称变成了陌生人的信息，我担心账户被盗用了。"
+      },
+      {
+        "id": "review-68",
+        "review_item_id": 68,
+        "content_hash": "eeeb7812e378d32b5a4fead33810f0a4edd07e1744836f9d8770cd05c4bfbe27",
+        "english": null,
+        "chinese": "如何注销商城账户并申请删除个人资料？我想先了解账户注销步骤。"
+      },
+      {
+        "id": "review-69",
+        "review_item_id": 69,
+        "content_hash": "1e30bab6289896427bb09559f0ada170145b06de81c0dbca6807a97a8b41cebf",
+        "english": null,
+        "chinese": "设置了两步验证后换了手机，验证器没有迁移，我现在进不去账户。"
+      },
+      {
+        "id": "review-70",
+        "review_item_id": 70,
+        "content_hash": "14f571c58fc8f842027d95d514db93fa613a1e0c93ba6bfe62a462063b378def",
+        "english": null,
+        "chinese": "商城账户修改密码时提示当前密码不正确，但同一密码可以登录，如何处理？"
+      },
+      {
+        "id": "review-71",
+        "review_item_id": 71,
+        "content_hash": "b9f3854439133a2073d4d59172135f78f5769bcea6b1daf4fc4ee75c6b4d544e",
+        "english": null,
+        "chinese": "我希望关闭所有陌生设备的免密登录，只保留现在这台手机的访问权限。"
+      },
+      {
+        "id": "review-72",
+        "review_item_id": 72,
+        "content_hash": "e4edcf02d3825888bedcf82f66a449528a60ad5ba8b2b98a6a389525df23bae8",
+        "english": null,
+        "chinese": "账户资料里的实名姓名填错了，无法在个人设置里修改，想申请更正账户信息。"
+      }
+    ],
+    "decisions": [
+      {
+        "id": "review-1",
+        "label": 0,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-2",
+        "label": 0,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-3",
+        "label": 0,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-4",
+        "label": 0,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-5",
+        "label": 0,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-6",
+        "label": 0,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-7",
+        "label": 0,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-8",
+        "label": 0,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-9",
+        "label": 1,
+        "translation_ok": true,
+        "reason": "Codex逐条开卷核对主诉：尾款入口属于支付，原订单标签存在分歧，保留原文并排除。"
+      },
+      {
+        "id": "review-10",
+        "label": 0,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-11",
+        "label": 0,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-12",
+        "label": 0,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-13",
+        "label": 1,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-14",
+        "label": 1,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-15",
+        "label": 1,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-16",
+        "label": 1,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-17",
+        "label": 1,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-18",
+        "label": 1,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-19",
+        "label": 1,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-20",
+        "label": 1,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-21",
+        "label": 1,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-22",
+        "label": 1,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-23",
+        "label": 1,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-24",
+        "label": 1,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-25",
+        "label": 2,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-26",
+        "label": 2,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-27",
+        "label": 2,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-28",
+        "label": 2,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-29",
+        "label": 2,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-30",
+        "label": 2,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-31",
+        "label": 2,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-32",
+        "label": 2,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-33",
+        "label": 2,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-34",
+        "label": 2,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-35",
+        "label": 2,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-36",
+        "label": 2,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-37",
+        "label": 3,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-38",
+        "label": 3,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-39",
+        "label": 3,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-40",
+        "label": 3,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-41",
+        "label": 3,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-42",
+        "label": 3,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-43",
+        "label": 3,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-44",
+        "label": 3,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-45",
+        "label": 3,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-46",
+        "label": 3,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-47",
+        "label": 3,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-48",
+        "label": 3,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-49",
+        "label": 4,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-50",
+        "label": 4,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-51",
+        "label": 4,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-52",
+        "label": 4,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-53",
+        "label": 4,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-54",
+        "label": 4,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-55",
+        "label": 4,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-56",
+        "label": 4,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-57",
+        "label": 4,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-58",
+        "label": 4,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-59",
+        "label": 4,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-60",
+        "label": 4,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-61",
+        "label": 5,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-62",
+        "label": 5,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-63",
+        "label": 5,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-64",
+        "label": 5,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-65",
+        "label": 5,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-66",
+        "label": 5,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-67",
+        "label": 5,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-68",
+        "label": 5,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-69",
+        "label": 5,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-70",
+        "label": 5,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-71",
+        "label": 5,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      },
+      {
+        "id": "review-72",
+        "label": 5,
+        "translation_ok": true,
+        "reason": "Codex逐条阅读原生中文，按主要处理诉求核对六类业务规则；只确认分类，不作业务处理承诺。"
+      }
+    ],
+    "protocol": "fictional-ai-review-v1",
+    "human_review": false
+  }
+}

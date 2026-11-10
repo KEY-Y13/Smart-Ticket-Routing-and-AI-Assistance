@@ -1,0 +1,752 @@
+{
+  "method": "AI_CODEX_CHINESE_INTENT_AUDIT",
+  "human_review": false,
+  "purpose": "Chinese classification fitness of synthetic translations/adaptations; NOT a bilingual literal-translation gold corpus",
+  "source_plan_hash": "d23aa8f50621872980b22dd9fb054e95e07e55591933cf9bb2b7f491dda2185c",
+  "decisions": [
+    {
+      "id": "bitext-04901",
+      "text_hash": "4a5c4bddf4a08994ce1694c39cd6658cc315a02c1ff493e4faa69a1c81bc02b0",
+      "label": 5,
+      "natural": true
+    },
+    {
+      "id": "bitext-07486",
+      "text_hash": "69423650dcb83e0f8be527e98d5a0438de5fba109ee5129f81bded34ba406f24",
+      "label": 5,
+      "natural": true
+    },
+    {
+      "id": "bitext-34098",
+      "text_hash": "a17c56bedfca1ed6ad5633673140de1e246003a5f0f8d94c5b74927a1195f5bc",
+      "label": 2,
+      "natural": true
+    },
+    {
+      "id": "bitext-41234",
+      "text_hash": "cb501449cdbc5dd2edc555916dfe0c466f0279844f48380393f399142400d966",
+      "label": 2,
+      "natural": true
+    },
+    {
+      "id": "bitext-04228",
+      "text_hash": "ccfce8a8f5e5d2fbb7e225f16d3c765c1fe297d76134927d15e2ee9a0e25fba0",
+      "label": 0,
+      "natural": true
+    },
+    {
+      "id": "bitext-22736",
+      "text_hash": "1a71bd8fcff75d91bb6257c9a5e88f9ec2d1d558ae705e12f5f149e3aa9f14bf",
+      "label": 5,
+      "natural": true
+    },
+    {
+      "id": "bitext-22831",
+      "text_hash": "00b795b41c04dea90299ee5db8a1a47debc7fce2815d71eaed33ce10bcb266a8",
+      "label": 5,
+      "natural": true
+    },
+    {
+      "id": "bitext-24106",
+      "text_hash": "13f4d86ba023066296c9357602e8c5db946137708f2b1f282a4deb7c7cb69b82",
+      "label": 3,
+      "natural": true
+    },
+    {
+      "id": "bitext-03732",
+      "text_hash": "e092b64a059e2d1f2588de1b0b1f1a82ee9fc2523055c3894cd3416932420c12",
+      "label": 0,
+      "natural": true
+    },
+    {
+      "id": "bitext-24549",
+      "text_hash": "e78a6363f13008503e5d9db643126c656b7f6179aedb026de927943a16ddb1f6",
+      "label": 3,
+      "natural": true
+    },
+    {
+      "id": "bitext-41755",
+      "text_hash": "5d159d63fb0751b1a56e50570197280beade18422aff0664f976f9f57621068d",
+      "label": 2,
+      "natural": true
+    },
+    {
+      "id": "bitext-17490",
+      "text_hash": "1cc10dc818006ed5d9a89a0bc446de4058e8d24d7802b01032e98785f41ca20c",
+      "label": 1,
+      "natural": true
+    },
+    {
+      "id": "bitext-07186",
+      "text_hash": "6fe955a9d292e05aeb914821841259dd5fb4bc0ccc2915e7304ad8b1ee9f9710",
+      "label": 5,
+      "natural": true
+    },
+    {
+      "id": "bitext-18162",
+      "text_hash": "03dc3aec89018c0839c37c4164bb5506deb0b7e5a13b6d881ea67e4f9d703065",
+      "label": 1,
+      "natural": true
+    },
+    {
+      "id": "bitext-18685",
+      "text_hash": "c77a909ccfba7ba9f6cd4f5e00db4b850de210453db30a4e2b18ef2ba93763c2",
+      "label": 1,
+      "natural": true
+    },
+    {
+      "id": "bitext-30148",
+      "text_hash": "b94b31c49cbcabcf99e53afdddd1abe4d4ff1842b451554d03532aa1826e3fce",
+      "label": 3,
+      "natural": true
+    },
+    {
+      "id": "bitext-05451",
+      "text_hash": "83c3c3da05d1dc39ee0f5b618263035e52213b3207f01211168ce3d65adb2062",
+      "label": 5,
+      "natural": true
+    },
+    {
+      "id": "bitext-10859",
+      "text_hash": "b0f91a692d63143b384930d634846364448a03df2a68ac81957936bedee8f434",
+      "label": -1,
+      "natural": true
+    },
+    {
+      "id": "bitext-21940",
+      "text_hash": "501f7426e742752300dc0c210e87930f4dac44f299f6039db77a9b93b72e175b",
+      "label": 4,
+      "natural": true
+    },
+    {
+      "id": "bitext-22110",
+      "text_hash": "501f7426e742752300dc0c210e87930f4dac44f299f6039db77a9b93b72e175b",
+      "label": 4,
+      "natural": true
+    },
+    {
+      "id": "bitext-11324",
+      "text_hash": "86cca81389a1041983c565b84d39e50ed5ee6b8ac761f5773a9a04b0ac41a511",
+      "label": 2,
+      "natural": true
+    },
+    {
+      "id": "bitext-05775",
+      "text_hash": "d20d4324aa9316159060b4e005611881fff5e8bfc53feea4f7a61d8e471bb53d",
+      "label": 0,
+      "natural": true
+    },
+    {
+      "id": "bitext-21666",
+      "text_hash": "501f7426e742752300dc0c210e87930f4dac44f299f6039db77a9b93b72e175b",
+      "label": 4,
+      "natural": true
+    },
+    {
+      "id": "bitext-34653",
+      "text_hash": "a688e95b07b0db40bfe8d6c1f54b80d8c2bb9cd61957bec11fbcf9f7c31159af",
+      "label": 2,
+      "natural": true
+    },
+    {
+      "id": "bitext-29404",
+      "text_hash": "bc9d58d5737d2ede38f415c86c024da2709e2b8c806ea3e2b426b2e3ce0e06df",
+      "label": 3,
+      "natural": true
+    },
+    {
+      "id": "bitext-09918",
+      "text_hash": "00da038be2388c2d158c1e1edca307ed6062d7bdc1acec8982816c9a05469df2",
+      "label": 2,
+      "natural": true
+    },
+    {
+      "id": "bitext-21313",
+      "text_hash": "3cb863d145d396704b513544ba863c55961705d2bc8f275b833e6d229415c8a5",
+      "label": 4,
+      "natural": true
+    },
+    {
+      "id": "bitext-16513",
+      "text_hash": "c77e84d1e2ce0dc648c18f1929eab8a2745f0a6d95da7c711032491f77bc4afb",
+      "label": 0,
+      "natural": true
+    },
+    {
+      "id": "bitext-15639",
+      "text_hash": "5030b8a24947c293325685567ed1961662cacf132396573be70f7014a20ed36e",
+      "label": 5,
+      "natural": true
+    },
+    {
+      "id": "bitext-12215",
+      "text_hash": "c2f897f7b54f10c48078885cfba53a4e71a0e5a35e4a50b2154b9a818d961812",
+      "label": 3,
+      "natural": true
+    },
+    {
+      "id": "bitext-29381",
+      "text_hash": "63ef8fa75c33d2c9d40052182a4c7d9ac0c19fa0a65614430679b842ace57627",
+      "label": 3,
+      "natural": true
+    },
+    {
+      "id": "bitext-10368",
+      "text_hash": "3489128c07abfe63c5843568620a48e2564f81b1f4f0a4b1ee44533de9ecf952",
+      "label": 2,
+      "natural": true
+    },
+    {
+      "id": "bitext-19369",
+      "text_hash": "ed0bddde02770b66c232ada5be79d1a7abf121239f06944db990fa60e6d9bbb4",
+      "label": 1,
+      "natural": true
+    },
+    {
+      "id": "bitext-06967",
+      "text_hash": "a0252aca8e1ad1758c178ec998e369cc5acf6af64efcfd0c84ae51a082da57d8",
+      "label": 5,
+      "natural": true
+    },
+    {
+      "id": "bitext-18484",
+      "text_hash": "e3c7f747c2c8db32eb920de5152731c4201d4a61b4a4a0b660603bf4c050907c",
+      "label": 1,
+      "natural": true
+    },
+    {
+      "id": "bitext-18127",
+      "text_hash": "f453e3178e83164d3a8b061077573da6744484842288a59d529344e76dbb107c",
+      "label": 1,
+      "natural": true
+    },
+    {
+      "id": "bitext-21635",
+      "text_hash": "501f7426e742752300dc0c210e87930f4dac44f299f6039db77a9b93b72e175b",
+      "label": 4,
+      "natural": true
+    },
+    {
+      "id": "bitext-26387",
+      "text_hash": "1679ee154c97c434a51a3ba8f56f68dd9fa1c8fd4d8cc7369b5fa739b996b12f",
+      "label": 0,
+      "natural": true
+    },
+    {
+      "id": "bitext-24180",
+      "text_hash": "dc9753bfcaadbebf0298920736dd5f9a4bc69c7eb2d6c47d9d96cd563582139d",
+      "label": 3,
+      "natural": true
+    },
+    {
+      "id": "bitext-34902",
+      "text_hash": "a033f99da9e41fde1282ca950ae1bfe87cbe3c8c00df1141ae50d38354cb3f5e",
+      "label": 2,
+      "natural": true
+    },
+    {
+      "id": "bitext-18617",
+      "text_hash": "3342422431f641cfcd550dc788b6223852294f1d67f4de83b89766e5c34851cc",
+      "label": 1,
+      "natural": true
+    },
+    {
+      "id": "bitext-21809",
+      "text_hash": "501f7426e742752300dc0c210e87930f4dac44f299f6039db77a9b93b72e175b",
+      "label": 4,
+      "natural": true
+    },
+    {
+      "id": "bitext-16030",
+      "text_hash": "5edc9dfdb411d1e00d40734212e151918a2e819cb73304b9ec57c08d82612ec7",
+      "label": 5,
+      "natural": true
+    },
+    {
+      "id": "bitext-03826",
+      "text_hash": "af26918ca1433669b0dab06ec1a275cb89173b55da823bbae414fed63512bd85",
+      "label": 0,
+      "natural": true
+    },
+    {
+      "id": "bitext-34340",
+      "text_hash": "f6d21269797fdb36f22f0caf1e36bf83985da53671eefbc999baa5d45b9c1545",
+      "label": 2,
+      "natural": true
+    },
+    {
+      "id": "bitext-41541",
+      "text_hash": "83c65027c4cf70946ab8c428b3ec736385314a7a9a148a012f53856e2882f930",
+      "label": 2,
+      "natural": true
+    },
+    {
+      "id": "bitext-11659",
+      "text_hash": "ad9bfbf28caed970cc6ee2ce170f44ddf8479d2a194908051e26abd704a401e1",
+      "label": 3,
+      "natural": true
+    },
+    {
+      "id": "bitext-19639",
+      "text_hash": "814ff4e3c8269e0fe2344c9ac8a71a19eb361e8408b732154f70ec9bcaa6939e",
+      "label": 1,
+      "natural": true
+    },
+    {
+      "id": "bitext-22570",
+      "text_hash": "e579aae948f4b993b0de9c0aa815f9a09f29db1f653e634d13c44e8bf2735a7f",
+      "label": 5,
+      "natural": true
+    },
+    {
+      "id": "bitext-18632",
+      "text_hash": "1a1ef5661d5cb756014d586f63d2d9b9029ede90e54ed0ad34f6e50ac0ee8ba0",
+      "label": 1,
+      "natural": true
+    },
+    {
+      "id": "bitext-16717",
+      "text_hash": "e309781f67570a8ec3ebc4f58babcc92381b44694424a85d1965149d91b8e404",
+      "label": 0,
+      "natural": true
+    },
+    {
+      "id": "bitext-23866",
+      "text_hash": "06663c53bb7cc15df2c8b6d074218c035de30338eb2cb4a5cf474e596e0fea75",
+      "label": 3,
+      "natural": true
+    },
+    {
+      "id": "bitext-16422",
+      "text_hash": "a11a26a2420c38341f49431fa29cd958d4fb518a6adfe401416e7a624e62d469",
+      "label": 0,
+      "natural": true
+    },
+    {
+      "id": "bitext-07563",
+      "text_hash": "a0252aca8e1ad1758c178ec998e369cc5acf6af64efcfd0c84ae51a082da57d8",
+      "label": 5,
+      "natural": true
+    },
+    {
+      "id": "bitext-18440",
+      "text_hash": "7bcbebd4321d0aa1974833aadc609cc3df771f4972e301e63ffe8c859edab727",
+      "label": 1,
+      "natural": true
+    },
+    {
+      "id": "bitext-21444",
+      "text_hash": "fbc4683825eb0e1b5a01e2a58cd4db95759c84a4f8f4a6760b4879f19a6ca49b",
+      "label": 4,
+      "natural": true
+    },
+    {
+      "id": "bitext-04317",
+      "text_hash": "060d894b5fe430f4eb8ed291cd9403899a6496019d6a992f26bb4fcf3f25a2f1",
+      "label": 0,
+      "natural": true
+    },
+    {
+      "id": "bitext-17029",
+      "text_hash": "8fdce46bf9269e039a35229aa7a3c0ed19f2f74e306c15c7fa3d333c715e06fe",
+      "label": 0,
+      "natural": true
+    },
+    {
+      "id": "bitext-06680",
+      "text_hash": "4cce297504d2f0cac50bb6e4001bbae149a40d21b3c14f64701d6e9f9751b246",
+      "label": 5,
+      "natural": true
+    },
+    {
+      "id": "bitext-06454",
+      "text_hash": "6e9d7e2f87985eda62201e1a2e22e8c91970d1455eab501adf3cf4c5965f7b36",
+      "label": 3,
+      "natural": true
+    },
+    {
+      "id": "bitext-34453",
+      "text_hash": "8b7a453a4142edd6995871a1ab0badba1a5182ba40cf2373ee8197fa7a543f0d",
+      "label": 2,
+      "natural": true
+    },
+    {
+      "id": "bitext-21616",
+      "text_hash": "f8be7929a70f2ddbee5f629b8ed5157794f82819707ec6ec8c740b59bf4a3b2c",
+      "label": 4,
+      "natural": true
+    },
+    {
+      "id": "bitext-24803",
+      "text_hash": "7d55eb10963bafdfd792c340ed66beb3d70738eaf16300b9737c4493b1c16196",
+      "label": 3,
+      "natural": true
+    },
+    {
+      "id": "bitext-34354",
+      "text_hash": "bdd80984bd839745018711d86db3efa0dfd1bac21b3b548299b019188f0c9278",
+      "label": 2,
+      "natural": true
+    },
+    {
+      "id": "bitext-34655",
+      "text_hash": "bdd80984bd839745018711d86db3efa0dfd1bac21b3b548299b019188f0c9278",
+      "label": 2,
+      "natural": true
+    },
+    {
+      "id": "bitext-16073",
+      "text_hash": "efe283e0c3bf4c9a0149d2960a46cab6fc37243cf8ba2323deabdb36bacf8132",
+      "label": 5,
+      "natural": true
+    },
+    {
+      "id": "bitext-19920",
+      "text_hash": "055250a19badbdea6480b6134e4d46990202203a56bc01db1b82990083847dfe",
+      "label": 1,
+      "natural": true
+    },
+    {
+      "id": "bitext-26189",
+      "text_hash": "fba2b6f6abd0199a72d37b992cd94d735c1bbb93dbc8062229691d7170971b71",
+      "label": 0,
+      "natural": true
+    },
+    {
+      "id": "bitext-21354",
+      "text_hash": "501f7426e742752300dc0c210e87930f4dac44f299f6039db77a9b93b72e175b",
+      "label": 4,
+      "natural": true
+    },
+    {
+      "id": "bitext-05731",
+      "text_hash": "30ba473818bcaab37a525d66d03392bcc15608bb91205b5df2e65ec55de09c09",
+      "label": 0,
+      "natural": true
+    },
+    {
+      "id": "bitext-03823",
+      "text_hash": "85d49615a3df95bc49a69d8c1de1d246699fff3c3824935b6acc5f03adaebae6",
+      "label": 0,
+      "natural": true
+    },
+    {
+      "id": "bitext-22930",
+      "text_hash": "38c94cd476ae54a2e03681dacc6545ca30c3eed330f43733f8bca7f0196bbf73",
+      "label": 5,
+      "natural": true
+    },
+    {
+      "id": "bitext-27815",
+      "text_hash": "e8a200b56218f1468f2d8e201aa6ca478c221ae7aac8dba463bb0113c69ee50c",
+      "label": 3,
+      "natural": true
+    },
+    {
+      "id": "bitext-26680",
+      "text_hash": "3b88ee8cbf3d6490bcf12d2f48be054d3287a4def42c7aa0a99e4b936614e7fd",
+      "label": 0,
+      "natural": true
+    },
+    {
+      "id": "bitext-18193",
+      "text_hash": "0d4d90ad299a3ddfb532632751f90d8f142f61daaad1abfa05c2fdd4b3f2913e",
+      "label": 1,
+      "natural": true
+    },
+    {
+      "id": "bitext-16526",
+      "text_hash": "9d5347a6b566eef53bf7fe35894f22277e9f7682d9ebe08811570821054f0375",
+      "label": 0,
+      "natural": true
+    },
+    {
+      "id": "bitext-22007",
+      "text_hash": "b7fbb3b816c26ed8bb5b3bf3b33188aa9b3c02a91939614518f220b0f52ea39e",
+      "label": 4,
+      "natural": true
+    },
+    {
+      "id": "bitext-29093",
+      "text_hash": "c61e04cbf8e984f71b126ab10852b8e58077792f7cc8d805cfc8dcbfbfd39e16",
+      "label": 3,
+      "natural": true
+    },
+    {
+      "id": "bitext-05185",
+      "text_hash": "25eaacb21ae67fa1b96efd1843a7705c5ac206693a3d77509a882098d2924bae",
+      "label": 5,
+      "natural": true
+    },
+    {
+      "id": "bitext-05877",
+      "text_hash": "b30e3c7b5047cc825df6c3052e5eb7fc0bf1c67a3366093499f8bb4594cbfbf8",
+      "label": 0,
+      "natural": true
+    },
+    {
+      "id": "bitext-19657",
+      "text_hash": "a18edd148fbfbc83bececac957b0c8d29c31c4b810e428351814d77fc9af209e",
+      "label": 1,
+      "natural": true
+    },
+    {
+      "id": "bitext-27881",
+      "text_hash": "a612848316b6429cba3b71cff5429e733f125fea18231fd7d885e057d3797790",
+      "label": 3,
+      "natural": true
+    },
+    {
+      "id": "bitext-21926",
+      "text_hash": "7f62942208a49bef2d20892eb3409e1e0134a1e3f141aa6c483fa4ee67033872",
+      "label": 4,
+      "natural": true
+    },
+    {
+      "id": "bitext-17877",
+      "text_hash": "180970218fef1433a2d7ea639f22d5e640a3123e6e43d9c8caa97992c996502a",
+      "label": 1,
+      "natural": true
+    },
+    {
+      "id": "bitext-11378",
+      "text_hash": "fddcdbf2c13bbe244628246412dba1c147c613f47167baf70773871c8c3c1cf7",
+      "label": 2,
+      "natural": true
+    },
+    {
+      "id": "bitext-05555",
+      "text_hash": "db8bf184749b066eff9b56a468160e1ae7914947f0edcb265a9dd2575a20eaac",
+      "label": 5,
+      "natural": true
+    },
+    {
+      "id": "bitext-19958",
+      "text_hash": "f1407fd1c23e974459d1e768820d29e60b7ccc8b7be8cc928ba871bf47d2a292",
+      "label": 1,
+      "natural": true
+    },
+    {
+      "id": "bitext-06359",
+      "text_hash": "ba71e5ad44d98b425cc80f962decc9a804023f1624cbeff2159d8691a985ea11",
+      "label": 0,
+      "natural": true
+    },
+    {
+      "id": "bitext-29300",
+      "text_hash": "a459dc2f985088669f98259497a921261445732eb6555392c1c2b4532dee6aa3",
+      "label": 3,
+      "natural": true
+    },
+    {
+      "id": "bitext-21810",
+      "text_hash": "501f7426e742752300dc0c210e87930f4dac44f299f6039db77a9b93b72e175b",
+      "label": 4,
+      "natural": true
+    },
+    {
+      "id": "bitext-17188",
+      "text_hash": "aa8a0350d7c57472520b9a1abd7a7536ce48d4f5f16904a8b05b73cbff949362",
+      "label": 1,
+      "natural": true
+    },
+    {
+      "id": "bitext-22097",
+      "text_hash": "6a62f99fbea0945190ee086a5f34ffa90fe44fe468929188a7e9269a140201a3",
+      "label": 4,
+      "natural": true
+    },
+    {
+      "id": "bitext-27175",
+      "text_hash": "9765782706aca19c59df24fe964ed639feb32de43c949b385c6973d3a28f68d4",
+      "label": 3,
+      "natural": true
+    },
+    {
+      "id": "bitext-17984",
+      "text_hash": "c5f17a8eed744debd12d8b9dd7341206a1736fde0380eba93a96fc32af220d9f",
+      "label": 1,
+      "natural": true
+    },
+    {
+      "id": "bitext-22939",
+      "text_hash": "231f1292ba2c8de2d47335d243a63421153ad62bff12d1763c633a4f90936d71",
+      "label": 5,
+      "natural": true
+    },
+    {
+      "id": "bitext-05257",
+      "text_hash": "b76f8235c3126f4f597a7a453a417e067ee992c82feb83e483c7bb8d19f7d24d",
+      "label": 5,
+      "natural": true
+    },
+    {
+      "id": "bitext-27645",
+      "text_hash": "523e516d995818317c3a23dacda7daafbcfecdbe3b551c58bd39e18ec4e28a31",
+      "label": 3,
+      "natural": false
+    },
+    {
+      "id": "bitext-41384",
+      "text_hash": "ed881275394d3fa774c24257edf5518032da550ba1b4445dae47d0bcb26bf473",
+      "label": 2,
+      "natural": true
+    },
+    {
+      "id": "bitext-40919",
+      "text_hash": "817e96dee3c299eb9ba37bb49c0a8596e220db26b22c05c0fc0e7ec3332ac96c",
+      "label": 2,
+      "natural": true
+    },
+    {
+      "id": "bitext-21640",
+      "text_hash": "c358d97752a7d079570b66cb4f9df2cd186b2598b642ace000420bd03caf0c73",
+      "label": 4,
+      "natural": true
+    },
+    {
+      "id": "bitext-21401",
+      "text_hash": "afc404b22505fc311c338d962505436fb6aec1f2039a502cb840d33c6c6a8281",
+      "label": 4,
+      "natural": true
+    },
+    {
+      "id": "bitext-30993",
+      "text_hash": "76ee376bf2cb961470c0d3334e00d36de6eef5abbb924e6614c4de68378c5836",
+      "label": -1,
+      "natural": true
+    },
+    {
+      "id": "bitext-41255",
+      "text_hash": "2ae2b6566685256c92f77a81602038bacbacf306dd17ecaaa2a37a74ce49ce94",
+      "label": 2,
+      "natural": true
+    },
+    {
+      "id": "bitext-24650",
+      "text_hash": "c67a9727cf7e90fc06422c9abff821a42642fc0d40bd8711aa5ede51f2daafbd",
+      "label": 3,
+      "natural": true
+    },
+    {
+      "id": "bitext-20161",
+      "text_hash": "896f709a247dd1ca8ee5b26be634f93b0d69c5067cc5fc0164fb983dbe67bfb2",
+      "label": 1,
+      "natural": true
+    },
+    {
+      "id": "bitext-04496",
+      "text_hash": "5994104a293b0313d77b5fe7b8622de60d3bd71b44f4ea2419e2031aeaaa10db",
+      "label": 0,
+      "natural": true
+    },
+    {
+      "id": "bitext-05623",
+      "text_hash": "1559a0cf56ee0fc0c23bdb18bf8d794adad1cab28000ffc680d3ac22e8f912cd",
+      "label": 5,
+      "natural": true
+    },
+    {
+      "id": "bitext-07035",
+      "text_hash": "e04b4caeae9bfd79e229b5dc0ba34efa1611552162e8e567a49f8e7df8733603",
+      "label": 5,
+      "natural": true
+    },
+    {
+      "id": "bitext-18746",
+      "text_hash": "b3cc9e8f3680d986f0cd21655f88eda09cf370ca4ddbff0748b862aa1c824e66",
+      "label": 1,
+      "natural": true
+    },
+    {
+      "id": "bitext-21680",
+      "text_hash": "501f7426e742752300dc0c210e87930f4dac44f299f6039db77a9b93b72e175b",
+      "label": 4,
+      "natural": true
+    },
+    {
+      "id": "bitext-21862",
+      "text_hash": "e6f08202942f1534121c7e3cf110a379147c9666ba013dacfbf6c3c8124f6c9f",
+      "label": 4,
+      "natural": true
+    },
+    {
+      "id": "bitext-11151",
+      "text_hash": "fddcdbf2c13bbe244628246412dba1c147c613f47167baf70773871c8c3c1cf7",
+      "label": 2,
+      "natural": true
+    },
+    {
+      "id": "bitext-23246",
+      "text_hash": "9fd83a9de5c2c5284ad2b247793dda81f1e30f2133c72b533cab371e5a7ea2bd",
+      "label": 3,
+      "natural": true
+    },
+    {
+      "id": "bitext-30455",
+      "text_hash": "fe1fa373c4470684d0e8b401a24232e749e9cc00ea0026f4144f344d7c86846c",
+      "label": 3,
+      "natural": true
+    },
+    {
+      "id": "bitext-21434",
+      "text_hash": "47500e9c450c277cda3fa8c4a0c24e2eefc45ca6e30892359aac1c2714bf5c71",
+      "label": 4,
+      "natural": true
+    },
+    {
+      "id": "bitext-21768",
+      "text_hash": "501f7426e742752300dc0c210e87930f4dac44f299f6039db77a9b93b72e175b",
+      "label": 4,
+      "natural": true
+    },
+    {
+      "id": "bitext-21561",
+      "text_hash": "166620f55db4802b33d82247a61c63f1c6d409b2127b1cd896a2cced9a0830d1",
+      "label": 4,
+      "natural": true
+    },
+    {
+      "id": "bitext-10548",
+      "text_hash": "ad581b990301018a8ece4773ac97f3a64d7ec57419e563465e00a5e74517a5c5",
+      "label": 2,
+      "natural": true
+    },
+    {
+      "id": "bitext-06446",
+      "text_hash": "b5389593d0c5b0668dd2cfff039cfe5a755b31d27478b01beea3141f6b1aa8d6",
+      "label": 0,
+      "natural": true
+    },
+    {
+      "id": "bitext-18999",
+      "text_hash": "865a2ccac1758469dd0fcc54771977a9eb5ae2acec6c2b16dd191b4f09d5a6d9",
+      "label": 1,
+      "natural": true
+    }
+  ],
+  "bilingual_caveats": {
+    "indices_not_certified_faithful": [
+      17,
+      18,
+      22,
+      24,
+      32,
+      36,
+      41,
+      49,
+      51,
+      59,
+      96,
+      103,
+      108,
+      109
+    ],
+    "note": "The English is licensed provenance, not runtime transaction evidence. Requested actions may change during adaptation; independent Chinese review must agree with proposed route or exclude the case. Do not claim every retained sentence is a faithful literal translation."
+  },
+  "gate": {
+    "approved_checks_minimum": 60,
+    "label_agreement_minimum": 0.95,
+    "natural_rate_minimum": 0.9
+  }
+}

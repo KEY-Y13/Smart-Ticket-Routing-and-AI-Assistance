@@ -1,0 +1,25 @@
+{
+  "name": "smartticket-web",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "2.3.2",
+    "axios": "1.21.0",
+    "echarts": "6.1.0",
+    "element-plus": "2.14.8",
+    "vue": "3.5.45"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.65.0",
+    "@vitejs/plugin-vue": "6.0.10",
+    "prettier": "3.9.10",
+    "vite": "8.3.6"
+  }
+}

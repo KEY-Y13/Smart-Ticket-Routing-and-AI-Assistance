@@ -1,0 +1,12 @@
+{
+  "at": "2026-11-10T03:40:19.118362+00:00",
+  "archive": "E:\\AI_project\\SmartTicket-AI\\artifacts\\releases\\SmartTicket-AI-20261110T033920217923Z.zip",
+  "scope": "extracted source; SQLite; existing Python deps; not clean-machine install",
+  "checks": {
+    "archive_hash_matches": true,
+    "all_member_hashes_match": true,
+    "no_private_directories": true,
+    "isolated_business_tests_pass": true
+  },
+  "passed": true
+}

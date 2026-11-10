@@ -1,0 +1,10 @@
+{
+  "id": "4",
+  "collection_id": "6",
+  "created_by": "1",
+  "source_sha256": "606324ca6663e138247212523ae38a244de131accd3b232ef3e8aa8d14bd6c48",
+  "snapshot_sha256": "655cc391c45cfd61fc35eee946f02f98b2943312e2f527b4487ac517b98e508b",
+  "created_at": "2026-11-10T03:08:00.320029Z",
+  "row_count": 1238,
+  "reason": "许可合成中文工单的主诉与可用性AI复核；源文本为翻译/改编，非逐字双语金标准或人工认证"
+}

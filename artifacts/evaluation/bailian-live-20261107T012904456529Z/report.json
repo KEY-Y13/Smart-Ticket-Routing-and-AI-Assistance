@@ -1,0 +1,4766 @@
+{
+  "at": "2026-11-07T01:39:39.305654+00:00",
+  "mode": "REAL_BAILIAN_CALLS_THROUGH_TICKET_API",
+  "source": "AI_AUTHORED_FICTIONAL_CASES; NOT_INDEPENDENTLY_REVIEWED",
+  "plan": {
+    "catalog_sha256": "baa0b3c09a5a9b43c1069ada499e552a39f267b7372be862483a4930685beeb8",
+    "cases": [
+      {
+        "id": 1,
+        "document_key": "order-address",
+        "question": "订单还没出库想改收货地址怎么办？"
+      },
+      {
+        "id": 2,
+        "document_key": "order-cancel",
+        "question": "没有发货的订单怎么取消？"
+      },
+      {
+        "id": 3,
+        "document_key": "order-split",
+        "question": "一个订单为什么只收到部分商品？"
+      },
+      {
+        "id": 4,
+        "document_key": "order-invoice",
+        "question": "电子发票需要哪些资料？"
+      },
+      {
+        "id": 5,
+        "document_key": "order-price",
+        "question": "买完降价能直接退差价吗？"
+      },
+      {
+        "id": 6,
+        "document_key": "order-spec",
+        "question": "下单容量选错了能改型号吗？"
+      },
+      {
+        "id": 7,
+        "document_key": "order-missing",
+        "question": "订单编号正确但查不到怎么办？"
+      },
+      {
+        "id": 8,
+        "document_key": "payment-duplicate",
+        "question": "同一单好像被扣了两次钱怎么办？"
+      },
+      {
+        "id": 9,
+        "document_key": "payment-pending",
+        "question": "支付一直处理中要再付一次吗？"
+      },
+      {
+        "id": 10,
+        "document_key": "payment-failed",
+        "question": "付款失败客服要我提供验证码吗？"
+      },
+      {
+        "id": 11,
+        "document_key": "payment-discount",
+        "question": "优惠券用不了应该检查什么？"
+      },
+      {
+        "id": 12,
+        "document_key": "payment-reconcile",
+        "question": "钱付了订单却显示待支付怎么办？"
+      },
+      {
+        "id": 13,
+        "document_key": "payment-security",
+        "question": "支付凭证哪些信息应该打码？"
+      },
+      {
+        "id": 14,
+        "document_key": "logistics-stalled",
+        "question": "物流好多天不更新就是丢了吗？"
+      },
+      {
+        "id": 15,
+        "document_key": "logistics-signed",
+        "question": "物流签收了可是我没拿到怎么办？"
+      },
+      {
+        "id": 16,
+        "document_key": "logistics-damage",
+        "question": "快递箱破了应该留下什么证据？"
+      },
+      {
+        "id": 17,
+        "document_key": "logistics-intercept",
+        "question": "拦截申请提交了是不是已经退回？"
+      },
+      {
+        "id": 18,
+        "document_key": "logistics-wrong",
+        "question": "收到的型号和订单不同怎么处理？"
+      },
+      {
+        "id": 19,
+        "document_key": "logistics-shortage",
+        "question": "快递里面少一个配件怎么办？"
+      },
+      {
+        "id": 20,
+        "document_key": "logistics-fee",
+        "question": "退货运费由谁承担需要核对什么？"
+      },
+      {
+        "id": 21,
+        "document_key": "refund-apply",
+        "question": "申请退款要准备哪些资料？"
+      },
+      {
+        "id": 22,
+        "document_key": "refund-progress",
+        "question": "退款审核通过就已经到账了吗？"
+      },
+      {
+        "id": 23,
+        "document_key": "refund-return-address",
+        "question": "退货地址只有短信通知能直接寄吗？"
+      },
+      {
+        "id": 24,
+        "document_key": "refund-packing",
+        "question": "退货要记录哪些配件？"
+      },
+      {
+        "id": 25,
+        "document_key": "refund-arrival",
+        "question": "退回仓库签收后是不是已质检通过？"
+      },
+      {
+        "id": 26,
+        "document_key": "refund-partial",
+        "question": "一个订单只退一件金额怎么确认？"
+      },
+      {
+        "id": 27,
+        "document_key": "refund-reject",
+        "question": "退款被拒还能提交补充证据吗？"
+      },
+      {
+        "id": 28,
+        "document_key": "refund-cancel",
+        "question": "退款已经处理中还可以撤销吗？"
+      },
+      {
+        "id": 29,
+        "document_key": "quality-power",
+        "question": "设备开不了机还闻到异味怎么办？"
+      },
+      {
+        "id": 30,
+        "document_key": "quality-battery",
+        "question": "电池鼓起来还能充电测试吗？"
+      },
+      {
+        "id": 31,
+        "document_key": "quality-heat",
+        "question": "设备烫手又有焦味该怎么处理？"
+      },
+      {
+        "id": 32,
+        "document_key": "quality-screen",
+        "question": "屏幕闪烁需要提供什么信息？"
+      },
+      {
+        "id": 33,
+        "document_key": "quality-audio",
+        "question": "蓝牙耳机一侧没声音先查什么？"
+      },
+      {
+        "id": 34,
+        "document_key": "quality-network",
+        "question": "设备连不上网要把WiFi密码告诉客服吗？"
+      },
+      {
+        "id": 35,
+        "document_key": "quality-water",
+        "question": "手机进水后能反复开机试试吗？"
+      },
+      {
+        "id": 36,
+        "document_key": "quality-data",
+        "question": "寄修之前如何保护个人数据？"
+      },
+      {
+        "id": 37,
+        "document_key": "warranty-proof",
+        "question": "保修需要哪些证明？"
+      },
+      {
+        "id": 38,
+        "document_key": "warranty-period",
+        "question": "所有商品保修都固定一年吗？"
+      },
+      {
+        "id": 39,
+        "document_key": "warranty-process",
+        "question": "申请寄修之后就算维修好了吗？"
+      },
+      {
+        "id": 40,
+        "document_key": "warranty-replacement",
+        "question": "检测没做之前可以承诺换新吗？"
+      },
+      {
+        "id": 41,
+        "document_key": "account-login",
+        "question": "账号登录不上客服可以帮忙输验证码吗？"
+      },
+      {
+        "id": 42,
+        "document_key": "account-phone",
+        "question": "原手机号停用了怎么更换绑定？"
+      },
+      {
+        "id": 43,
+        "document_key": "account-password",
+        "question": "能把新密码发给客服帮我设置吗？"
+      },
+      {
+        "id": 44,
+        "document_key": "account-compromise",
+        "question": "账号疑似被盗该走什么流程？"
+      },
+      {
+        "id": 45,
+        "document_key": "account-privacy",
+        "question": "我能查询朋友的订单吗？"
+      },
+      {
+        "id": 46,
+        "document_key": "account-deletion",
+        "question": "提交注销工单会立刻删除全部记录吗？"
+      },
+      {
+        "id": 47,
+        "document_key": "process-multi",
+        "question": "一张工单同时要退款和查快递怎么分类？"
+      },
+      {
+        "id": 48,
+        "document_key": "process-missing",
+        "question": "客户没说清楚问题应该补充什么？"
+      },
+      {
+        "id": 49,
+        "document_key": "process-escalate",
+        "question": "涉及安全和赔偿的工单如何升级？"
+      },
+      {
+        "id": 50,
+        "document_key": "process-reopen",
+        "question": "问题没解决重开后还保留旧记录吗？"
+      }
+    ],
+    "expected_truth": "AI-authored matching fictional policy, not independently adjudicated",
+    "automatic_retry": false
+  },
+  "attempted_cases": 50,
+  "successful_drafts": 48,
+  "expected_document_selected": 47,
+  "all_created_drafts_pending_and_unsent": true,
+  "human_quality_review": "NOT_EXECUTED; no automatic acceptance feedback submitted",
+  "provider_usage": {
+    "prompt_tokens": 37733,
+    "completion_tokens": 7090,
+    "total_tokens": 44823,
+    "cached_tokens": 0
+  },
+  "published_rate_estimate_cny": 0.0443664,
+  "price_source": "https://help.aliyun.com/zh/model-studio/qwen-plus",
+  "price_snapshot_verified_at": "2026-11-07",
+  "price_scope": "Beijing <=128K input, non-thinking; excludes discounts; not actual billing",
+  "calls_with_unknown_usage": 0,
+  "p50_ms": 15760.5,
+  "p95_ms": 18493.25,
+  "completed_all_50_cases": true,
+  "results": [
+    {
+      "id": 1,
+      "document_key": "order-address",
+      "question": "订单还没出库想改收货地址怎么办？",
+      "ticket_id": "7",
+      "http_status": 201,
+      "latency_ms": 21733,
+      "status": "DRAFT_CREATED",
+      "draft_id": "4",
+      "expected_document_selected": true,
+      "expected_document_retrieved": true,
+      "pending_and_unsent": true,
+      "raw_output": {
+        "intent": {
+          "primary_intent": "订单还没出库想改收货地址怎么办？",
+          "product": null,
+          "time": null,
+          "multiple_intents": false,
+          "missing_information": [
+            "订单编号"
+          ]
+        },
+        "quotes": [
+          {
+            "chunk_id": "1",
+            "quote": "【虚构3C业务演示政策，非真实企业规定】\n订单未出库时可提交修改地址申请，由客服核对收件信息后人工处理；已出库订单不能直接改写收货地址，应联系承运方核查是否支持拦截。不得向客户保证拦截成功。"
+          }
+        ],
+        "needs_human_confirmation": true
+      },
+      "model_version": "qwen-plus",
+      "usage": {
+        "total_tokens": 942,
+        "completion_tokens": 155,
+        "prompt_tokens": 787,
+        "cached_tokens": 0,
+        "provider_model": "qwen-plus",
+        "provider_request_id": "chatcmpl-6c3ee7fe-deb6-9d9a-b61c-71dde845026e"
+      },
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[1] 【虚构3C业务演示政策，非真实企业规定】\n订单未出库时可提交修改地址申请，由客服核对收件信息后人工处理；已出库订单不能直接改写收货地址，应联系承运方核查是否支持拦截。不得向客户保证拦截成功。\n如信息不足，请补充具体故障现象与发生时间。",
+      "evidence": [
+        {
+          "chunk_id": "1",
+          "document_id": "1",
+          "title": "发货前修改收货地址",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n订单未出库时可提交修改地址申请，由客服核对收件信息后人工处理；已出库订单不能直接改写收货地址，应联系承运方核查是否支持拦截。不得向客户保证拦截成功。",
+          "text_hash": "a13e89506f585b803e11ae9742cbdb9a9fa6536713a3de1cd63401f54d8738af",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.7651024460792542,
+          "rerank_score": 7.176577091217041
+        },
+        {
+          "chunk_id": "6",
+          "document_id": "6",
+          "title": "商品规格选错",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n客户选错颜色、容量或型号时，先核对是否出库。未出库可申请人工核查换货方案，已出库按对应退换货条件处理，不直接改写订单商品快照。",
+          "text_hash": "c073745443e3a66b91aa06397eb8078027850fa76983cba32349ee7121035827",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.6739398837089539,
+          "rerank_score": 4.669705867767334
+        },
+        {
+          "chunk_id": "2",
+          "document_id": "2",
+          "title": "未发货订单取消",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n客户申请取消未发货订单时，先核实订单归属与仓储状态，再提交人工取消申请。创建售后工单不代表订单已经取消，取消结果以业务记录为准。",
+          "text_hash": "20ca39a12a3365c2f74b6da84dcfa4f8cd4e5c90e27f140fcde4e5d6894f76fb",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5837572813034058,
+          "rerank_score": -0.11624309420585632
+        }
+      ],
+      "invocations": [
+        {
+          "ticket_id": "7",
+          "status": "SUCCEEDED",
+          "model": "qwen-plus",
+          "usage": {
+            "total_tokens": 942,
+            "cached_tokens": 0,
+            "prompt_tokens": 787,
+            "provider_model": "qwen-plus",
+            "completion_tokens": 155,
+            "provider_request_id": "chatcmpl-6c3ee7fe-deb6-9d9a-b61c-71dde845026e"
+          },
+          "cost": null,
+          "cost_reason": "No configured verified price snapshot; unknown is not zero"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "document_key": "order-cancel",
+      "question": "没有发货的订单怎么取消？",
+      "ticket_id": "8",
+      "http_status": 201,
+      "latency_ms": 16896,
+      "status": "DRAFT_CREATED",
+      "draft_id": "5",
+      "expected_document_selected": true,
+      "expected_document_retrieved": true,
+      "pending_and_unsent": true,
+      "raw_output": {
+        "intent": {
+          "primary_intent": "没有发货的订单怎么取消？",
+          "product": null,
+          "time": null,
+          "multiple_intents": false,
+          "missing_information": [
+            "订单编号"
+          ]
+        },
+        "quotes": [
+          {
+            "chunk_id": "2",
+            "quote": "【虚构3C业务演示政策，非真实企业规定】\n客户申请取消未发货订单时，先核实订单归属与仓储状态，再提交人工取消申请。创建售后工单不代表订单已经取消，取消结果以业务记录为准。"
+          }
+        ],
+        "needs_human_confirmation": true
+      },
+      "model_version": "qwen-plus",
+      "usage": {
+        "total_tokens": 921,
+        "completion_tokens": 138,
+        "prompt_tokens": 783,
+        "cached_tokens": 0,
+        "provider_model": "qwen-plus",
+        "provider_request_id": "chatcmpl-d9c1bdb8-acf6-9093-81a9-c799b6c45100"
+      },
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[2] 【虚构3C业务演示政策，非真实企业规定】\n客户申请取消未发货订单时，先核实订单归属与仓储状态，再提交人工取消申请。创建售后工单不代表订单已经取消，取消结果以业务记录为准。\n如信息不足，请补充具体故障现象与发生时间。",
+      "evidence": [
+        {
+          "chunk_id": "2",
+          "document_id": "2",
+          "title": "未发货订单取消",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n客户申请取消未发货订单时，先核实订单归属与仓储状态，再提交人工取消申请。创建售后工单不代表订单已经取消，取消结果以业务记录为准。",
+          "text_hash": "20ca39a12a3365c2f74b6da84dcfa4f8cd4e5c90e27f140fcde4e5d6894f76fb",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.7039414048194885,
+          "rerank_score": 5.475735187530518
+        },
+        {
+          "chunk_id": "1",
+          "document_id": "1",
+          "title": "发货前修改收货地址",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n订单未出库时可提交修改地址申请，由客服核对收件信息后人工处理；已出库订单不能直接改写收货地址，应联系承运方核查是否支持拦截。不得向客户保证拦截成功。",
+          "text_hash": "a13e89506f585b803e11ae9742cbdb9a9fa6536713a3de1cd63401f54d8738af",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.6077776551246643,
+          "rerank_score": -1.289340615272522
+        },
+        {
+          "chunk_id": "6",
+          "document_id": "6",
+          "title": "商品规格选错",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n客户选错颜色、容量或型号时，先核对是否出库。未出库可申请人工核查换货方案，已出库按对应退换货条件处理，不直接改写订单商品快照。",
+          "text_hash": "c073745443e3a66b91aa06397eb8078027850fa76983cba32349ee7121035827",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5645619630813599,
+          "rerank_score": -1.9755603075027466
+        }
+      ],
+      "invocations": [
+        {
+          "ticket_id": "8",
+          "status": "SUCCEEDED",
+          "model": "qwen-plus",
+          "usage": {
+            "total_tokens": 921,
+            "cached_tokens": 0,
+            "prompt_tokens": 783,
+            "provider_model": "qwen-plus",
+            "completion_tokens": 138,
+            "provider_request_id": "chatcmpl-d9c1bdb8-acf6-9093-81a9-c799b6c45100"
+          },
+          "cost": null,
+          "cost_reason": "No configured verified price snapshot; unknown is not zero"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "document_key": "order-split",
+      "question": "一个订单为什么只收到部分商品？",
+      "ticket_id": "9",
+      "http_status": 201,
+      "latency_ms": 16849,
+      "status": "DRAFT_CREATED",
+      "draft_id": "6",
+      "expected_document_selected": true,
+      "expected_document_retrieved": true,
+      "pending_and_unsent": true,
+      "raw_output": {
+        "intent": {
+          "primary_intent": "一个订单为什么只收到部分商品？",
+          "product": null,
+          "time": null,
+          "multiple_intents": false,
+          "missing_information": [
+            "订单编号"
+          ]
+        },
+        "quotes": [
+          {
+            "chunk_id": "3",
+            "quote": "【虚构3C业务演示政策，非真实企业规定】\n同一订单可能包含多个包裹。客服应逐条查询物流记录并核对商品明细，向客户说明各包裹当前状态，不把一个包裹签收视为整单全部收到。"
+          }
+        ],
+        "needs_human_confirmation": true
+      },
+      "model_version": "qwen-plus",
+      "usage": {
+        "total_tokens": 916,
+        "completion_tokens": 141,
+        "prompt_tokens": 775,
+        "cached_tokens": 0,
+        "provider_model": "qwen-plus",
+        "provider_request_id": "chatcmpl-e3b6b7ab-e53f-94ca-b84b-1adb00458d42"
+      },
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[3] 【虚构3C业务演示政策，非真实企业规定】\n同一订单可能包含多个包裹。客服应逐条查询物流记录并核对商品明细，向客户说明各包裹当前状态，不把一个包裹签收视为整单全部收到。\n如信息不足，请补充具体故障现象与发生时间。",
+      "evidence": [
+        {
+          "chunk_id": "3",
+          "document_id": "3",
+          "title": "拆单发货查询",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n同一订单可能包含多个包裹。客服应逐条查询物流记录并核对商品明细，向客户说明各包裹当前状态，不把一个包裹签收视为整单全部收到。",
+          "text_hash": "4b3807a25cd07b8cd83a3924cc42f59b1458174fe7c3c1366846a7ed5f1d53ab",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.6003329753875732,
+          "rerank_score": 0.40529587864875793
+        },
+        {
+          "chunk_id": "6",
+          "document_id": "6",
+          "title": "商品规格选错",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n客户选错颜色、容量或型号时，先核对是否出库。未出库可申请人工核查换货方案，已出库按对应退换货条件处理，不直接改写订单商品快照。",
+          "text_hash": "c073745443e3a66b91aa06397eb8078027850fa76983cba32349ee7121035827",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5425302386283875,
+          "rerank_score": -0.8948040008544922
+        },
+        {
+          "chunk_id": "18",
+          "document_id": "18",
+          "title": "错发商品核查",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n客户收到的商品与订单不符时，收集订单规格、实物型号及脱敏面单照片，交由仓储人工核对。不得要求客户自行支付未知费用后再承诺补偿。",
+          "text_hash": "6b5c2c4574aae96a1dcb0544ed6641d48d486b02037878c2e8759478dc04a8f0",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5732265114784241,
+          "rerank_score": -2.2641520500183105
+        }
+      ],
+      "invocations": [
+        {
+          "ticket_id": "9",
+          "status": "SUCCEEDED",
+          "model": "qwen-plus",
+          "usage": {
+            "total_tokens": 916,
+            "cached_tokens": 0,
+            "prompt_tokens": 775,
+            "provider_model": "qwen-plus",
+            "completion_tokens": 141,
+            "provider_request_id": "chatcmpl-e3b6b7ab-e53f-94ca-b84b-1adb00458d42"
+          },
+          "cost": null,
+          "cost_reason": "No configured verified price snapshot; unknown is not zero"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "document_key": "order-invoice",
+      "question": "电子发票需要哪些资料？",
+      "ticket_id": "10",
+      "http_status": 201,
+      "latency_ms": 5622,
+      "status": "DRAFT_CREATED",
+      "draft_id": "7",
+      "expected_document_selected": true,
+      "expected_document_retrieved": true,
+      "pending_and_unsent": true,
+      "raw_output": {
+        "intent": {
+          "primary_intent": "电子发票需要哪些资料？",
+          "product": null,
+          "time": null,
+          "multiple_intents": false,
+          "missing_information": []
+        },
+        "quotes": [
+          {
+            "chunk_id": "4",
+            "quote": "【虚构3C业务演示政策，非真实企业规定】\n电子发票申请需提供已核对的订单编号与正确抬头；企业抬头还需核对税号。客服只记录申请，不编造开票时间或发票号码。"
+          }
+        ],
+        "needs_human_confirmation": true
+      },
+      "model_version": "qwen-plus",
+      "usage": {
+        "total_tokens": 895,
+        "completion_tokens": 134,
+        "prompt_tokens": 761,
+        "cached_tokens": 0,
+        "provider_model": "qwen-plus",
+        "provider_request_id": "chatcmpl-a5bf3795-d839-91c4-aeb9-6ae29c15548a"
+      },
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[4] 【虚构3C业务演示政策，非真实企业规定】\n电子发票申请需提供已核对的订单编号与正确抬头；企业抬头还需核对税号。客服只记录申请，不编造开票时间或发票号码。\n如信息不足，请补充具体故障现象与发生时间。",
+      "evidence": [
+        {
+          "chunk_id": "4",
+          "document_id": "4",
+          "title": "电子发票申请",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n电子发票申请需提供已核对的订单编号与正确抬头；企业抬头还需核对税号。客服只记录申请，不编造开票时间或发票号码。",
+          "text_hash": "e937b51435a9184848230e4ecd545c978794b345de166880fcceef2c2bbf427b",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.6231619119644165,
+          "rerank_score": 5.297813415527344
+        },
+        {
+          "chunk_id": "13",
+          "document_id": "13",
+          "title": "支付信息保护",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n客服不得索取支付密码、完整银行卡号、短信验证码或动态口令。提交凭证前应遮挡无关个人信息，仅保留核查所需的金额、时间与流水尾号。",
+          "text_hash": "59bfb05031065bc0b6c6e9654a648564a630b3aaf21512059e20f57e073c175b",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.4390341639518738,
+          "rerank_score": -2.6926259994506836
+        },
+        {
+          "chunk_id": "37",
+          "document_id": "37",
+          "title": "保修凭证核对",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n保修核查需核对商品型号、购买凭证和设备序列号。序列号只用于必要售后核对，不能仅凭客户口述判断保修期限或最终维修费用。",
+          "text_hash": "1f49f0bda5187eb84c52eea5b7fdf41998ec6f0473941d50adfc744940aedb55",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.47774839401245117,
+          "rerank_score": -3.1345038414001465
+        }
+      ],
+      "invocations": [
+        {
+          "ticket_id": "10",
+          "status": "SUCCEEDED",
+          "model": "qwen-plus",
+          "usage": {
+            "total_tokens": 895,
+            "cached_tokens": 0,
+            "prompt_tokens": 761,
+            "provider_model": "qwen-plus",
+            "completion_tokens": 134,
+            "provider_request_id": "chatcmpl-a5bf3795-d839-91c4-aeb9-6ae29c15548a"
+          },
+          "cost": null,
+          "cost_reason": "No configured verified price snapshot; unknown is not zero"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "document_key": "order-price",
+      "question": "买完降价能直接退差价吗？",
+      "ticket_id": "11",
+      "http_status": 201,
+      "latency_ms": 6057,
+      "status": "DRAFT_CREATED",
+      "draft_id": "8",
+      "expected_document_selected": true,
+      "expected_document_retrieved": true,
+      "pending_and_unsent": true,
+      "raw_output": {
+        "intent": {
+          "primary_intent": "买完降价能直接退差价吗？",
+          "product": null,
+          "time": null,
+          "multiple_intents": false,
+          "missing_information": [
+            "订单编号",
+            "申请诉求"
+          ]
+        },
+        "quotes": [
+          {
+            "chunk_id": "5",
+            "quote": "【虚构3C业务演示政策，非真实企业规定】\n客户反馈下单价格与活动价格不一致时，应收集下单时间、商品规格和活动凭证，转人工核对活动适用条件。不得自动承诺退还差价。"
+          }
+        ],
+        "needs_human_confirmation": true
+      },
+      "model_version": "qwen-plus",
+      "usage": {
+        "total_tokens": 905,
+        "completion_tokens": 144,
+        "prompt_tokens": 761,
+        "cached_tokens": 0,
+        "provider_model": "qwen-plus",
+        "provider_request_id": "chatcmpl-a6b44659-fad8-923c-8d4c-5e13a3db83a3"
+      },
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[5] 【虚构3C业务演示政策，非真实企业规定】\n客户反馈下单价格与活动价格不一致时，应收集下单时间、商品规格和活动凭证，转人工核对活动适用条件。不得自动承诺退还差价。\n如信息不足，请补充具体故障现象与发生时间。",
+      "evidence": [
+        {
+          "chunk_id": "5",
+          "document_id": "5",
+          "title": "价格差异核查",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n客户反馈下单价格与活动价格不一致时，应收集下单时间、商品规格和活动凭证，转人工核对活动适用条件。不得自动承诺退还差价。",
+          "text_hash": "4244b05b033414629fb2a6530e29f35effd38d99e45cc995654bd4812787141d",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.619812548160553,
+          "rerank_score": 3.5358428955078125
+        },
+        {
+          "chunk_id": "22",
+          "document_id": "22",
+          "title": "退款进度查询",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n退款进度查询需要核对订单归属、退款记录状态和金额。审核中、退款中、已完成是不同阶段，不能将审核通过直接解释为银行卡已到账。",
+          "text_hash": "c5e91c948b1629bc8cb3fd4322090406664c631198b54e2350cc5cbde0b65c67",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5300219058990479,
+          "rerank_score": -4.774693489074707
+        },
+        {
+          "chunk_id": "26",
+          "document_id": "26",
+          "title": "部分退款金额核对",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n涉及部分退款时，必须核对商品明细、数量、已支付金额与已有退款记录，交由人工确认。AI 不负责计算或承诺最终赔付金额。",
+          "text_hash": "0968fca090115115dd3209784a71c2a988a3cbd31c8e7ca1440e91f7579f69ab",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.4783148169517517,
+          "rerank_score": -4.817840099334717
+        }
+      ],
+      "invocations": [
+        {
+          "ticket_id": "11",
+          "status": "SUCCEEDED",
+          "model": "qwen-plus",
+          "usage": {
+            "total_tokens": 905,
+            "cached_tokens": 0,
+            "prompt_tokens": 761,
+            "provider_model": "qwen-plus",
+            "completion_tokens": 144,
+            "provider_request_id": "chatcmpl-a6b44659-fad8-923c-8d4c-5e13a3db83a3"
+          },
+          "cost": null,
+          "cost_reason": "No configured verified price snapshot; unknown is not zero"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "document_key": "order-spec",
+      "question": "下单容量选错了能改型号吗？",
+      "ticket_id": "12",
+      "http_status": 201,
+      "latency_ms": 6262,
+      "status": "DRAFT_CREATED",
+      "draft_id": "9",
+      "expected_document_selected": true,
+      "expected_document_retrieved": true,
+      "pending_and_unsent": true,
+      "raw_output": {
+        "intent": {
+          "primary_intent": "下单容量选错了能改型号吗？",
+          "product": null,
+          "time": null,
+          "multiple_intents": false,
+          "missing_information": [
+            "订单编号",
+            "申请诉求"
+          ]
+        },
+        "quotes": [
+          {
+            "chunk_id": "6",
+            "quote": "【虚构3C业务演示政策，非真实企业规定】\n客户选错颜色、容量或型号时，先核对是否出库。未出库可申请人工核查换货方案，已出库按对应退换货条件处理，不直接改写订单商品快照。"
+          }
+        ],
+        "needs_human_confirmation": true
+      },
+      "model_version": "qwen-plus",
+      "usage": {
+        "total_tokens": 932,
+        "completion_tokens": 154,
+        "prompt_tokens": 778,
+        "cached_tokens": 0,
+        "provider_model": "qwen-plus",
+        "provider_request_id": "chatcmpl-eca17585-051e-968d-bd7b-222c73fe8dee"
+      },
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[6] 【虚构3C业务演示政策，非真实企业规定】\n客户选错颜色、容量或型号时，先核对是否出库。未出库可申请人工核查换货方案，已出库按对应退换货条件处理，不直接改写订单商品快照。\n如信息不足，请补充具体故障现象与发生时间。",
+      "evidence": [
+        {
+          "chunk_id": "6",
+          "document_id": "6",
+          "title": "商品规格选错",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n客户选错颜色、容量或型号时，先核对是否出库。未出库可申请人工核查换货方案，已出库按对应退换货条件处理，不直接改写订单商品快照。",
+          "text_hash": "c073745443e3a66b91aa06397eb8078027850fa76983cba32349ee7121035827",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.6452172994613647,
+          "rerank_score": 3.7847046852111816
+        },
+        {
+          "chunk_id": "32",
+          "document_id": "32",
+          "title": "屏幕显示异常",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n屏幕黑屏、闪烁或触控异常需记录型号、出现时间和使用条件，收集可安全获取的照片。排查不要求客户拆机，是否保修以人工检测和有效政策为准。",
+          "text_hash": "e49fc821e65fff0341b445710fc4f05128a07b2efecb80450d02d45db235a21c",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.47247767448425293,
+          "rerank_score": -3.087902784347534
+        },
+        {
+          "chunk_id": "18",
+          "document_id": "18",
+          "title": "错发商品核查",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n客户收到的商品与订单不符时，收集订单规格、实物型号及脱敏面单照片，交由仓储人工核对。不得要求客户自行支付未知费用后再承诺补偿。",
+          "text_hash": "6b5c2c4574aae96a1dcb0544ed6641d48d486b02037878c2e8759478dc04a8f0",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5203885436058044,
+          "rerank_score": -3.306539535522461
+        }
+      ],
+      "invocations": [
+        {
+          "ticket_id": "12",
+          "status": "SUCCEEDED",
+          "model": "qwen-plus",
+          "usage": {
+            "total_tokens": 932,
+            "cached_tokens": 0,
+            "prompt_tokens": 778,
+            "provider_model": "qwen-plus",
+            "completion_tokens": 154,
+            "provider_request_id": "chatcmpl-eca17585-051e-968d-bd7b-222c73fe8dee"
+          },
+          "cost": null,
+          "cost_reason": "No configured verified price snapshot; unknown is not zero"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "document_key": "order-missing",
+      "question": "订单编号正确但查不到怎么办？",
+      "ticket_id": "13",
+      "http_status": 201,
+      "latency_ms": 5877,
+      "status": "DRAFT_CREATED",
+      "draft_id": "10",
+      "expected_document_selected": true,
+      "expected_document_retrieved": true,
+      "pending_and_unsent": true,
+      "raw_output": {
+        "intent": {
+          "primary_intent": "订单编号正确但查不到怎么办？",
+          "product": null,
+          "time": null,
+          "multiple_intents": false,
+          "missing_information": []
+        },
+        "quotes": [
+          {
+            "chunk_id": "7",
+            "quote": "【虚构3C业务演示政策，非真实企业规定】\n订单号查询不到时，应核对编号格式、登录账户和购买渠道。格式正确不证明订单存在，不存在或归属不匹配时明确返回无法查询，不猜测交易状态。"
+          }
+        ],
+        "needs_human_confirmation": true
+      },
+      "model_version": "qwen-plus",
+      "usage": {
+        "total_tokens": 905,
+        "completion_tokens": 139,
+        "prompt_tokens": 766,
+        "cached_tokens": 0,
+        "provider_model": "qwen-plus",
+        "provider_request_id": "chatcmpl-54be0180-bcba-9c08-ae1b-18d9f86bebe3"
+      },
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[7] 【虚构3C业务演示政策，非真实企业规定】\n订单号查询不到时，应核对编号格式、登录账户和购买渠道。格式正确不证明订单存在，不存在或归属不匹配时明确返回无法查询，不猜测交易状态。\n如信息不足，请补充具体故障现象与发生时间。",
+      "evidence": [
+        {
+          "chunk_id": "7",
+          "document_id": "7",
+          "title": "订单查询不到",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n订单号查询不到时，应核对编号格式、登录账户和购买渠道。格式正确不证明订单存在，不存在或归属不匹配时明确返回无法查询，不猜测交易状态。",
+          "text_hash": "7b3f534dfcc5dd17f74345c35e89fcb12a893d98a7a639939001200328fd50b3",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.7343205213546753,
+          "rerank_score": 5.4323554039001465
+        },
+        {
+          "chunk_id": "4",
+          "document_id": "4",
+          "title": "电子发票申请",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n电子发票申请需提供已核对的订单编号与正确抬头；企业抬头还需核对税号。客服只记录申请，不编造开票时间或发票号码。",
+          "text_hash": "e937b51435a9184848230e4ecd545c978794b345de166880fcceef2c2bbf427b",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5129392743110657,
+          "rerank_score": 1.6951839923858643
+        },
+        {
+          "chunk_id": "12",
+          "document_id": "12",
+          "title": "支付成功订单未更新",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n支付成功但订单状态未同步时，应关联支付流水与订单归属，登记状态同步异常。系统只展示已查询的记录，不自行把订单标记为已支付。",
+          "text_hash": "e09d95a789c20ea6d4c515d80a1aaaa262fc4541a04ecbc65a68946542efbe59",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5760638117790222,
+          "rerank_score": 1.0425993204116821
+        }
+      ],
+      "invocations": [
+        {
+          "ticket_id": "13",
+          "status": "SUCCEEDED",
+          "model": "qwen-plus",
+          "usage": {
+            "total_tokens": 905,
+            "cached_tokens": 0,
+            "prompt_tokens": 766,
+            "provider_model": "qwen-plus",
+            "completion_tokens": 139,
+            "provider_request_id": "chatcmpl-54be0180-bcba-9c08-ae1b-18d9f86bebe3"
+          },
+          "cost": null,
+          "cost_reason": "No configured verified price snapshot; unknown is not zero"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "document_key": "payment-duplicate",
+      "question": "同一单好像被扣了两次钱怎么办？",
+      "ticket_id": "14",
+      "http_status": 201,
+      "latency_ms": 17195,
+      "status": "DRAFT_CREATED",
+      "draft_id": "11",
+      "expected_document_selected": true,
+      "expected_document_retrieved": true,
+      "pending_and_unsent": true,
+      "raw_output": {
+        "intent": {
+          "primary_intent": "同一单好像被扣了两次钱怎么办？",
+          "product": null,
+          "time": null,
+          "multiple_intents": false,
+          "missing_information": [
+            "订单编号",
+            "时间信息"
+          ]
+        },
+        "quotes": [
+          {
+            "chunk_id": "8",
+            "quote": "【虚构3C业务演示政策，非真实企业规定】\n客户反馈重复扣款时，收集支付时间、金额和脱敏流水尾号，逐条核对支付记录。不能仅凭两张截图认定重复支付，也不能自动发起退款。"
+          }
+        ],
+        "needs_human_confirmation": true
+      },
+      "model_version": "qwen-plus",
+      "usage": {
+        "total_tokens": 916,
+        "completion_tokens": 147,
+        "prompt_tokens": 769,
+        "cached_tokens": 0,
+        "provider_model": "qwen-plus",
+        "provider_request_id": "chatcmpl-49218ac8-37e7-99f7-bfa8-f6edd61b9fa6"
+      },
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[8] 【虚构3C业务演示政策，非真实企业规定】\n客户反馈重复扣款时，收集支付时间、金额和脱敏流水尾号，逐条核对支付记录。不能仅凭两张截图认定重复支付，也不能自动发起退款。\n如信息不足，请补充具体故障现象与发生时间。",
+      "evidence": [
+        {
+          "chunk_id": "8",
+          "document_id": "8",
+          "title": "疑似重复扣款",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n客户反馈重复扣款时，收集支付时间、金额和脱敏流水尾号，逐条核对支付记录。不能仅凭两张截图认定重复支付，也不能自动发起退款。",
+          "text_hash": "08e1d82f559b40bfcc369596d8d0f7d2baac65f24722017486c5dd01210ed077",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.6109387874603271,
+          "rerank_score": 2.869529962539673
+        },
+        {
+          "chunk_id": "47",
+          "document_id": "47",
+          "title": "多诉求工单处理",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n同一消息包含退款、物流或质量等多个诉求时，应记录主要诉求和次要诉求，由人工确认处理顺序。分类标签只表达主要路由，不代表其他诉求可以忽略。",
+          "text_hash": "790a7533fbdad658ea8eb19fe4c336795e2d3d2ea255488c3c0dfca18d5b5857",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5106505155563354,
+          "rerank_score": -0.21382424235343933
+        },
+        {
+          "chunk_id": "3",
+          "document_id": "3",
+          "title": "拆单发货查询",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n同一订单可能包含多个包裹。客服应逐条查询物流记录并核对商品明细，向客户说明各包裹当前状态，不把一个包裹签收视为整单全部收到。",
+          "text_hash": "4b3807a25cd07b8cd83a3924cc42f59b1458174fe7c3c1366846a7ed5f1d53ab",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5241453051567078,
+          "rerank_score": -1.7248138189315796
+        }
+      ],
+      "invocations": [
+        {
+          "ticket_id": "14",
+          "status": "SUCCEEDED",
+          "model": "qwen-plus",
+          "usage": {
+            "total_tokens": 916,
+            "cached_tokens": 0,
+            "prompt_tokens": 769,
+            "provider_model": "qwen-plus",
+            "completion_tokens": 147,
+            "provider_request_id": "chatcmpl-49218ac8-37e7-99f7-bfa8-f6edd61b9fa6"
+          },
+          "cost": null,
+          "cost_reason": "No configured verified price snapshot; unknown is not zero"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "document_key": "payment-pending",
+      "question": "支付一直处理中要再付一次吗？",
+      "ticket_id": "15",
+      "http_status": 201,
+      "latency_ms": 5846,
+      "status": "DRAFT_CREATED",
+      "draft_id": "12",
+      "expected_document_selected": true,
+      "expected_document_retrieved": true,
+      "pending_and_unsent": true,
+      "raw_output": {
+        "intent": {
+          "primary_intent": "支付一直处理中要再付一次吗？",
+          "product": null,
+          "time": null,
+          "multiple_intents": false,
+          "missing_information": []
+        },
+        "quotes": [
+          {
+            "chunk_id": "9",
+            "quote": "【虚构3C业务演示政策，非真实企业规定】\n支付记录为处理中时，先确认支付渠道回执是否到达。客服告知当前可验证状态并等待人工核对，不引导客户反复付款，不把处理中描述成成功或失败。"
+          }
+        ],
+        "needs_human_confirmation": true
+      },
+      "model_version": "qwen-plus",
+      "usage": {
+        "total_tokens": 917,
+        "completion_tokens": 144,
+        "prompt_tokens": 773,
+        "cached_tokens": 0,
+        "provider_model": "qwen-plus",
+        "provider_request_id": "chatcmpl-393c0e00-3418-9a13-ae45-e8d1d4d0d189"
+      },
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[9] 【虚构3C业务演示政策，非真实企业规定】\n支付记录为处理中时，先确认支付渠道回执是否到达。客服告知当前可验证状态并等待人工核对，不引导客户反复付款，不把处理中描述成成功或失败。\n如信息不足，请补充具体故障现象与发生时间。",
+      "evidence": [
+        {
+          "chunk_id": "9",
+          "document_id": "9",
+          "title": "支付处理中",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n支付记录为处理中时，先确认支付渠道回执是否到达。客服告知当前可验证状态并等待人工核对，不引导客户反复付款，不把处理中描述成成功或失败。",
+          "text_hash": "4977fb91c1f9c013dbcc723e88f0413e0b1d28f5eae0c9bb137c77c2c03481b8",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.6537927389144897,
+          "rerank_score": 0.6261379718780518
+        },
+        {
+          "chunk_id": "8",
+          "document_id": "8",
+          "title": "疑似重复扣款",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n客户反馈重复扣款时，收集支付时间、金额和脱敏流水尾号，逐条核对支付记录。不能仅凭两张截图认定重复支付，也不能自动发起退款。",
+          "text_hash": "08e1d82f559b40bfcc369596d8d0f7d2baac65f24722017486c5dd01210ed077",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5798166394233704,
+          "rerank_score": -2.6944050788879395
+        },
+        {
+          "chunk_id": "47",
+          "document_id": "47",
+          "title": "多诉求工单处理",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n同一消息包含退款、物流或质量等多个诉求时，应记录主要诉求和次要诉求，由人工确认处理顺序。分类标签只表达主要路由，不代表其他诉求可以忽略。",
+          "text_hash": "790a7533fbdad658ea8eb19fe4c336795e2d3d2ea255488c3c0dfca18d5b5857",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.4869822859764099,
+          "rerank_score": -4.498969554901123
+        }
+      ],
+      "invocations": [
+        {
+          "ticket_id": "15",
+          "status": "SUCCEEDED",
+          "model": "qwen-plus",
+          "usage": {
+            "total_tokens": 917,
+            "cached_tokens": 0,
+            "prompt_tokens": 773,
+            "provider_model": "qwen-plus",
+            "completion_tokens": 144,
+            "provider_request_id": "chatcmpl-393c0e00-3418-9a13-ae45-e8d1d4d0d189"
+          },
+          "cost": null,
+          "cost_reason": "No configured verified price snapshot; unknown is not zero"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "document_key": "payment-failed",
+      "question": "付款失败客服要我提供验证码吗？",
+      "ticket_id": "16",
+      "http_status": 201,
+      "latency_ms": 5545,
+      "status": "DRAFT_CREATED",
+      "draft_id": "13",
+      "expected_document_selected": false,
+      "expected_document_retrieved": true,
+      "pending_and_unsent": true,
+      "raw_output": {
+        "intent": {
+          "primary_intent": "付款失败客服要我提供验证码吗？",
+          "product": null,
+          "time": null,
+          "multiple_intents": false,
+          "missing_information": []
+        },
+        "quotes": [
+          {
+            "chunk_id": "13",
+            "quote": "客服不得索取支付密码、完整银行卡号、短信验证码或动态口令。提交凭证前应遮挡无关个人信息，仅保留核查所需的金额、时间与流水尾号。"
+          }
+        ],
+        "needs_human_confirmation": true
+      },
+      "model_version": "qwen-plus",
+      "usage": {
+        "total_tokens": 892,
+        "completion_tokens": 123,
+        "prompt_tokens": 769,
+        "cached_tokens": 0,
+        "provider_model": "qwen-plus",
+        "provider_request_id": "chatcmpl-0d4b5d86-144c-9b78-96d3-e09dbe898c85"
+      },
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[13] 【虚构3C业务演示政策，非真实企业规定】\n客服不得索取支付密码、完整银行卡号、短信验证码或动态口令。提交凭证前应遮挡无关个人信息，仅保留核查所需的金额、时间与流水尾号。\n如信息不足，请补充具体故障现象与发生时间。",
+      "evidence": [
+        {
+          "chunk_id": "10",
+          "document_id": "10",
+          "title": "支付失败核查",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n支付失败应核对错误提示、发生时间与渠道，不收集银行卡密码或验证码。如存在扣款争议，按支付异常核查流程登记并人工复核。",
+          "text_hash": "035412cb2a56b948702236e25866649907b3657795dda49d9b58dfde91f1f4f2",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.6312500238418579,
+          "rerank_score": 3.4173312187194824
+        },
+        {
+          "chunk_id": "9",
+          "document_id": "9",
+          "title": "支付处理中",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n支付记录为处理中时，先确认支付渠道回执是否到达。客服告知当前可验证状态并等待人工核对，不引导客户反复付款，不把处理中描述成成功或失败。",
+          "text_hash": "4977fb91c1f9c013dbcc723e88f0413e0b1d28f5eae0c9bb137c77c2c03481b8",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.6289010643959045,
+          "rerank_score": 2.448563575744629
+        },
+        {
+          "chunk_id": "13",
+          "document_id": "13",
+          "title": "支付信息保护",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n客服不得索取支付密码、完整银行卡号、短信验证码或动态口令。提交凭证前应遮挡无关个人信息，仅保留核查所需的金额、时间与流水尾号。",
+          "text_hash": "59bfb05031065bc0b6c6e9654a648564a630b3aaf21512059e20f57e073c175b",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.6091727614402771,
+          "rerank_score": 2.180422782897949
+        }
+      ],
+      "invocations": [
+        {
+          "ticket_id": "16",
+          "status": "SUCCEEDED",
+          "model": "qwen-plus",
+          "usage": {
+            "total_tokens": 892,
+            "cached_tokens": 0,
+            "prompt_tokens": 769,
+            "provider_model": "qwen-plus",
+            "completion_tokens": 123,
+            "provider_request_id": "chatcmpl-0d4b5d86-144c-9b78-96d3-e09dbe898c85"
+          },
+          "cost": null,
+          "cost_reason": "No configured verified price snapshot; unknown is not zero"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "document_key": "payment-discount",
+      "question": "优惠券用不了应该检查什么？",
+      "ticket_id": "17",
+      "http_status": 201,
+      "latency_ms": 5849,
+      "status": "DRAFT_CREATED",
+      "draft_id": "14",
+      "expected_document_selected": true,
+      "expected_document_retrieved": true,
+      "pending_and_unsent": true,
+      "raw_output": {
+        "intent": {
+          "primary_intent": "优惠券用不了应该检查什么？",
+          "product": null,
+          "time": null,
+          "multiple_intents": false,
+          "missing_information": []
+        },
+        "quotes": [
+          {
+            "chunk_id": "11",
+            "quote": "【虚构3C业务演示政策，非真实企业规定】\n优惠券无法使用时，核对有效期、适用商品、使用门槛与叠加限制。不能仅根据客户描述补发优惠或修改订单金额，需有明确活动依据并由人工处理。"
+          }
+        ],
+        "needs_human_confirmation": true
+      },
+      "model_version": "qwen-plus",
+      "usage": {
+        "total_tokens": 909,
+        "completion_tokens": 141,
+        "prompt_tokens": 768,
+        "cached_tokens": 0,
+        "provider_model": "qwen-plus",
+        "provider_request_id": "chatcmpl-dee260d0-25fa-96c5-a91c-168373d1aa4c"
+      },
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[11] 【虚构3C业务演示政策，非真实企业规定】\n优惠券无法使用时，核对有效期、适用商品、使用门槛与叠加限制。不能仅根据客户描述补发优惠或修改订单金额，需有明确活动依据并由人工处理。\n如信息不足，请补充具体故障现象与发生时间。",
+      "evidence": [
+        {
+          "chunk_id": "11",
+          "document_id": "11",
+          "title": "优惠券使用异常",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n优惠券无法使用时，核对有效期、适用商品、使用门槛与叠加限制。不能仅根据客户描述补发优惠或修改订单金额，需有明确活动依据并由人工处理。",
+          "text_hash": "d924d2da52590ec15d483275c68044b312e4de91d92ef5dcd11d52f528a0e268",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.6680175065994263,
+          "rerank_score": 4.11649751663208
+        },
+        {
+          "chunk_id": "10",
+          "document_id": "10",
+          "title": "支付失败核查",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n支付失败应核对错误提示、发生时间与渠道，不收集银行卡密码或验证码。如存在扣款争议，按支付异常核查流程登记并人工复核。",
+          "text_hash": "035412cb2a56b948702236e25866649907b3657795dda49d9b58dfde91f1f4f2",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.535420835018158,
+          "rerank_score": -4.267557621002197
+        },
+        {
+          "chunk_id": "18",
+          "document_id": "18",
+          "title": "错发商品核查",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n客户收到的商品与订单不符时，收集订单规格、实物型号及脱敏面单照片，交由仓储人工核对。不得要求客户自行支付未知费用后再承诺补偿。",
+          "text_hash": "6b5c2c4574aae96a1dcb0544ed6641d48d486b02037878c2e8759478dc04a8f0",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5408284664154053,
+          "rerank_score": -4.60299015045166
+        }
+      ],
+      "invocations": [
+        {
+          "ticket_id": "17",
+          "status": "SUCCEEDED",
+          "model": "qwen-plus",
+          "usage": {
+            "total_tokens": 909,
+            "cached_tokens": 0,
+            "prompt_tokens": 768,
+            "provider_model": "qwen-plus",
+            "completion_tokens": 141,
+            "provider_request_id": "chatcmpl-dee260d0-25fa-96c5-a91c-168373d1aa4c"
+          },
+          "cost": null,
+          "cost_reason": "No configured verified price snapshot; unknown is not zero"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "document_key": "payment-reconcile",
+      "question": "钱付了订单却显示待支付怎么办？",
+      "ticket_id": "18",
+      "http_status": 201,
+      "latency_ms": 18821,
+      "status": "DRAFT_CREATED",
+      "draft_id": "15",
+      "expected_document_selected": true,
+      "expected_document_retrieved": true,
+      "pending_and_unsent": true,
+      "raw_output": {
+        "intent": {
+          "primary_intent": "钱付了订单却显示待支付怎么办？",
+          "product": null,
+          "time": null,
+          "multiple_intents": false,
+          "missing_information": [
+            "订单编号",
+            "故障现象"
+          ]
+        },
+        "quotes": [
+          {
+            "chunk_id": "12",
+            "quote": "【虚构3C业务演示政策，非真实企业规定】\n支付成功但订单状态未同步时，应关联支付流水与订单归属，登记状态同步异常。系统只展示已查询的记录，不自行把订单标记为已支付。"
+          },
+          {
+            "chunk_id": "9",
+            "quote": "【虚构3C业务演示政策，非真实企业规定】\n支付记录为处理中时，先确认支付渠道回执是否到达。客服告知当前可验证状态并等待人工核对，不引导客户反复付款，不把处理中描述成成功或失败。"
+          }
+        ],
+        "needs_human_confirmation": true
+      },
+      "model_version": "qwen-plus",
+      "usage": {
+        "total_tokens": 997,
+        "completion_tokens": 224,
+        "prompt_tokens": 773,
+        "cached_tokens": 0,
+        "provider_model": "qwen-plus",
+        "provider_request_id": "chatcmpl-39e66661-cb51-999d-9ffa-b44f4e6537cf"
+      },
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[12] 【虚构3C业务演示政策，非真实企业规定】\n支付成功但订单状态未同步时，应关联支付流水与订单归属，登记状态同步异常。系统只展示已查询的记录，不自行把订单标记为已支付。\n[9] 【虚构3C业务演示政策，非真实企业规定】\n支付记录为处理中时，先确认支付渠道回执是否到达。客服告知当前可验证状态并等待人工核对，不引导客户反复付款，不把处理中描述成成功或失败。\n如信息不足，请补充具体故障现象与发生时间。",
+      "evidence": [
+        {
+          "chunk_id": "12",
+          "document_id": "12",
+          "title": "支付成功订单未更新",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n支付成功但订单状态未同步时，应关联支付流水与订单归属，登记状态同步异常。系统只展示已查询的记录，不自行把订单标记为已支付。",
+          "text_hash": "e09d95a789c20ea6d4c515d80a1aaaa262fc4541a04ecbc65a68946542efbe59",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.6433771848678589,
+          "rerank_score": 1.9402395486831665
+        },
+        {
+          "chunk_id": "9",
+          "document_id": "9",
+          "title": "支付处理中",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n支付记录为处理中时，先确认支付渠道回执是否到达。客服告知当前可验证状态并等待人工核对，不引导客户反复付款，不把处理中描述成成功或失败。",
+          "text_hash": "4977fb91c1f9c013dbcc723e88f0413e0b1d28f5eae0c9bb137c77c2c03481b8",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.6685352325439453,
+          "rerank_score": 0.018722563982009888
+        },
+        {
+          "chunk_id": "18",
+          "document_id": "18",
+          "title": "错发商品核查",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n客户收到的商品与订单不符时，收集订单规格、实物型号及脱敏面单照片，交由仓储人工核对。不得要求客户自行支付未知费用后再承诺补偿。",
+          "text_hash": "6b5c2c4574aae96a1dcb0544ed6641d48d486b02037878c2e8759478dc04a8f0",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5497126579284668,
+          "rerank_score": -1.3538211584091187
+        }
+      ],
+      "invocations": [
+        {
+          "ticket_id": "18",
+          "status": "SUCCEEDED",
+          "model": "qwen-plus",
+          "usage": {
+            "total_tokens": 997,
+            "cached_tokens": 0,
+            "prompt_tokens": 773,
+            "provider_model": "qwen-plus",
+            "completion_tokens": 224,
+            "provider_request_id": "chatcmpl-39e66661-cb51-999d-9ffa-b44f4e6537cf"
+          },
+          "cost": null,
+          "cost_reason": "No configured verified price snapshot; unknown is not zero"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "document_key": "payment-security",
+      "question": "支付凭证哪些信息应该打码？",
+      "ticket_id": "19",
+      "http_status": 201,
+      "latency_ms": 16172,
+      "status": "DRAFT_CREATED",
+      "draft_id": "16",
+      "expected_document_selected": true,
+      "expected_document_retrieved": true,
+      "pending_and_unsent": true,
+      "raw_output": {
+        "intent": {
+          "primary_intent": "支付凭证哪些信息应该打码？",
+          "product": null,
+          "time": null,
+          "multiple_intents": false,
+          "missing_information": []
+        },
+        "quotes": [
+          {
+            "chunk_id": "13",
+            "quote": "提交凭证前应遮挡无关个人信息，仅保留核查所需的金额、时间与流水尾号。"
+          }
+        ],
+        "needs_human_confirmation": true
+      },
+      "model_version": "qwen-plus",
+      "usage": {
+        "total_tokens": 874,
+        "completion_tokens": 105,
+        "prompt_tokens": 769,
+        "cached_tokens": 0,
+        "provider_model": "qwen-plus",
+        "provider_request_id": "chatcmpl-28460b74-71a5-9c71-a432-0c1a4fc2d085"
+      },
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[13] 【虚构3C业务演示政策，非真实企业规定】\n客服不得索取支付密码、完整银行卡号、短信验证码或动态口令。提交凭证前应遮挡无关个人信息，仅保留核查所需的金额、时间与流水尾号。\n如信息不足，请补充具体故障现象与发生时间。",
+      "evidence": [
+        {
+          "chunk_id": "13",
+          "document_id": "13",
+          "title": "支付信息保护",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n客服不得索取支付密码、完整银行卡号、短信验证码或动态口令。提交凭证前应遮挡无关个人信息，仅保留核查所需的金额、时间与流水尾号。",
+          "text_hash": "59bfb05031065bc0b6c6e9654a648564a630b3aaf21512059e20f57e073c175b",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.6624561548233032,
+          "rerank_score": 1.4871761798858643
+        },
+        {
+          "chunk_id": "37",
+          "document_id": "37",
+          "title": "保修凭证核对",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n保修核查需核对商品型号、购买凭证和设备序列号。序列号只用于必要售后核对，不能仅凭客户口述判断保修期限或最终维修费用。",
+          "text_hash": "1f49f0bda5187eb84c52eea5b7fdf41998ec6f0473941d50adfc744940aedb55",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5132982730865479,
+          "rerank_score": -2.377228021621704
+        },
+        {
+          "chunk_id": "9",
+          "document_id": "9",
+          "title": "支付处理中",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n支付记录为处理中时，先确认支付渠道回执是否到达。客服告知当前可验证状态并等待人工核对，不引导客户反复付款，不把处理中描述成成功或失败。",
+          "text_hash": "4977fb91c1f9c013dbcc723e88f0413e0b1d28f5eae0c9bb137c77c2c03481b8",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5983434915542603,
+          "rerank_score": -2.4034769535064697
+        }
+      ],
+      "invocations": [
+        {
+          "ticket_id": "19",
+          "status": "SUCCEEDED",
+          "model": "qwen-plus",
+          "usage": {
+            "total_tokens": 874,
+            "cached_tokens": 0,
+            "prompt_tokens": 769,
+            "provider_model": "qwen-plus",
+            "completion_tokens": 105,
+            "provider_request_id": "chatcmpl-28460b74-71a5-9c71-a432-0c1a4fc2d085"
+          },
+          "cost": null,
+          "cost_reason": "No configured verified price snapshot; unknown is not zero"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "document_key": "logistics-stalled",
+      "question": "物流好多天不更新就是丢了吗？",
+      "ticket_id": "20",
+      "http_status": 201,
+      "latency_ms": 6101,
+      "status": "DRAFT_CREATED",
+      "draft_id": "17",
+      "expected_document_selected": true,
+      "expected_document_retrieved": true,
+      "pending_and_unsent": true,
+      "raw_output": {
+        "intent": {
+          "primary_intent": "物流好多天不更新就是丢了吗？",
+          "product": null,
+          "time": null,
+          "multiple_intents": false,
+          "missing_information": [
+            "订单编号",
+            "时间信息"
+          ]
+        },
+        "quotes": [
+          {
+            "chunk_id": "14",
+            "quote": "【虚构3C业务演示政策，非真实企业规定】\n物流轨迹长时间未更新时，先核对最新承运记录和扫描时间，再登记承运方核查。不能把轨迹停滞直接判定为丢件，也不能虚构预计到达日期。"
+          }
+        ],
+        "needs_human_confirmation": true
+      },
+      "model_version": "qwen-plus",
+      "usage": {
+        "total_tokens": 926,
+        "completion_tokens": 148,
+        "prompt_tokens": 778,
+        "cached_tokens": 0,
+        "provider_model": "qwen-plus",
+        "provider_request_id": "chatcmpl-e03da856-85bb-9ba5-92a2-1a5edcce779f"
+      },
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[14] 【虚构3C业务演示政策，非真实企业规定】\n物流轨迹长时间未更新时，先核对最新承运记录和扫描时间，再登记承运方核查。不能把轨迹停滞直接判定为丢件，也不能虚构预计到达日期。\n如信息不足，请补充具体故障现象与发生时间。",
+      "evidence": [
+        {
+          "chunk_id": "14",
+          "document_id": "14",
+          "title": "运输轨迹停滞",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n物流轨迹长时间未更新时，先核对最新承运记录和扫描时间，再登记承运方核查。不能把轨迹停滞直接判定为丢件，也不能虚构预计到达日期。",
+          "text_hash": "a114e24e617d9f83c4f4d6103d96e264cb668d88784d3cbf6a19ce3fda42995c",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.636766254901886,
+          "rerank_score": 4.9869384765625
+        },
+        {
+          "chunk_id": "12",
+          "document_id": "12",
+          "title": "支付成功订单未更新",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n支付成功但订单状态未同步时，应关联支付流水与订单归属，登记状态同步异常。系统只展示已查询的记录，不自行把订单标记为已支付。",
+          "text_hash": "e09d95a789c20ea6d4c515d80a1aaaa262fc4541a04ecbc65a68946542efbe59",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5591460466384888,
+          "rerank_score": 0.2837505340576172
+        },
+        {
+          "chunk_id": "6",
+          "document_id": "6",
+          "title": "商品规格选错",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n客户选错颜色、容量或型号时，先核对是否出库。未出库可申请人工核查换货方案，已出库按对应退换货条件处理，不直接改写订单商品快照。",
+          "text_hash": "c073745443e3a66b91aa06397eb8078027850fa76983cba32349ee7121035827",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5323003530502319,
+          "rerank_score": -1.7184138298034668
+        }
+      ],
+      "invocations": [
+        {
+          "ticket_id": "20",
+          "status": "SUCCEEDED",
+          "model": "qwen-plus",
+          "usage": {
+            "total_tokens": 926,
+            "cached_tokens": 0,
+            "prompt_tokens": 778,
+            "provider_model": "qwen-plus",
+            "completion_tokens": 148,
+            "provider_request_id": "chatcmpl-e03da856-85bb-9ba5-92a2-1a5edcce779f"
+          },
+          "cost": null,
+          "cost_reason": "No configured verified price snapshot; unknown is not zero"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "document_key": "logistics-signed",
+      "question": "物流签收了可是我没拿到怎么办？",
+      "ticket_id": "21",
+      "http_status": 201,
+      "latency_ms": 6078,
+      "status": "DRAFT_CREATED",
+      "draft_id": "18",
+      "expected_document_selected": true,
+      "expected_document_retrieved": true,
+      "pending_and_unsent": true,
+      "raw_output": {
+        "intent": {
+          "primary_intent": "物流签收了可是我没拿到怎么办？",
+          "product": null,
+          "time": null,
+          "multiple_intents": false,
+          "missing_information": [
+            "订单编号",
+            "时间信息"
+          ]
+        },
+        "quotes": [
+          {
+            "chunk_id": "15",
+            "quote": "【虚构3C业务演示政策，非真实企业规定】\n客户表示签收未收到时，应核对签收时间、代收点和本人是否授权代收，登记承运方核查。未经核实不得指责客户，也不得直接认定包裹已丢失。"
+          }
+        ],
+        "needs_human_confirmation": true
+      },
+      "model_version": "qwen-plus",
+      "usage": {
+        "total_tokens": 923,
+        "completion_tokens": 152,
+        "prompt_tokens": 771,
+        "cached_tokens": 0,
+        "provider_model": "qwen-plus",
+        "provider_request_id": "chatcmpl-4f87c80b-7cd1-9749-82d4-fbe9f3bb7b2a"
+      },
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[15] 【虚构3C业务演示政策，非真实企业规定】\n客户表示签收未收到时，应核对签收时间、代收点和本人是否授权代收，登记承运方核查。未经核实不得指责客户，也不得直接认定包裹已丢失。\n如信息不足，请补充具体故障现象与发生时间。",
+      "evidence": [
+        {
+          "chunk_id": "15",
+          "document_id": "15",
+          "title": "显示签收但未收到",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n客户表示签收未收到时，应核对签收时间、代收点和本人是否授权代收，登记承运方核查。未经核实不得指责客户，也不得直接认定包裹已丢失。",
+          "text_hash": "d399c6346477033bcccd89e58e61c1d5148bc47a64fd4da16ecb9551a508491c",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.6516963243484497,
+          "rerank_score": 4.058402061462402
+        },
+        {
+          "chunk_id": "3",
+          "document_id": "3",
+          "title": "拆单发货查询",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n同一订单可能包含多个包裹。客服应逐条查询物流记录并核对商品明细，向客户说明各包裹当前状态，不把一个包裹签收视为整单全部收到。",
+          "text_hash": "4b3807a25cd07b8cd83a3924cc42f59b1458174fe7c3c1366846a7ed5f1d53ab",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5942593812942505,
+          "rerank_score": 2.266418933868408
+        },
+        {
+          "chunk_id": "25",
+          "document_id": "25",
+          "title": "退货仓库签收",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n退货物流显示仓库签收只表示包裹送达，不等于质检完成。后续审核进度需核对仓储与售后记录，不虚构质检结论或具体退款日期。",
+          "text_hash": "26647437896857a0a3b86182046a33f464b075571663f992bd5de9a621c087f5",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.6193183660507202,
+          "rerank_score": 1.4271037578582764
+        }
+      ],
+      "invocations": [
+        {
+          "ticket_id": "21",
+          "status": "SUCCEEDED",
+          "model": "qwen-plus",
+          "usage": {
+            "total_tokens": 923,
+            "cached_tokens": 0,
+            "prompt_tokens": 771,
+            "provider_model": "qwen-plus",
+            "completion_tokens": 152,
+            "provider_request_id": "chatcmpl-4f87c80b-7cd1-9749-82d4-fbe9f3bb7b2a"
+          },
+          "cost": null,
+          "cost_reason": "No configured verified price snapshot; unknown is not zero"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "document_key": "logistics-damage",
+      "question": "快递箱破了应该留下什么证据？",
+      "ticket_id": "22",
+      "http_status": 201,
+      "latency_ms": 16628,
+      "status": "DRAFT_CREATED",
+      "draft_id": "19",
+      "expected_document_selected": true,
+      "expected_document_retrieved": true,
+      "pending_and_unsent": true,
+      "raw_output": {
+        "intent": {
+          "primary_intent": "快递箱破了应该留下什么证据？",
+          "product": null,
+          "time": null,
+          "multiple_intents": false,
+          "missing_information": []
+        },
+        "quotes": [
+          {
+            "chunk_id": "16",
+            "quote": "发现外包装破损时，建议客户保留包装、面单与开箱影像，记录商品是否受损。客服依据实际证据转售后审核，不要求客户冒险通电测试受损电器。"
+          }
+        ],
+        "needs_human_confirmation": true
+      },
+      "model_version": "qwen-plus",
+      "usage": {
+        "total_tokens": 906,
+        "completion_tokens": 126,
+        "prompt_tokens": 780,
+        "cached_tokens": 0,
+        "provider_model": "qwen-plus",
+        "provider_request_id": "chatcmpl-f58f0c9a-21e6-937c-acea-e823af20205f"
+      },
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[16] 【虚构3C业务演示政策，非真实企业规定】\n发现外包装破损时，建议客户保留包装、面单与开箱影像，记录商品是否受损。客服依据实际证据转售后审核，不要求客户冒险通电测试受损电器。\n如信息不足，请补充具体故障现象与发生时间。",
+      "evidence": [
+        {
+          "chunk_id": "16",
+          "document_id": "16",
+          "title": "外包装破损",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n发现外包装破损时，建议客户保留包装、面单与开箱影像，记录商品是否受损。客服依据实际证据转售后审核，不要求客户冒险通电测试受损电器。",
+          "text_hash": "f9f7bcc5936339f0634fa0e1fa5910298aa69d9cee33b585598ce19d432a46af",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.6361200213432312,
+          "rerank_score": 1.8135594129562378
+        },
+        {
+          "chunk_id": "19",
+          "document_id": "19",
+          "title": "包裹少件核查",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n包裹少件需先排除拆单发货，再核对装箱清单、重量与客户开箱记录。缺少证据时记录待补充信息，不能直接承诺补发或赔款。",
+          "text_hash": "b2ce2622e9170880a0c3f174fafad8362767598f21a57d23392dfbd6a36ea145",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.6154976487159729,
+          "rerank_score": 1.5637778043746948
+        },
+        {
+          "chunk_id": "6",
+          "document_id": "6",
+          "title": "商品规格选错",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n客户选错颜色、容量或型号时，先核对是否出库。未出库可申请人工核查换货方案，已出库按对应退换货条件处理，不直接改写订单商品快照。",
+          "text_hash": "c073745443e3a66b91aa06397eb8078027850fa76983cba32349ee7121035827",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5270849466323853,
+          "rerank_score": -1.6625944375991821
+        }
+      ],
+      "invocations": [
+        {
+          "ticket_id": "22",
+          "status": "SUCCEEDED",
+          "model": "qwen-plus",
+          "usage": {
+            "total_tokens": 906,
+            "cached_tokens": 0,
+            "prompt_tokens": 780,
+            "provider_model": "qwen-plus",
+            "completion_tokens": 126,
+            "provider_request_id": "chatcmpl-f58f0c9a-21e6-937c-acea-e823af20205f"
+          },
+          "cost": null,
+          "cost_reason": "No configured verified price snapshot; unknown is not zero"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "document_key": "logistics-intercept",
+      "question": "拦截申请提交了是不是已经退回？",
+      "ticket_id": "23",
+      "http_status": 201,
+      "latency_ms": 5580,
+      "status": "DRAFT_CREATED",
+      "draft_id": "20",
+      "expected_document_selected": true,
+      "expected_document_retrieved": true,
+      "pending_and_unsent": true,
+      "raw_output": {
+        "intent": {
+          "primary_intent": "拦截申请提交了是不是已经退回？",
+          "product": null,
+          "time": null,
+          "multiple_intents": false,
+          "missing_information": []
+        },
+        "quotes": [
+          {
+            "chunk_id": "17",
+            "quote": "已发出包裹的拦截仅是申请，能否成功取决于承运方确认。客服登记客户诉求并追踪结果，未收到确认前不得宣称包裹已经退回仓库。"
+          }
+        ],
+        "needs_human_confirmation": true
+      },
+      "model_version": "qwen-plus",
+      "usage": {
+        "total_tokens": 894,
+        "completion_tokens": 120,
+        "prompt_tokens": 774,
+        "cached_tokens": 0,
+        "provider_model": "qwen-plus",
+        "provider_request_id": "chatcmpl-b01eb384-bb64-947a-b585-62b9df02e178"
+      },
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[17] 【虚构3C业务演示政策，非真实企业规定】\n已发出包裹的拦截仅是申请，能否成功取决于承运方确认。客服登记客户诉求并追踪结果，未收到确认前不得宣称包裹已经退回仓库。\n如信息不足，请补充具体故障现象与发生时间。",
+      "evidence": [
+        {
+          "chunk_id": "17",
+          "document_id": "17",
+          "title": "包裹拦截申请",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n已发出包裹的拦截仅是申请，能否成功取决于承运方确认。客服登记客户诉求并追踪结果，未收到确认前不得宣称包裹已经退回仓库。",
+          "text_hash": "e2ce227352b7c738631675d6f3e55180d70e3de64e7328fec6026ea67664116e",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.66959547996521,
+          "rerank_score": 4.1515655517578125
+        },
+        {
+          "chunk_id": "1",
+          "document_id": "1",
+          "title": "发货前修改收货地址",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n订单未出库时可提交修改地址申请，由客服核对收件信息后人工处理；已出库订单不能直接改写收货地址，应联系承运方核查是否支持拦截。不得向客户保证拦截成功。",
+          "text_hash": "a13e89506f585b803e11ae9742cbdb9a9fa6536713a3de1cd63401f54d8738af",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5710545182228088,
+          "rerank_score": -0.7182861566543579
+        },
+        {
+          "chunk_id": "28",
+          "document_id": "28",
+          "title": "撤销退款申请",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n撤销退款需要核对当前处理阶段，由人工确认是否可撤回。若已执行资金退回，不保证能逆转；工单留言不代表业务退款状态已改变。",
+          "text_hash": "6c738adf14df8ba1fda8236aa54f94f108982258c6d3cadd49da636f86d00002",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5508517622947693,
+          "rerank_score": -2.2893245220184326
+        }
+      ],
+      "invocations": [
+        {
+          "ticket_id": "23",
+          "status": "SUCCEEDED",
+          "model": "qwen-plus",
+          "usage": {
+            "total_tokens": 894,
+            "cached_tokens": 0,
+            "prompt_tokens": 774,
+            "provider_model": "qwen-plus",
+            "completion_tokens": 120,
+            "provider_request_id": "chatcmpl-b01eb384-bb64-947a-b585-62b9df02e178"
+          },
+          "cost": null,
+          "cost_reason": "No configured verified price snapshot; unknown is not zero"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "document_key": "logistics-wrong",
+      "question": "收到的型号和订单不同怎么处理？",
+      "ticket_id": "24",
+      "http_status": 201,
+      "latency_ms": 7881,
+      "status": "DRAFT_CREATED",
+      "draft_id": "21",
+      "expected_document_selected": true,
+      "expected_document_retrieved": true,
+      "pending_and_unsent": true,
+      "raw_output": {
+        "intent": {
+          "primary_intent": "收到的型号和订单不同怎么处理？",
+          "product": null,
+          "time": null,
+          "multiple_intents": false,
+          "missing_information": [
+            "订单编号",
+            "故障现象",
+            "申请诉求"
+          ]
+        },
+        "quotes": [
+          {
+            "chunk_id": "18",
+            "quote": "【虚构3C业务演示政策，非真实企业规定】\n客户收到的商品与订单不符时，收集订单规格、实物型号及脱敏面单照片，交由仓储人工核对。不得要求客户自行支付未知费用后再承诺补偿。"
+          },
+          {
+            "chunk_id": "6",
+            "quote": "【虚构3C业务演示政策，非真实企业规定】\n客户选错颜色、容量或型号时，先核对是否出库。未出库可申请人工核查换货方案，已出库按对应退换货条件处理，不直接改写订单商品快照。"
+          }
+        ],
+        "needs_human_confirmation": true
+      },
+      "model_version": "qwen-plus",
+      "usage": {
+        "total_tokens": 1007,
+        "completion_tokens": 231,
+        "prompt_tokens": 776,
+        "cached_tokens": 0,
+        "provider_model": "qwen-plus",
+        "provider_request_id": "chatcmpl-2d161931-778b-9042-bb7a-cf0fe3c35403"
+      },
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[18] 【虚构3C业务演示政策，非真实企业规定】\n客户收到的商品与订单不符时，收集订单规格、实物型号及脱敏面单照片，交由仓储人工核对。不得要求客户自行支付未知费用后再承诺补偿。\n[6] 【虚构3C业务演示政策，非真实企业规定】\n客户选错颜色、容量或型号时，先核对是否出库。未出库可申请人工核查换货方案，已出库按对应退换货条件处理，不直接改写订单商品快照。\n如信息不足，请补充具体故障现象与发生时间。",
+      "evidence": [
+        {
+          "chunk_id": "18",
+          "document_id": "18",
+          "title": "错发商品核查",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n客户收到的商品与订单不符时，收集订单规格、实物型号及脱敏面单照片，交由仓储人工核对。不得要求客户自行支付未知费用后再承诺补偿。",
+          "text_hash": "6b5c2c4574aae96a1dcb0544ed6641d48d486b02037878c2e8759478dc04a8f0",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5674299001693726,
+          "rerank_score": 2.4704203605651855
+        },
+        {
+          "chunk_id": "6",
+          "document_id": "6",
+          "title": "商品规格选错",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n客户选错颜色、容量或型号时，先核对是否出库。未出库可申请人工核查换货方案，已出库按对应退换货条件处理，不直接改写订单商品快照。",
+          "text_hash": "c073745443e3a66b91aa06397eb8078027850fa76983cba32349ee7121035827",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5650509595870972,
+          "rerank_score": 1.8027969598770142
+        },
+        {
+          "chunk_id": "3",
+          "document_id": "3",
+          "title": "拆单发货查询",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n同一订单可能包含多个包裹。客服应逐条查询物流记录并核对商品明细，向客户说明各包裹当前状态，不把一个包裹签收视为整单全部收到。",
+          "text_hash": "4b3807a25cd07b8cd83a3924cc42f59b1458174fe7c3c1366846a7ed5f1d53ab",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5680263638496399,
+          "rerank_score": -2.482485294342041
+        }
+      ],
+      "invocations": [
+        {
+          "ticket_id": "24",
+          "status": "SUCCEEDED",
+          "model": "qwen-plus",
+          "usage": {
+            "total_tokens": 1007,
+            "cached_tokens": 0,
+            "prompt_tokens": 776,
+            "provider_model": "qwen-plus",
+            "completion_tokens": 231,
+            "provider_request_id": "chatcmpl-2d161931-778b-9042-bb7a-cf0fe3c35403"
+          },
+          "cost": null,
+          "cost_reason": "No configured verified price snapshot; unknown is not zero"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "document_key": "logistics-shortage",
+      "question": "快递里面少一个配件怎么办？",
+      "ticket_id": "25",
+      "http_status": 201,
+      "latency_ms": 17239,
+      "status": "DRAFT_CREATED",
+      "draft_id": "22",
+      "expected_document_selected": true,
+      "expected_document_retrieved": true,
+      "pending_and_unsent": true,
+      "raw_output": {
+        "intent": {
+          "primary_intent": "快递里面少一个配件",
+          "product": null,
+          "time": null,
+          "multiple_intents": false,
+          "missing_information": [
+            "订单编号",
+            "故障现象",
+            "申请诉求"
+          ]
+        },
+        "quotes": [
+          {
+            "chunk_id": "19",
+            "quote": "【虚构3C业务演示政策，非真实企业规定】\n包裹少件需先排除拆单发货，再核对装箱清单、重量与客户开箱记录。缺少证据时记录待补充信息，不能直接承诺补发或赔款。"
+          }
+        ],
+        "needs_human_confirmation": true
+      },
+      "model_version": "qwen-plus",
+      "usage": {
+        "total_tokens": 922,
+        "completion_tokens": 148,
+        "prompt_tokens": 774,
+        "cached_tokens": 0,
+        "provider_model": "qwen-plus",
+        "provider_request_id": "chatcmpl-9988ace6-6599-9b1b-bf50-96ba1a4cfc7c"
+      },
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[19] 【虚构3C业务演示政策，非真实企业规定】\n包裹少件需先排除拆单发货，再核对装箱清单、重量与客户开箱记录。缺少证据时记录待补充信息，不能直接承诺补发或赔款。\n如信息不足，请补充具体故障现象与发生时间。",
+      "evidence": [
+        {
+          "chunk_id": "19",
+          "document_id": "19",
+          "title": "包裹少件核查",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n包裹少件需先排除拆单发货，再核对装箱清单、重量与客户开箱记录。缺少证据时记录待补充信息，不能直接承诺补发或赔款。",
+          "text_hash": "b2ce2622e9170880a0c3f174fafad8362767598f21a57d23392dfbd6a36ea145",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.6325907111167908,
+          "rerank_score": 3.165837287902832
+        },
+        {
+          "chunk_id": "24",
+          "document_id": "24",
+          "title": "退货包装与配件",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n寄回商品前应记录主机、随机配件及包装情况，按售后审核要求妥善防护。是否缺失配件需据实登记，不能自动判定退款一定扣减。",
+          "text_hash": "e410497438d0ab26164a071ceec17bf6be8050e8589f99a90f71e667c2d01fe1",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5887104868888855,
+          "rerank_score": 1.8336313962936401
+        },
+        {
+          "chunk_id": "6",
+          "document_id": "6",
+          "title": "商品规格选错",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n客户选错颜色、容量或型号时，先核对是否出库。未出库可申请人工核查换货方案，已出库按对应退换货条件处理，不直接改写订单商品快照。",
+          "text_hash": "c073745443e3a66b91aa06397eb8078027850fa76983cba32349ee7121035827",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5390135049819946,
+          "rerank_score": -0.44177383184432983
+        }
+      ],
+      "invocations": [
+        {
+          "ticket_id": "25",
+          "status": "SUCCEEDED",
+          "model": "qwen-plus",
+          "usage": {
+            "total_tokens": 922,
+            "cached_tokens": 0,
+            "prompt_tokens": 774,
+            "provider_model": "qwen-plus",
+            "completion_tokens": 148,
+            "provider_request_id": "chatcmpl-9988ace6-6599-9b1b-bf50-96ba1a4cfc7c"
+          },
+          "cost": null,
+          "cost_reason": "No configured verified price snapshot; unknown is not zero"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "document_key": "logistics-fee",
+      "question": "退货运费由谁承担需要核对什么？",
+      "ticket_id": "26",
+      "http_status": 201,
+      "latency_ms": 5858,
+      "status": "DRAFT_CREATED",
+      "draft_id": "23",
+      "expected_document_selected": true,
+      "expected_document_retrieved": true,
+      "pending_and_unsent": true,
+      "raw_output": {
+        "intent": {
+          "primary_intent": "退货运费由谁承担需要核对什么？",
+          "product": null,
+          "time": null,
+          "multiple_intents": false,
+          "missing_information": []
+        },
+        "quotes": [
+          {
+            "chunk_id": "20",
+            "quote": "【虚构3C业务演示政策，非真实企业规定】\n运费争议应核对订单约定、售后原因和承运收费凭证。费用承担由人工按有效政策核定，系统不得预先承诺免运费或报销金额。"
+          }
+        ],
+        "needs_human_confirmation": true
+      },
+      "model_version": "qwen-plus",
+      "usage": {
+        "total_tokens": 898,
+        "completion_tokens": 137,
+        "prompt_tokens": 761,
+        "cached_tokens": 0,
+        "provider_model": "qwen-plus",
+        "provider_request_id": "chatcmpl-3c1a6821-740d-971f-b726-70fa23dbb229"
+      },
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[20] 【虚构3C业务演示政策，非真实企业规定】\n运费争议应核对订单约定、售后原因和承运收费凭证。费用承担由人工按有效政策核定，系统不得预先承诺免运费或报销金额。\n如信息不足，请补充具体故障现象与发生时间。",
+      "evidence": [
+        {
+          "chunk_id": "20",
+          "document_id": "20",
+          "title": "运费争议登记",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n运费争议应核对订单约定、售后原因和承运收费凭证。费用承担由人工按有效政策核定，系统不得预先承诺免运费或报销金额。",
+          "text_hash": "9ba8cc80340fc010660e1eb477d91a4d294da2ba21e3e059fc05b99e1311d555",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.6755680441856384,
+          "rerank_score": 3.995206356048584
+        },
+        {
+          "chunk_id": "26",
+          "document_id": "26",
+          "title": "部分退款金额核对",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n涉及部分退款时，必须核对商品明细、数量、已支付金额与已有退款记录，交由人工确认。AI 不负责计算或承诺最终赔付金额。",
+          "text_hash": "0968fca090115115dd3209784a71c2a988a3cbd31c8e7ca1440e91f7579f69ab",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.6320102214813232,
+          "rerank_score": 1.5299406051635742
+        },
+        {
+          "chunk_id": "22",
+          "document_id": "22",
+          "title": "退款进度查询",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n退款进度查询需要核对订单归属、退款记录状态和金额。审核中、退款中、已完成是不同阶段，不能将审核通过直接解释为银行卡已到账。",
+          "text_hash": "c5e91c948b1629bc8cb3fd4322090406664c631198b54e2350cc5cbde0b65c67",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5856660008430481,
+          "rerank_score": 0.5575239658355713
+        }
+      ],
+      "invocations": [
+        {
+          "ticket_id": "26",
+          "status": "SUCCEEDED",
+          "model": "qwen-plus",
+          "usage": {
+            "total_tokens": 898,
+            "cached_tokens": 0,
+            "prompt_tokens": 761,
+            "provider_model": "qwen-plus",
+            "completion_tokens": 137,
+            "provider_request_id": "chatcmpl-3c1a6821-740d-971f-b726-70fa23dbb229"
+          },
+          "cost": null,
+          "cost_reason": "No configured verified price snapshot; unknown is not zero"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "document_key": "refund-apply",
+      "question": "申请退款要准备哪些资料？",
+      "ticket_id": "27",
+      "http_status": 201,
+      "latency_ms": 16926,
+      "status": "DRAFT_CREATED",
+      "draft_id": "24",
+      "expected_document_selected": true,
+      "expected_document_retrieved": true,
+      "pending_and_unsent": true,
+      "raw_output": {
+        "intent": {
+          "primary_intent": "申请退款要准备哪些资料？",
+          "product": null,
+          "time": null,
+          "multiple_intents": false,
+          "missing_information": [
+            "订单编号",
+            "申请诉求"
+          ]
+        },
+        "quotes": [
+          {
+            "chunk_id": "21",
+            "quote": "【虚构3C业务演示政策，非真实企业规定】\n退款申请应关联本人订单，说明申请原因并提供必要凭证。提交申请不等于审核通过或款项到账，退款状态只以受控业务查询记录为准。"
+          }
+        ],
+        "needs_human_confirmation": true
+      },
+      "model_version": "qwen-plus",
+      "usage": {
+        "total_tokens": 899,
+        "completion_tokens": 141,
+        "prompt_tokens": 758,
+        "cached_tokens": 0,
+        "provider_model": "qwen-plus",
+        "provider_request_id": "chatcmpl-837e76a1-acb3-9549-b9be-e92b090190ab"
+      },
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[21] 【虚构3C业务演示政策，非真实企业规定】\n退款申请应关联本人订单，说明申请原因并提供必要凭证。提交申请不等于审核通过或款项到账，退款状态只以受控业务查询记录为准。\n如信息不足，请补充具体故障现象与发生时间。",
+      "evidence": [
+        {
+          "chunk_id": "21",
+          "document_id": "21",
+          "title": "退款申请资料",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n退款申请应关联本人订单，说明申请原因并提供必要凭证。提交申请不等于审核通过或款项到账，退款状态只以受控业务查询记录为准。",
+          "text_hash": "b7e0f5a551f3fcc122a492d988f9f5d3d9e9c7ad84d87e0eab57a4738dfb5e5b",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.6953792572021484,
+          "rerank_score": 4.308558464050293
+        },
+        {
+          "chunk_id": "26",
+          "document_id": "26",
+          "title": "部分退款金额核对",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n涉及部分退款时，必须核对商品明细、数量、已支付金额与已有退款记录，交由人工确认。AI 不负责计算或承诺最终赔付金额。",
+          "text_hash": "0968fca090115115dd3209784a71c2a988a3cbd31c8e7ca1440e91f7579f69ab",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.6213866472244263,
+          "rerank_score": 1.7700146436691284
+        },
+        {
+          "chunk_id": "22",
+          "document_id": "22",
+          "title": "退款进度查询",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n退款进度查询需要核对订单归属、退款记录状态和金额。审核中、退款中、已完成是不同阶段，不能将审核通过直接解释为银行卡已到账。",
+          "text_hash": "c5e91c948b1629bc8cb3fd4322090406664c631198b54e2350cc5cbde0b65c67",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.6498374342918396,
+          "rerank_score": 0.908390998840332
+        }
+      ],
+      "invocations": [
+        {
+          "ticket_id": "27",
+          "status": "SUCCEEDED",
+          "model": "qwen-plus",
+          "usage": {
+            "total_tokens": 899,
+            "cached_tokens": 0,
+            "prompt_tokens": 758,
+            "provider_model": "qwen-plus",
+            "completion_tokens": 141,
+            "provider_request_id": "chatcmpl-837e76a1-acb3-9549-b9be-e92b090190ab"
+          },
+          "cost": null,
+          "cost_reason": "No configured verified price snapshot; unknown is not zero"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "document_key": "refund-progress",
+      "question": "退款审核通过就已经到账了吗？",
+      "ticket_id": "28",
+      "http_status": 201,
+      "latency_ms": 16829,
+      "status": "DRAFT_CREATED",
+      "draft_id": "25",
+      "expected_document_selected": true,
+      "expected_document_retrieved": true,
+      "pending_and_unsent": true,
+      "raw_output": {
+        "intent": {
+          "primary_intent": "退款审核通过就已经到账了吗？",
+          "product": null,
+          "time": null,
+          "multiple_intents": false,
+          "missing_information": []
+        },
+        "quotes": [
+          {
+            "chunk_id": "22",
+            "quote": "【虚构3C业务演示政策，非真实企业规定】\n退款进度查询需要核对订单归属、退款记录状态和金额。审核中、退款中、已完成是不同阶段，不能将审核通过直接解释为银行卡已到账。"
+          }
+        ],
+        "needs_human_confirmation": true
+      },
+      "model_version": "qwen-plus",
+      "usage": {
+        "total_tokens": 893,
+        "completion_tokens": 135,
+        "prompt_tokens": 758,
+        "cached_tokens": 0,
+        "provider_model": "qwen-plus",
+        "provider_request_id": "chatcmpl-f8be5eec-cbba-9405-ba75-a81850c996c5"
+      },
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[22] 【虚构3C业务演示政策，非真实企业规定】\n退款进度查询需要核对订单归属、退款记录状态和金额。审核中、退款中、已完成是不同阶段，不能将审核通过直接解释为银行卡已到账。\n如信息不足，请补充具体故障现象与发生时间。",
+      "evidence": [
+        {
+          "chunk_id": "22",
+          "document_id": "22",
+          "title": "退款进度查询",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n退款进度查询需要核对订单归属、退款记录状态和金额。审核中、退款中、已完成是不同阶段，不能将审核通过直接解释为银行卡已到账。",
+          "text_hash": "c5e91c948b1629bc8cb3fd4322090406664c631198b54e2350cc5cbde0b65c67",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.6744383573532104,
+          "rerank_score": 4.643587589263916
+        },
+        {
+          "chunk_id": "21",
+          "document_id": "21",
+          "title": "退款申请资料",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n退款申请应关联本人订单，说明申请原因并提供必要凭证。提交申请不等于审核通过或款项到账，退款状态只以受控业务查询记录为准。",
+          "text_hash": "b7e0f5a551f3fcc122a492d988f9f5d3d9e9c7ad84d87e0eab57a4738dfb5e5b",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.6109952330589294,
+          "rerank_score": 2.9937684535980225
+        },
+        {
+          "chunk_id": "26",
+          "document_id": "26",
+          "title": "部分退款金额核对",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n涉及部分退款时，必须核对商品明细、数量、已支付金额与已有退款记录，交由人工确认。AI 不负责计算或承诺最终赔付金额。",
+          "text_hash": "0968fca090115115dd3209784a71c2a988a3cbd31c8e7ca1440e91f7579f69ab",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5621355772018433,
+          "rerank_score": -1.2750942707061768
+        }
+      ],
+      "invocations": [
+        {
+          "ticket_id": "28",
+          "status": "SUCCEEDED",
+          "model": "qwen-plus",
+          "usage": {
+            "total_tokens": 893,
+            "cached_tokens": 0,
+            "prompt_tokens": 758,
+            "provider_model": "qwen-plus",
+            "completion_tokens": 135,
+            "provider_request_id": "chatcmpl-f8be5eec-cbba-9405-ba75-a81850c996c5"
+          },
+          "cost": null,
+          "cost_reason": "No configured verified price snapshot; unknown is not zero"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "document_key": "refund-return-address",
+      "question": "退货地址只有短信通知能直接寄吗？",
+      "ticket_id": "29",
+      "http_status": 201,
+      "latency_ms": 16846,
+      "status": "DRAFT_CREATED",
+      "draft_id": "26",
+      "expected_document_selected": true,
+      "expected_document_retrieved": true,
+      "pending_and_unsent": true,
+      "raw_output": {
+        "intent": {
+          "primary_intent": "退货地址只有短信通知能直接寄吗？",
+          "product": null,
+          "time": null,
+          "multiple_intents": false,
+          "missing_information": [
+            "订单编号",
+            "申请诉求"
+          ]
+        },
+        "quotes": [
+          {
+            "chunk_id": "23",
+            "quote": "退货前必须通过已审核的售后记录确认退货地址及退货编号。不得从未知短信或聊天截图复制地址给客户，地址未确认时提醒客户暂缓寄回。"
+          }
+        ],
+        "needs_human_confirmation": true
+      },
+      "model_version": "qwen-plus",
+      "usage": {
+        "total_tokens": 913,
+        "completion_tokens": 131,
+        "prompt_tokens": 782,
+        "cached_tokens": 0,
+        "provider_model": "qwen-plus",
+        "provider_request_id": "chatcmpl-4cfdcdd5-2044-929d-ad86-c443b27e899f"
+      },
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[23] 【虚构3C业务演示政策，非真实企业规定】\n退货前必须通过已审核的售后记录确认退货地址及退货编号。不得从未知短信或聊天截图复制地址给客户，地址未确认时提醒客户暂缓寄回。\n如信息不足，请补充具体故障现象与发生时间。",
+      "evidence": [
+        {
+          "chunk_id": "23",
+          "document_id": "23",
+          "title": "退货地址确认",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n退货前必须通过已审核的售后记录确认退货地址及退货编号。不得从未知短信或聊天截图复制地址给客户，地址未确认时提醒客户暂缓寄回。",
+          "text_hash": "fc34b0ce6ebfb5aa29098c8b9bf1b5743bfa6a1172f4c30d520f179574666fe7",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.6719700694084167,
+          "rerank_score": 4.494283199310303
+        },
+        {
+          "chunk_id": "30",
+          "document_id": "30",
+          "title": "电池鼓包安全处理",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n电池鼓包或明显变形时，应停止充电和使用，避免挤压、穿刺或自行拆解，并联系人工售后确认安全处置方案。不得建议普通快递直接寄送受损电池。",
+          "text_hash": "04db6f06d38a1306d931da89b6ae3c156c9fbb7e253373748bf86a85510f19de",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.0,
+          "rerank_score": -0.19462215900421143
+        },
+        {
+          "chunk_id": "1",
+          "document_id": "1",
+          "title": "发货前修改收货地址",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n订单未出库时可提交修改地址申请，由客服核对收件信息后人工处理；已出库订单不能直接改写收货地址，应联系承运方核查是否支持拦截。不得向客户保证拦截成功。",
+          "text_hash": "a13e89506f585b803e11ae9742cbdb9a9fa6536713a3de1cd63401f54d8738af",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.6409593820571899,
+          "rerank_score": -0.23829790949821472
+        }
+      ],
+      "invocations": [
+        {
+          "ticket_id": "29",
+          "status": "SUCCEEDED",
+          "model": "qwen-plus",
+          "usage": {
+            "total_tokens": 913,
+            "cached_tokens": 0,
+            "prompt_tokens": 782,
+            "provider_model": "qwen-plus",
+            "completion_tokens": 131,
+            "provider_request_id": "chatcmpl-4cfdcdd5-2044-929d-ad86-c443b27e899f"
+          },
+          "cost": null,
+          "cost_reason": "No configured verified price snapshot; unknown is not zero"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "document_key": "refund-packing",
+      "question": "退货要记录哪些配件？",
+      "ticket_id": "30",
+      "http_status": 201,
+      "latency_ms": 16253,
+      "status": "DRAFT_CREATED",
+      "draft_id": "27",
+      "expected_document_selected": true,
+      "expected_document_retrieved": true,
+      "pending_and_unsent": true,
+      "raw_output": {
+        "intent": {
+          "primary_intent": "退货要记录哪些配件？",
+          "product": null,
+          "time": null,
+          "multiple_intents": false,
+          "missing_information": []
+        },
+        "quotes": [
+          {
+            "chunk_id": "24",
+            "quote": "寄回商品前应记录主机、随机配件及包装情况，按售后审核要求妥善防护。是否缺失配件需据实登记，不能自动判定退款一定扣减。"
+          }
+        ],
+        "needs_human_confirmation": true
+      },
+      "model_version": "qwen-plus",
+      "usage": {
+        "total_tokens": 878,
+        "completion_tokens": 119,
+        "prompt_tokens": 759,
+        "cached_tokens": 0,
+        "provider_model": "qwen-plus",
+        "provider_request_id": "chatcmpl-ca3be033-880b-909a-8f37-2e3d497bb5aa"
+      },
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[24] 【虚构3C业务演示政策，非真实企业规定】\n寄回商品前应记录主机、随机配件及包装情况，按售后审核要求妥善防护。是否缺失配件需据实登记，不能自动判定退款一定扣减。\n如信息不足，请补充具体故障现象与发生时间。",
+      "evidence": [
+        {
+          "chunk_id": "24",
+          "document_id": "24",
+          "title": "退货包装与配件",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n寄回商品前应记录主机、随机配件及包装情况，按售后审核要求妥善防护。是否缺失配件需据实登记，不能自动判定退款一定扣减。",
+          "text_hash": "e410497438d0ab26164a071ceec17bf6be8050e8589f99a90f71e667c2d01fe1",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.6628550291061401,
+          "rerank_score": 5.258570194244385
+        },
+        {
+          "chunk_id": "23",
+          "document_id": "23",
+          "title": "退货地址确认",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n退货前必须通过已审核的售后记录确认退货地址及退货编号。不得从未知短信或聊天截图复制地址给客户，地址未确认时提醒客户暂缓寄回。",
+          "text_hash": "fc34b0ce6ebfb5aa29098c8b9bf1b5743bfa6a1172f4c30d520f179574666fe7",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5784707069396973,
+          "rerank_score": 0.9421502351760864
+        },
+        {
+          "chunk_id": "26",
+          "document_id": "26",
+          "title": "部分退款金额核对",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n涉及部分退款时，必须核对商品明细、数量、已支付金额与已有退款记录，交由人工确认。AI 不负责计算或承诺最终赔付金额。",
+          "text_hash": "0968fca090115115dd3209784a71c2a988a3cbd31c8e7ca1440e91f7579f69ab",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5145773887634277,
+          "rerank_score": -0.23499074578285217
+        }
+      ],
+      "invocations": [
+        {
+          "ticket_id": "30",
+          "status": "SUCCEEDED",
+          "model": "qwen-plus",
+          "usage": {
+            "total_tokens": 878,
+            "cached_tokens": 0,
+            "prompt_tokens": 759,
+            "provider_model": "qwen-plus",
+            "completion_tokens": 119,
+            "provider_request_id": "chatcmpl-ca3be033-880b-909a-8f37-2e3d497bb5aa"
+          },
+          "cost": null,
+          "cost_reason": "No configured verified price snapshot; unknown is not zero"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "document_key": "refund-arrival",
+      "question": "退回仓库签收后是不是已质检通过？",
+      "ticket_id": "31",
+      "http_status": 201,
+      "latency_ms": 17165,
+      "status": "DRAFT_CREATED",
+      "draft_id": "28",
+      "expected_document_selected": true,
+      "expected_document_retrieved": true,
+      "pending_and_unsent": true,
+      "raw_output": {
+        "intent": {
+          "primary_intent": "退回仓库签收后是不是已质检通过？",
+          "product": null,
+          "time": null,
+          "multiple_intents": false,
+          "missing_information": []
+        },
+        "quotes": [
+          {
+            "chunk_id": "25",
+            "quote": "【虚构3C业务演示政策，非真实企业规定】\n退货物流显示仓库签收只表示包裹送达，不等于质检完成。后续审核进度需核对仓储与售后记录，不虚构质检结论或具体退款日期。"
+          }
+        ],
+        "needs_human_confirmation": true
+      },
+      "model_version": "qwen-plus",
+      "usage": {
+        "total_tokens": 906,
+        "completion_tokens": 137,
+        "prompt_tokens": 769,
+        "cached_tokens": 0,
+        "provider_model": "qwen-plus",
+        "provider_request_id": "chatcmpl-3a151f33-e723-9163-9e74-bbb02c6bfdc1"
+      },
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[25] 【虚构3C业务演示政策，非真实企业规定】\n退货物流显示仓库签收只表示包裹送达，不等于质检完成。后续审核进度需核对仓储与售后记录，不虚构质检结论或具体退款日期。\n如信息不足，请补充具体故障现象与发生时间。",
+      "evidence": [
+        {
+          "chunk_id": "25",
+          "document_id": "25",
+          "title": "退货仓库签收",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n退货物流显示仓库签收只表示包裹送达，不等于质检完成。后续审核进度需核对仓储与售后记录，不虚构质检结论或具体退款日期。",
+          "text_hash": "26647437896857a0a3b86182046a33f464b075571663f992bd5de9a621c087f5",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.701694130897522,
+          "rerank_score": 6.332041263580322
+        },
+        {
+          "chunk_id": "17",
+          "document_id": "17",
+          "title": "包裹拦截申请",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n已发出包裹的拦截仅是申请，能否成功取决于承运方确认。客服登记客户诉求并追踪结果，未收到确认前不得宣称包裹已经退回仓库。",
+          "text_hash": "e2ce227352b7c738631675d6f3e55180d70e3de64e7328fec6026ea67664116e",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5370455980300903,
+          "rerank_score": 0.9292615652084351
+        },
+        {
+          "chunk_id": "15",
+          "document_id": "15",
+          "title": "显示签收但未收到",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n客户表示签收未收到时，应核对签收时间、代收点和本人是否授权代收，登记承运方核查。未经核实不得指责客户，也不得直接认定包裹已丢失。",
+          "text_hash": "d399c6346477033bcccd89e58e61c1d5148bc47a64fd4da16ecb9551a508491c",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5843916535377502,
+          "rerank_score": -0.27348893880844116
+        }
+      ],
+      "invocations": [
+        {
+          "ticket_id": "31",
+          "status": "SUCCEEDED",
+          "model": "qwen-plus",
+          "usage": {
+            "total_tokens": 906,
+            "cached_tokens": 0,
+            "prompt_tokens": 769,
+            "provider_model": "qwen-plus",
+            "completion_tokens": 137,
+            "provider_request_id": "chatcmpl-3a151f33-e723-9163-9e74-bbb02c6bfdc1"
+          },
+          "cost": null,
+          "cost_reason": "No configured verified price snapshot; unknown is not zero"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "document_key": "refund-partial",
+      "question": "一个订单只退一件金额怎么确认？",
+      "ticket_id": "32",
+      "http_status": 201,
+      "latency_ms": 16903,
+      "status": "DRAFT_CREATED",
+      "draft_id": "29",
+      "expected_document_selected": true,
+      "expected_document_retrieved": true,
+      "pending_and_unsent": true,
+      "raw_output": {
+        "intent": {
+          "primary_intent": "一个订单只退一件金额怎么确认？",
+          "product": null,
+          "time": null,
+          "multiple_intents": false,
+          "missing_information": []
+        },
+        "quotes": [
+          {
+            "chunk_id": "26",
+            "quote": "【虚构3C业务演示政策，非真实企业规定】\n涉及部分退款时，必须核对商品明细、数量、已支付金额与已有退款记录，交由人工确认。AI 不负责计算或承诺最终赔付金额。"
+          }
+        ],
+        "needs_human_confirmation": true
+      },
+      "model_version": "qwen-plus",
+      "usage": {
+        "total_tokens": 899,
+        "completion_tokens": 136,
+        "prompt_tokens": 763,
+        "cached_tokens": 0,
+        "provider_model": "qwen-plus",
+        "provider_request_id": "chatcmpl-838a29c2-9756-9b4f-b0c3-80904402358f"
+      },
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[26] 【虚构3C业务演示政策，非真实企业规定】\n涉及部分退款时，必须核对商品明细、数量、已支付金额与已有退款记录，交由人工确认。AI 不负责计算或承诺最终赔付金额。\n如信息不足，请补充具体故障现象与发生时间。",
+      "evidence": [
+        {
+          "chunk_id": "26",
+          "document_id": "26",
+          "title": "部分退款金额核对",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n涉及部分退款时，必须核对商品明细、数量、已支付金额与已有退款记录，交由人工确认。AI 不负责计算或承诺最终赔付金额。",
+          "text_hash": "0968fca090115115dd3209784a71c2a988a3cbd31c8e7ca1440e91f7579f69ab",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.6237411499023438,
+          "rerank_score": 2.385927677154541
+        },
+        {
+          "chunk_id": "22",
+          "document_id": "22",
+          "title": "退款进度查询",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n退款进度查询需要核对订单归属、退款记录状态和金额。审核中、退款中、已完成是不同阶段，不能将审核通过直接解释为银行卡已到账。",
+          "text_hash": "c5e91c948b1629bc8cb3fd4322090406664c631198b54e2350cc5cbde0b65c67",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.609832227230072,
+          "rerank_score": 0.04085603356361389
+        },
+        {
+          "chunk_id": "8",
+          "document_id": "8",
+          "title": "疑似重复扣款",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n客户反馈重复扣款时，收集支付时间、金额和脱敏流水尾号，逐条核对支付记录。不能仅凭两张截图认定重复支付，也不能自动发起退款。",
+          "text_hash": "08e1d82f559b40bfcc369596d8d0f7d2baac65f24722017486c5dd01210ed077",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.520110547542572,
+          "rerank_score": -1.3425486087799072
+        }
+      ],
+      "invocations": [
+        {
+          "ticket_id": "32",
+          "status": "SUCCEEDED",
+          "model": "qwen-plus",
+          "usage": {
+            "total_tokens": 899,
+            "cached_tokens": 0,
+            "prompt_tokens": 763,
+            "provider_model": "qwen-plus",
+            "completion_tokens": 136,
+            "provider_request_id": "chatcmpl-838a29c2-9756-9b4f-b0c3-80904402358f"
+          },
+          "cost": null,
+          "cost_reason": "No configured verified price snapshot; unknown is not zero"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "document_key": "refund-reject",
+      "question": "退款被拒还能提交补充证据吗？",
+      "ticket_id": "33",
+      "http_status": 201,
+      "latency_ms": 5756,
+      "status": "DRAFT_CREATED",
+      "draft_id": "30",
+      "expected_document_selected": true,
+      "expected_document_retrieved": true,
+      "pending_and_unsent": true,
+      "raw_output": {
+        "intent": {
+          "primary_intent": "退款被拒还能提交补充证据吗？",
+          "product": null,
+          "time": null,
+          "multiple_intents": false,
+          "missing_information": []
+        },
+        "quotes": [
+          {
+            "chunk_id": "27",
+            "quote": "【虚构3C业务演示政策，非真实企业规定】\n客户对退款拒绝结果有异议时，记录拒绝原因、补充证据和申诉诉求，转人工复核。不能隐瞒拒绝状态，也不能擅自修改审核结论。"
+          }
+        ],
+        "needs_human_confirmation": true
+      },
+      "model_version": "qwen-plus",
+      "usage": {
+        "total_tokens": 898,
+        "completion_tokens": 135,
+        "prompt_tokens": 763,
+        "cached_tokens": 0,
+        "provider_model": "qwen-plus",
+        "provider_request_id": "chatcmpl-4adbfef9-556c-995b-9948-0dcdf7826528"
+      },
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[27] 【虚构3C业务演示政策，非真实企业规定】\n客户对退款拒绝结果有异议时，记录拒绝原因、补充证据和申诉诉求，转人工复核。不能隐瞒拒绝状态，也不能擅自修改审核结论。\n如信息不足，请补充具体故障现象与发生时间。",
+      "evidence": [
+        {
+          "chunk_id": "27",
+          "document_id": "27",
+          "title": "退款被拒申诉",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n客户对退款拒绝结果有异议时，记录拒绝原因、补充证据和申诉诉求，转人工复核。不能隐瞒拒绝状态，也不能擅自修改审核结论。",
+          "text_hash": "0c7e0b9533fc07e7ce4a985b477d0013248d2c66d08eeb6ccf10ba2b6e394cb3",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.7211782932281494,
+          "rerank_score": 5.713125228881836
+        },
+        {
+          "chunk_id": "21",
+          "document_id": "21",
+          "title": "退款申请资料",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n退款申请应关联本人订单，说明申请原因并提供必要凭证。提交申请不等于审核通过或款项到账，退款状态只以受控业务查询记录为准。",
+          "text_hash": "b7e0f5a551f3fcc122a492d988f9f5d3d9e9c7ad84d87e0eab57a4738dfb5e5b",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.6616374254226685,
+          "rerank_score": 0.0004949569702148438
+        },
+        {
+          "chunk_id": "19",
+          "document_id": "19",
+          "title": "包裹少件核查",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n包裹少件需先排除拆单发货，再核对装箱清单、重量与客户开箱记录。缺少证据时记录待补充信息，不能直接承诺补发或赔款。",
+          "text_hash": "b2ce2622e9170880a0c3f174fafad8362767598f21a57d23392dfbd6a36ea145",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5078108310699463,
+          "rerank_score": -1.558414101600647
+        }
+      ],
+      "invocations": [
+        {
+          "ticket_id": "33",
+          "status": "SUCCEEDED",
+          "model": "qwen-plus",
+          "usage": {
+            "total_tokens": 898,
+            "cached_tokens": 0,
+            "prompt_tokens": 763,
+            "provider_model": "qwen-plus",
+            "completion_tokens": 135,
+            "provider_request_id": "chatcmpl-4adbfef9-556c-995b-9948-0dcdf7826528"
+          },
+          "cost": null,
+          "cost_reason": "No configured verified price snapshot; unknown is not zero"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "document_key": "refund-cancel",
+      "question": "退款已经处理中还可以撤销吗？",
+      "ticket_id": "34",
+      "http_status": 201,
+      "latency_ms": 6255,
+      "status": "DRAFT_CREATED",
+      "draft_id": "31",
+      "expected_document_selected": true,
+      "expected_document_retrieved": true,
+      "pending_and_unsent": true,
+      "raw_output": {
+        "intent": {
+          "primary_intent": "退款已经处理中还可以撤销吗？",
+          "product": null,
+          "time": null,
+          "multiple_intents": false,
+          "missing_information": []
+        },
+        "quotes": [
+          {
+            "chunk_id": "28",
+            "quote": "【虚构3C业务演示政策，非真实企业规定】\n撤销退款需要核对当前处理阶段，由人工确认是否可撤回。若已执行资金退回，不保证能逆转；工单留言不代表业务退款状态已改变。"
+          }
+        ],
+        "needs_human_confirmation": true
+      },
+      "model_version": "qwen-plus",
+      "usage": {
+        "total_tokens": 898,
+        "completion_tokens": 137,
+        "prompt_tokens": 761,
+        "cached_tokens": 0,
+        "provider_model": "qwen-plus",
+        "provider_request_id": "chatcmpl-f597aa42-831d-9455-a83d-f0af13af5076"
+      },
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[28] 【虚构3C业务演示政策，非真实企业规定】\n撤销退款需要核对当前处理阶段，由人工确认是否可撤回。若已执行资金退回，不保证能逆转；工单留言不代表业务退款状态已改变。\n如信息不足，请补充具体故障现象与发生时间。",
+      "evidence": [
+        {
+          "chunk_id": "28",
+          "document_id": "28",
+          "title": "撤销退款申请",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n撤销退款需要核对当前处理阶段，由人工确认是否可撤回。若已执行资金退回，不保证能逆转；工单留言不代表业务退款状态已改变。",
+          "text_hash": "6c738adf14df8ba1fda8236aa54f94f108982258c6d3cadd49da636f86d00002",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.7152854204177856,
+          "rerank_score": 2.6575655937194824
+        },
+        {
+          "chunk_id": "22",
+          "document_id": "22",
+          "title": "退款进度查询",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n退款进度查询需要核对订单归属、退款记录状态和金额。审核中、退款中、已完成是不同阶段，不能将审核通过直接解释为银行卡已到账。",
+          "text_hash": "c5e91c948b1629bc8cb3fd4322090406664c631198b54e2350cc5cbde0b65c67",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.634742021560669,
+          "rerank_score": -1.4631075859069824
+        },
+        {
+          "chunk_id": "26",
+          "document_id": "26",
+          "title": "部分退款金额核对",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n涉及部分退款时，必须核对商品明细、数量、已支付金额与已有退款记录，交由人工确认。AI 不负责计算或承诺最终赔付金额。",
+          "text_hash": "0968fca090115115dd3209784a71c2a988a3cbd31c8e7ca1440e91f7579f69ab",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.6037095785140991,
+          "rerank_score": -1.783098578453064
+        }
+      ],
+      "invocations": [
+        {
+          "ticket_id": "34",
+          "status": "SUCCEEDED",
+          "model": "qwen-plus",
+          "usage": {
+            "total_tokens": 898,
+            "cached_tokens": 0,
+            "prompt_tokens": 761,
+            "provider_model": "qwen-plus",
+            "completion_tokens": 137,
+            "provider_request_id": "chatcmpl-f597aa42-831d-9455-a83d-f0af13af5076"
+          },
+          "cost": null,
+          "cost_reason": "No configured verified price snapshot; unknown is not zero"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "document_key": "quality-power",
+      "question": "设备开不了机还闻到异味怎么办？",
+      "ticket_id": "35",
+      "http_status": 201,
+      "latency_ms": 18463,
+      "status": "DRAFT_CREATED",
+      "draft_id": "32",
+      "expected_document_selected": true,
+      "expected_document_retrieved": true,
+      "pending_and_unsent": true,
+      "raw_output": {
+        "intent": {
+          "primary_intent": "设备开不了机还闻到异味",
+          "product": null,
+          "time": null,
+          "multiple_intents": false,
+          "missing_information": [
+            "故障现象",
+            "申请诉求"
+          ]
+        },
+        "quotes": [
+          {
+            "chunk_id": "29",
+            "quote": "设备无法开机时，先确认型号、供电状态与故障表现。存在鼓包、冒烟、异味或液体进入时应立即停止使用，转人工安全处理，不指导拆机或继续充电。"
+          },
+          {
+            "chunk_id": "31",
+            "quote": "异常发热伴随异味、变形或灼热时，停止使用并断开外部电源，在安全条件下交人工核查。没有检测依据不能把所有发热都解释为正常现象。"
+          }
+        ],
+        "needs_human_confirmation": true
+      },
+      "model_version": "qwen-plus",
+      "usage": {
+        "total_tokens": 970,
+        "completion_tokens": 193,
+        "prompt_tokens": 777,
+        "cached_tokens": 0,
+        "provider_model": "qwen-plus",
+        "provider_request_id": "chatcmpl-35c5bf1e-ae03-9d92-b6b6-33a38c520645"
+      },
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[29] 【虚构3C业务演示政策，非真实企业规定】\n设备无法开机时，先确认型号、供电状态与故障表现。存在鼓包、冒烟、异味或液体进入时应立即停止使用，转人工安全处理，不指导拆机或继续充电。\n[31] 【虚构3C业务演示政策，非真实企业规定】\n异常发热伴随异味、变形或灼热时，停止使用并断开外部电源，在安全条件下交人工核查。没有检测依据不能把所有发热都解释为正常现象。\n如信息不足，请补充具体故障现象与发生时间。",
+      "evidence": [
+        {
+          "chunk_id": "29",
+          "document_id": "29",
+          "title": "设备无法开机排查",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n设备无法开机时，先确认型号、供电状态与故障表现。存在鼓包、冒烟、异味或液体进入时应立即停止使用，转人工安全处理，不指导拆机或继续充电。",
+          "text_hash": "fa0b2690ca6695b160752b67137d727e9c68d100676651a987b7f0d3ca012ff4",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.686133623123169,
+          "rerank_score": 3.826895236968994
+        },
+        {
+          "chunk_id": "31",
+          "document_id": "31",
+          "title": "设备异常发热",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n异常发热伴随异味、变形或灼热时，停止使用并断开外部电源，在安全条件下交人工核查。没有检测依据不能把所有发热都解释为正常现象。",
+          "text_hash": "096ae62bd7a491c9951b2284820291a27b1f629fb546fa0b64c29ce4114b8d8e",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.6570785045623779,
+          "rerank_score": 1.8944883346557617
+        },
+        {
+          "chunk_id": "35",
+          "document_id": "35",
+          "title": "进液设备处理",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n设备进液后应停止通电，不指导烘烤、拆卸电池或反复开机。记录进液时间与现象并转人工检测；是否属于保修范围不能由AI自行判定。",
+          "text_hash": "7a5a88ec7a93fa8d87e1619412d3da0254517762df8f0b1c0f8d90be3fb591df",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.6611517071723938,
+          "rerank_score": -1.499663233757019
+        }
+      ],
+      "invocations": [
+        {
+          "ticket_id": "35",
+          "status": "SUCCEEDED",
+          "model": "qwen-plus",
+          "usage": {
+            "total_tokens": 970,
+            "cached_tokens": 0,
+            "prompt_tokens": 777,
+            "provider_model": "qwen-plus",
+            "completion_tokens": 193,
+            "provider_request_id": "chatcmpl-35c5bf1e-ae03-9d92-b6b6-33a38c520645"
+          },
+          "cost": null,
+          "cost_reason": "No configured verified price snapshot; unknown is not zero"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "document_key": "quality-battery",
+      "question": "电池鼓起来还能充电测试吗？",
+      "ticket_id": "36",
+      "http_status": 201,
+      "latency_ms": 7815,
+      "status": "DRAFT_CREATED",
+      "draft_id": "33",
+      "expected_document_selected": true,
+      "expected_document_retrieved": true,
+      "pending_and_unsent": true,
+      "raw_output": {
+        "intent": {
+          "primary_intent": "电池鼓起来还能充电测试吗？",
+          "product": null,
+          "time": null,
+          "multiple_intents": false,
+          "missing_information": []
+        },
+        "quotes": [
+          {
+            "chunk_id": "30",
+            "quote": "【虚构3C业务演示政策，非真实企业规定】\n电池鼓包或明显变形时，应停止充电和使用，避免挤压、穿刺或自行拆解，并联系人工售后确认安全处置方案。不得建议普通快递直接寄送受损电池。"
+          },
+          {
+            "chunk_id": "29",
+            "quote": "【虚构3C业务演示政策，非真实企业规定】\n设备无法开机时，先确认型号、供电状态与故障表现。存在鼓包、冒烟、异味或液体进入时应立即停止使用，转人工安全处理，不指导拆机或继续充电。"
+          }
+        ],
+        "needs_human_confirmation": true
+      },
+      "model_version": "qwen-plus",
+      "usage": {
+        "total_tokens": 999,
+        "completion_tokens": 220,
+        "prompt_tokens": 779,
+        "cached_tokens": 0,
+        "provider_model": "qwen-plus",
+        "provider_request_id": "chatcmpl-a43b1a7e-f881-983e-96eb-2bd24c744e67"
+      },
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[30] 【虚构3C业务演示政策，非真实企业规定】\n电池鼓包或明显变形时，应停止充电和使用，避免挤压、穿刺或自行拆解，并联系人工售后确认安全处置方案。不得建议普通快递直接寄送受损电池。\n[29] 【虚构3C业务演示政策，非真实企业规定】\n设备无法开机时，先确认型号、供电状态与故障表现。存在鼓包、冒烟、异味或液体进入时应立即停止使用，转人工安全处理，不指导拆机或继续充电。\n如信息不足，请补充具体故障现象与发生时间。",
+      "evidence": [
+        {
+          "chunk_id": "30",
+          "document_id": "30",
+          "title": "电池鼓包安全处理",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n电池鼓包或明显变形时，应停止充电和使用，避免挤压、穿刺或自行拆解，并联系人工售后确认安全处置方案。不得建议普通快递直接寄送受损电池。",
+          "text_hash": "04db6f06d38a1306d931da89b6ae3c156c9fbb7e253373748bf86a85510f19de",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.6443592309951782,
+          "rerank_score": 1.1263803243637085
+        },
+        {
+          "chunk_id": "29",
+          "document_id": "29",
+          "title": "设备无法开机排查",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n设备无法开机时，先确认型号、供电状态与故障表现。存在鼓包、冒烟、异味或液体进入时应立即停止使用，转人工安全处理，不指导拆机或继续充电。",
+          "text_hash": "fa0b2690ca6695b160752b67137d727e9c68d100676651a987b7f0d3ca012ff4",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5280241966247559,
+          "rerank_score": -2.396852731704712
+        },
+        {
+          "chunk_id": "35",
+          "document_id": "35",
+          "title": "进液设备处理",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n设备进液后应停止通电，不指导烘烤、拆卸电池或反复开机。记录进液时间与现象并转人工检测；是否属于保修范围不能由AI自行判定。",
+          "text_hash": "7a5a88ec7a93fa8d87e1619412d3da0254517762df8f0b1c0f8d90be3fb591df",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5134946703910828,
+          "rerank_score": -3.441885471343994
+        }
+      ],
+      "invocations": [
+        {
+          "ticket_id": "36",
+          "status": "SUCCEEDED",
+          "model": "qwen-plus",
+          "usage": {
+            "total_tokens": 999,
+            "cached_tokens": 0,
+            "prompt_tokens": 779,
+            "provider_model": "qwen-plus",
+            "completion_tokens": 220,
+            "provider_request_id": "chatcmpl-a43b1a7e-f881-983e-96eb-2bd24c744e67"
+          },
+          "cost": null,
+          "cost_reason": "No configured verified price snapshot; unknown is not zero"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "document_key": "quality-heat",
+      "question": "设备烫手又有焦味该怎么处理？",
+      "ticket_id": "37",
+      "http_status": 201,
+      "latency_ms": 7825,
+      "status": "DRAFT_CREATED",
+      "draft_id": "34",
+      "expected_document_selected": true,
+      "expected_document_retrieved": true,
+      "pending_and_unsent": true,
+      "raw_output": {
+        "intent": {
+          "primary_intent": "设备烫手又有焦味该怎么处理？",
+          "product": null,
+          "time": null,
+          "multiple_intents": false,
+          "missing_information": []
+        },
+        "quotes": [
+          {
+            "chunk_id": "31",
+            "quote": "【虚构3C业务演示政策，非真实企业规定】\n异常发热伴随异味、变形或灼热时，停止使用并断开外部电源，在安全条件下交人工核查。没有检测依据不能把所有发热都解释为正常现象。"
+          },
+          {
+            "chunk_id": "29",
+            "quote": "【虚构3C业务演示政策，非真实企业规定】\n设备无法开机时，先确认型号、供电状态与故障表现。存在鼓包、冒烟、异味或液体进入时应立即停止使用，转人工安全处理，不指导拆机或继续充电。"
+          }
+        ],
+        "needs_human_confirmation": true
+      },
+      "model_version": "qwen-plus",
+      "usage": {
+        "total_tokens": 993,
+        "completion_tokens": 217,
+        "prompt_tokens": 776,
+        "cached_tokens": 0,
+        "provider_model": "qwen-plus",
+        "provider_request_id": "chatcmpl-90243c6f-b49d-9c01-9ee2-ef1364529d33"
+      },
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[31] 【虚构3C业务演示政策，非真实企业规定】\n异常发热伴随异味、变形或灼热时，停止使用并断开外部电源，在安全条件下交人工核查。没有检测依据不能把所有发热都解释为正常现象。\n[29] 【虚构3C业务演示政策，非真实企业规定】\n设备无法开机时，先确认型号、供电状态与故障表现。存在鼓包、冒烟、异味或液体进入时应立即停止使用，转人工安全处理，不指导拆机或继续充电。\n如信息不足，请补充具体故障现象与发生时间。",
+      "evidence": [
+        {
+          "chunk_id": "31",
+          "document_id": "31",
+          "title": "设备异常发热",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n异常发热伴随异味、变形或灼热时，停止使用并断开外部电源，在安全条件下交人工核查。没有检测依据不能把所有发热都解释为正常现象。",
+          "text_hash": "096ae62bd7a491c9951b2284820291a27b1f629fb546fa0b64c29ce4114b8d8e",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5576640367507935,
+          "rerank_score": 1.7953017950057983
+        },
+        {
+          "chunk_id": "35",
+          "document_id": "35",
+          "title": "进液设备处理",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n设备进液后应停止通电，不指导烘烤、拆卸电池或反复开机。记录进液时间与现象并转人工检测；是否属于保修范围不能由AI自行判定。",
+          "text_hash": "7a5a88ec7a93fa8d87e1619412d3da0254517762df8f0b1c0f8d90be3fb591df",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5272524952888489,
+          "rerank_score": -1.739685297012329
+        },
+        {
+          "chunk_id": "29",
+          "document_id": "29",
+          "title": "设备无法开机排查",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n设备无法开机时，先确认型号、供电状态与故障表现。存在鼓包、冒烟、异味或液体进入时应立即停止使用，转人工安全处理，不指导拆机或继续充电。",
+          "text_hash": "fa0b2690ca6695b160752b67137d727e9c68d100676651a987b7f0d3ca012ff4",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.49644899368286133,
+          "rerank_score": -2.83980655670166
+        }
+      ],
+      "invocations": [
+        {
+          "ticket_id": "37",
+          "status": "SUCCEEDED",
+          "model": "qwen-plus",
+          "usage": {
+            "total_tokens": 993,
+            "cached_tokens": 0,
+            "prompt_tokens": 776,
+            "provider_model": "qwen-plus",
+            "completion_tokens": 217,
+            "provider_request_id": "chatcmpl-90243c6f-b49d-9c01-9ee2-ef1364529d33"
+          },
+          "cost": null,
+          "cost_reason": "No configured verified price snapshot; unknown is not zero"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "document_key": "quality-screen",
+      "question": "屏幕闪烁需要提供什么信息？",
+      "ticket_id": "38",
+      "http_status": 201,
+      "latency_ms": 16752,
+      "status": "DRAFT_CREATED",
+      "draft_id": "35",
+      "expected_document_selected": true,
+      "expected_document_retrieved": true,
+      "pending_and_unsent": true,
+      "raw_output": {
+        "intent": {
+          "primary_intent": "屏幕闪烁需要提供什么信息？",
+          "product": null,
+          "time": null,
+          "multiple_intents": false,
+          "missing_information": []
+        },
+        "quotes": [
+          {
+            "chunk_id": "32",
+            "quote": "【虚构3C业务演示政策，非真实企业规定】\n屏幕黑屏、闪烁或触控异常需记录型号、出现时间和使用条件，收集可安全获取的照片。排查不要求客户拆机，是否保修以人工检测和有效政策为准。"
+          }
+        ],
+        "needs_human_confirmation": true
+      },
+      "model_version": "qwen-plus",
+      "usage": {
+        "total_tokens": 907,
+        "completion_tokens": 139,
+        "prompt_tokens": 768,
+        "cached_tokens": 0,
+        "provider_model": "qwen-plus",
+        "provider_request_id": "chatcmpl-195e68bc-6363-93d5-9d19-3f8f13a693eb"
+      },
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[32] 【虚构3C业务演示政策，非真实企业规定】\n屏幕黑屏、闪烁或触控异常需记录型号、出现时间和使用条件，收集可安全获取的照片。排查不要求客户拆机，是否保修以人工检测和有效政策为准。\n如信息不足，请补充具体故障现象与发生时间。",
+      "evidence": [
+        {
+          "chunk_id": "32",
+          "document_id": "32",
+          "title": "屏幕显示异常",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n屏幕黑屏、闪烁或触控异常需记录型号、出现时间和使用条件，收集可安全获取的照片。排查不要求客户拆机，是否保修以人工检测和有效政策为准。",
+          "text_hash": "e49fc821e65fff0341b445710fc4f05128a07b2efecb80450d02d45db235a21c",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.6216391324996948,
+          "rerank_score": 1.2536441087722778
+        },
+        {
+          "chunk_id": "48",
+          "document_id": "48",
+          "title": "必要信息缺失",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n信息缺失时只请求处理所需的最少信息，说明用途。没有订单归属、故障表现或具体诉求时不得编造事实，不要求无关身份证照片和支付密码。",
+          "text_hash": "88f3eb28d4667908ca29d4e865be7af84371f98cc7477f74b2d4a5bf165ff5e4",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5210044384002686,
+          "rerank_score": -4.00241231918335
+        },
+        {
+          "chunk_id": "34",
+          "document_id": "34",
+          "title": "网络连接故障",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n连接故障可先核对设备型号、网络环境和错误提示。重置前提醒客户备份个人配置，不索取无线网络密码；避免把网络环境问题直接认定为硬件损坏。",
+          "text_hash": "157c9311497b76c59f3864e0d17d187aeac232f25a3fdd0864659bcaf278038d",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5187169909477234,
+          "rerank_score": -4.472758769989014
+        }
+      ],
+      "invocations": [
+        {
+          "ticket_id": "38",
+          "status": "SUCCEEDED",
+          "model": "qwen-plus",
+          "usage": {
+            "total_tokens": 907,
+            "cached_tokens": 0,
+            "prompt_tokens": 768,
+            "provider_model": "qwen-plus",
+            "completion_tokens": 139,
+            "provider_request_id": "chatcmpl-195e68bc-6363-93d5-9d19-3f8f13a693eb"
+          },
+          "cost": null,
+          "cost_reason": "No configured verified price snapshot; unknown is not zero"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "document_key": "quality-audio",
+      "question": "蓝牙耳机一侧没声音先查什么？",
+      "ticket_id": "39",
+      "http_status": 201,
+      "latency_ms": 5614,
+      "status": "DRAFT_CREATED",
+      "draft_id": "36",
+      "expected_document_selected": true,
+      "expected_document_retrieved": true,
+      "pending_and_unsent": true,
+      "raw_output": {
+        "intent": {
+          "primary_intent": "蓝牙耳机一侧没声音先查什么？",
+          "product": null,
+          "time": null,
+          "multiple_intents": false,
+          "missing_information": []
+        },
+        "quotes": [
+          {
+            "chunk_id": "33",
+            "quote": "耳机无声时先确认左右声道、连接状态、音量设置和其他设备上的表现。排查应采用可逆操作，不承诺一定是质量缺陷，异常持续时提交人工检测。"
+          }
+        ],
+        "needs_human_confirmation": true
+      },
+      "model_version": "qwen-plus",
+      "usage": {
+        "total_tokens": 897,
+        "completion_tokens": 124,
+        "prompt_tokens": 773,
+        "cached_tokens": 0,
+        "provider_model": "qwen-plus",
+        "provider_request_id": "chatcmpl-39dff155-9f7b-9ec0-ac59-0e39a2dc7f94"
+      },
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[33] 【虚构3C业务演示政策，非真实企业规定】\n耳机无声时先确认左右声道、连接状态、音量设置和其他设备上的表现。排查应采用可逆操作，不承诺一定是质量缺陷，异常持续时提交人工检测。\n如信息不足，请补充具体故障现象与发生时间。",
+      "evidence": [
+        {
+          "chunk_id": "33",
+          "document_id": "33",
+          "title": "耳机无声排查",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n耳机无声时先确认左右声道、连接状态、音量设置和其他设备上的表现。排查应采用可逆操作，不承诺一定是质量缺陷，异常持续时提交人工检测。",
+          "text_hash": "acaef1eaa3b1dcb51fcc06c9bc879367e3afb92959af902764e74c29dfdde3ff",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.7328023910522461,
+          "rerank_score": 4.094985008239746
+        },
+        {
+          "chunk_id": "29",
+          "document_id": "29",
+          "title": "设备无法开机排查",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n设备无法开机时，先确认型号、供电状态与故障表现。存在鼓包、冒烟、异味或液体进入时应立即停止使用，转人工安全处理，不指导拆机或继续充电。",
+          "text_hash": "fa0b2690ca6695b160752b67137d727e9c68d100676651a987b7f0d3ca012ff4",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.4799019694328308,
+          "rerank_score": -0.5752942562103271
+        },
+        {
+          "chunk_id": "37",
+          "document_id": "37",
+          "title": "保修凭证核对",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n保修核查需核对商品型号、购买凭证和设备序列号。序列号只用于必要售后核对，不能仅凭客户口述判断保修期限或最终维修费用。",
+          "text_hash": "1f49f0bda5187eb84c52eea5b7fdf41998ec6f0473941d50adfc744940aedb55",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.4312629699707031,
+          "rerank_score": -2.5254385471343994
+        }
+      ],
+      "invocations": [
+        {
+          "ticket_id": "39",
+          "status": "SUCCEEDED",
+          "model": "qwen-plus",
+          "usage": {
+            "total_tokens": 897,
+            "cached_tokens": 0,
+            "prompt_tokens": 773,
+            "provider_model": "qwen-plus",
+            "completion_tokens": 124,
+            "provider_request_id": "chatcmpl-39dff155-9f7b-9ec0-ac59-0e39a2dc7f94"
+          },
+          "cost": null,
+          "cost_reason": "No configured verified price snapshot; unknown is not zero"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "document_key": "quality-network",
+      "question": "设备连不上网要把WiFi密码告诉客服吗？",
+      "ticket_id": "40",
+      "http_status": 201,
+      "latency_ms": 6121,
+      "status": "DRAFT_CREATED",
+      "draft_id": "37",
+      "expected_document_selected": true,
+      "expected_document_retrieved": true,
+      "pending_and_unsent": true,
+      "raw_output": {
+        "intent": {
+          "primary_intent": "设备连不上网要把WiFi密码告诉客服吗？",
+          "product": null,
+          "time": null,
+          "multiple_intents": false,
+          "missing_information": []
+        },
+        "quotes": [
+          {
+            "chunk_id": "34",
+            "quote": "【虚构3C业务演示政策，非真实企业规定】\n连接故障可先核对设备型号、网络环境和错误提示。重置前提醒客户备份个人配置，不索取无线网络密码；避免把网络环境问题直接认定为硬件损坏。"
+          }
+        ],
+        "needs_human_confirmation": true
+      },
+      "model_version": "qwen-plus",
+      "usage": {
+        "total_tokens": 917,
+        "completion_tokens": 143,
+        "prompt_tokens": 774,
+        "cached_tokens": 0,
+        "provider_model": "qwen-plus",
+        "provider_request_id": "chatcmpl-d552ce73-1ab8-9b13-82cc-bf7456d74d19"
+      },
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[34] 【虚构3C业务演示政策，非真实企业规定】\n连接故障可先核对设备型号、网络环境和错误提示。重置前提醒客户备份个人配置，不索取无线网络密码；避免把网络环境问题直接认定为硬件损坏。\n如信息不足，请补充具体故障现象与发生时间。",
+      "evidence": [
+        {
+          "chunk_id": "34",
+          "document_id": "34",
+          "title": "网络连接故障",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n连接故障可先核对设备型号、网络环境和错误提示。重置前提醒客户备份个人配置，不索取无线网络密码；避免把网络环境问题直接认定为硬件损坏。",
+          "text_hash": "157c9311497b76c59f3864e0d17d187aeac232f25a3fdd0864659bcaf278038d",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.7074673175811768,
+          "rerank_score": 1.528262972831726
+        },
+        {
+          "chunk_id": "36",
+          "document_id": "36",
+          "title": "维修前数据备份",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n维修前提醒客户在安全可操作的情况下备份数据并退出敏感账户。无法开机或存在安全风险时，不强求通电备份；客服不得索取账户密码代为备份。",
+          "text_hash": "bb051d3a17d1f3812ebf649218a89da7ba84bfdb1dab507e515653401eaac8de",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.6319366097450256,
+          "rerank_score": 0.1916516125202179
+        },
+        {
+          "chunk_id": "43",
+          "document_id": "43",
+          "title": "密码重置安全",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n密码重置应由客户在官方受控入口完成，不接收聊天中的明文密码。客服不得替客户设置固定初始密码，也不要求客户向第三方提供登录凭据。",
+          "text_hash": "1f0cb12980ff2f7fd80dbf4787d8edce5d864d20a2894acce12241a953bfb630",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.6949664354324341,
+          "rerank_score": -0.6411739587783813
+        }
+      ],
+      "invocations": [
+        {
+          "ticket_id": "40",
+          "status": "SUCCEEDED",
+          "model": "qwen-plus",
+          "usage": {
+            "total_tokens": 917,
+            "cached_tokens": 0,
+            "prompt_tokens": 774,
+            "provider_model": "qwen-plus",
+            "completion_tokens": 143,
+            "provider_request_id": "chatcmpl-d552ce73-1ab8-9b13-82cc-bf7456d74d19"
+          },
+          "cost": null,
+          "cost_reason": "No configured verified price snapshot; unknown is not zero"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "document_key": "quality-water",
+      "question": "手机进水后能反复开机试试吗？",
+      "ticket_id": "41",
+      "http_status": 201,
+      "latency_ms": 6113,
+      "status": "DRAFT_CREATED",
+      "draft_id": "38",
+      "expected_document_selected": true,
+      "expected_document_retrieved": true,
+      "pending_and_unsent": true,
+      "raw_output": {
+        "intent": {
+          "primary_intent": "手机进水后能反复开机试试吗？",
+          "product": null,
+          "time": null,
+          "multiple_intents": false,
+          "missing_information": []
+        },
+        "quotes": [
+          {
+            "chunk_id": "35",
+            "quote": "【虚构3C业务演示政策，非真实企业规定】\n设备进液后应停止通电，不指导烘烤、拆卸电池或反复开机。记录进液时间与现象并转人工检测；是否属于保修范围不能由AI自行判定。"
+          }
+        ],
+        "needs_human_confirmation": true
+      },
+      "model_version": "qwen-plus",
+      "usage": {
+        "total_tokens": 922,
+        "completion_tokens": 143,
+        "prompt_tokens": 779,
+        "cached_tokens": 0,
+        "provider_model": "qwen-plus",
+        "provider_request_id": "chatcmpl-0173c4e4-c58f-947e-931c-d798faf4f8cb"
+      },
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[35] 【虚构3C业务演示政策，非真实企业规定】\n设备进液后应停止通电，不指导烘烤、拆卸电池或反复开机。记录进液时间与现象并转人工检测；是否属于保修范围不能由AI自行判定。\n如信息不足，请补充具体故障现象与发生时间。",
+      "evidence": [
+        {
+          "chunk_id": "35",
+          "document_id": "35",
+          "title": "进液设备处理",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n设备进液后应停止通电，不指导烘烤、拆卸电池或反复开机。记录进液时间与现象并转人工检测；是否属于保修范围不能由AI自行判定。",
+          "text_hash": "7a5a88ec7a93fa8d87e1619412d3da0254517762df8f0b1c0f8d90be3fb591df",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.6319775581359863,
+          "rerank_score": 3.0502822399139404
+        },
+        {
+          "chunk_id": "29",
+          "document_id": "29",
+          "title": "设备无法开机排查",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n设备无法开机时，先确认型号、供电状态与故障表现。存在鼓包、冒烟、异味或液体进入时应立即停止使用，转人工安全处理，不指导拆机或继续充电。",
+          "text_hash": "fa0b2690ca6695b160752b67137d727e9c68d100676651a987b7f0d3ca012ff4",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5865249037742615,
+          "rerank_score": -2.6392431259155273
+        },
+        {
+          "chunk_id": "36",
+          "document_id": "36",
+          "title": "维修前数据备份",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n维修前提醒客户在安全可操作的情况下备份数据并退出敏感账户。无法开机或存在安全风险时，不强求通电备份；客服不得索取账户密码代为备份。",
+          "text_hash": "bb051d3a17d1f3812ebf649218a89da7ba84bfdb1dab507e515653401eaac8de",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.4988524615764618,
+          "rerank_score": -4.046257019042969
+        }
+      ],
+      "invocations": [
+        {
+          "ticket_id": "41",
+          "status": "SUCCEEDED",
+          "model": "qwen-plus",
+          "usage": {
+            "total_tokens": 922,
+            "cached_tokens": 0,
+            "prompt_tokens": 779,
+            "provider_model": "qwen-plus",
+            "completion_tokens": 143,
+            "provider_request_id": "chatcmpl-0173c4e4-c58f-947e-931c-d798faf4f8cb"
+          },
+          "cost": null,
+          "cost_reason": "No configured verified price snapshot; unknown is not zero"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "document_key": "quality-data",
+      "question": "寄修之前如何保护个人数据？",
+      "ticket_id": "42",
+      "http_status": 409,
+      "latency_ms": 15349,
+      "status": "APP_REJECTED",
+      "error_code": "INSUFFICIENT_EVIDENCE",
+      "invocations": [
+        {
+          "ticket_id": "42",
+          "status": "SUCCEEDED",
+          "model": "qwen-plus",
+          "usage": {
+            "total_tokens": 829,
+            "cached_tokens": 0,
+            "prompt_tokens": 766,
+            "provider_model": "qwen-plus",
+            "completion_tokens": 63,
+            "provider_request_id": "chatcmpl-f47d3995-2da2-9a2d-96c0-d692d42ba860"
+          },
+          "cost": null,
+          "cost_reason": "No configured verified price snapshot; unknown is not zero"
+        }
+      ],
+      "usage": {
+        "total_tokens": 829,
+        "cached_tokens": 0,
+        "prompt_tokens": 766,
+        "provider_model": "qwen-plus",
+        "completion_tokens": 63,
+        "provider_request_id": "chatcmpl-f47d3995-2da2-9a2d-96c0-d692d42ba860"
+      }
+    },
+    {
+      "id": 37,
+      "document_key": "warranty-proof",
+      "question": "保修需要哪些证明？",
+      "ticket_id": "43",
+      "http_status": 201,
+      "latency_ms": 5232,
+      "status": "DRAFT_CREATED",
+      "draft_id": "39",
+      "expected_document_selected": true,
+      "expected_document_retrieved": true,
+      "pending_and_unsent": true,
+      "raw_output": {
+        "intent": {
+          "primary_intent": "保修需要哪些证明？",
+          "product": null,
+          "time": null,
+          "multiple_intents": false,
+          "missing_information": []
+        },
+        "quotes": [
+          {
+            "chunk_id": "37",
+            "quote": "保修核查需核对商品型号、购买凭证和设备序列号。序列号只用于必要售后核对，不能仅凭客户口述判断保修期限或最终维修费用。"
+          }
+        ],
+        "needs_human_confirmation": true
+      },
+      "model_version": "qwen-plus",
+      "usage": {
+        "total_tokens": 884,
+        "completion_tokens": 119,
+        "prompt_tokens": 765,
+        "cached_tokens": 0,
+        "provider_model": "qwen-plus",
+        "provider_request_id": "chatcmpl-24004187-3303-9fd5-b0b4-cab68b1d25ae"
+      },
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[37] 【虚构3C业务演示政策，非真实企业规定】\n保修核查需核对商品型号、购买凭证和设备序列号。序列号只用于必要售后核对，不能仅凭客户口述判断保修期限或最终维修费用。\n如信息不足，请补充具体故障现象与发生时间。",
+      "evidence": [
+        {
+          "chunk_id": "37",
+          "document_id": "37",
+          "title": "保修凭证核对",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n保修核查需核对商品型号、购买凭证和设备序列号。序列号只用于必要售后核对，不能仅凭客户口述判断保修期限或最终维修费用。",
+          "text_hash": "1f49f0bda5187eb84c52eea5b7fdf41998ec6f0473941d50adfc744940aedb55",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.6035131216049194,
+          "rerank_score": 3.0447189807891846
+        },
+        {
+          "chunk_id": "38",
+          "document_id": "38",
+          "title": "保修期限判定",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n保修期限以当前有效商品政策与可验证购买记录为依据。不同商品可能适用不同规则，缺少政策或日期时明确需要人工确认，不给出通用固定年限。",
+          "text_hash": "72fae20f13e1253c9ff8a7358083c1220093ae02e3107ca08c869aa3d0232949",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5883272886276245,
+          "rerank_score": 1.2060420513153076
+        },
+        {
+          "chunk_id": "35",
+          "document_id": "35",
+          "title": "进液设备处理",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n设备进液后应停止通电，不指导烘烤、拆卸电池或反复开机。记录进液时间与现象并转人工检测；是否属于保修范围不能由AI自行判定。",
+          "text_hash": "7a5a88ec7a93fa8d87e1619412d3da0254517762df8f0b1c0f8d90be3fb591df",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5153852701187134,
+          "rerank_score": -2.311086654663086
+        }
+      ],
+      "invocations": [
+        {
+          "ticket_id": "43",
+          "status": "SUCCEEDED",
+          "model": "qwen-plus",
+          "usage": {
+            "total_tokens": 884,
+            "cached_tokens": 0,
+            "prompt_tokens": 765,
+            "provider_model": "qwen-plus",
+            "completion_tokens": 119,
+            "provider_request_id": "chatcmpl-24004187-3303-9fd5-b0b4-cab68b1d25ae"
+          },
+          "cost": null,
+          "cost_reason": "No configured verified price snapshot; unknown is not zero"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "document_key": "warranty-period",
+      "question": "所有商品保修都固定一年吗？",
+      "ticket_id": "44",
+      "http_status": 201,
+      "latency_ms": 5799,
+      "status": "DRAFT_CREATED",
+      "draft_id": "40",
+      "expected_document_selected": true,
+      "expected_document_retrieved": true,
+      "pending_and_unsent": true,
+      "raw_output": {
+        "intent": {
+          "primary_intent": "所有商品保修都固定一年吗？",
+          "product": null,
+          "time": null,
+          "multiple_intents": false,
+          "missing_information": []
+        },
+        "quotes": [
+          {
+            "chunk_id": "38",
+            "quote": "【虚构3C业务演示政策，非真实企业规定】\n保修期限以当前有效商品政策与可验证购买记录为依据。不同商品可能适用不同规则，缺少政策或日期时明确需要人工确认，不给出通用固定年限。"
+          }
+        ],
+        "needs_human_confirmation": true
+      },
+      "model_version": "qwen-plus",
+      "usage": {
+        "total_tokens": 905,
+        "completion_tokens": 137,
+        "prompt_tokens": 768,
+        "cached_tokens": 0,
+        "provider_model": "qwen-plus",
+        "provider_request_id": "chatcmpl-ac570de5-80f9-9e31-b11c-7656c0173acf"
+      },
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[38] 【虚构3C业务演示政策，非真实企业规定】\n保修期限以当前有效商品政策与可验证购买记录为依据。不同商品可能适用不同规则，缺少政策或日期时明确需要人工确认，不给出通用固定年限。\n如信息不足，请补充具体故障现象与发生时间。",
+      "evidence": [
+        {
+          "chunk_id": "38",
+          "document_id": "38",
+          "title": "保修期限判定",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n保修期限以当前有效商品政策与可验证购买记录为依据。不同商品可能适用不同规则，缺少政策或日期时明确需要人工确认，不给出通用固定年限。",
+          "text_hash": "72fae20f13e1253c9ff8a7358083c1220093ae02e3107ca08c869aa3d0232949",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.648122251033783,
+          "rerank_score": 3.737034559249878
+        },
+        {
+          "chunk_id": "37",
+          "document_id": "37",
+          "title": "保修凭证核对",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n保修核查需核对商品型号、购买凭证和设备序列号。序列号只用于必要售后核对，不能仅凭客户口述判断保修期限或最终维修费用。",
+          "text_hash": "1f49f0bda5187eb84c52eea5b7fdf41998ec6f0473941d50adfc744940aedb55",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5347310304641724,
+          "rerank_score": -0.768801212310791
+        },
+        {
+          "chunk_id": "35",
+          "document_id": "35",
+          "title": "进液设备处理",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n设备进液后应停止通电，不指导烘烤、拆卸电池或反复开机。记录进液时间与现象并转人工检测；是否属于保修范围不能由AI自行判定。",
+          "text_hash": "7a5a88ec7a93fa8d87e1619412d3da0254517762df8f0b1c0f8d90be3fb591df",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.49797892570495605,
+          "rerank_score": -4.289050102233887
+        }
+      ],
+      "invocations": [
+        {
+          "ticket_id": "44",
+          "status": "SUCCEEDED",
+          "model": "qwen-plus",
+          "usage": {
+            "total_tokens": 905,
+            "cached_tokens": 0,
+            "prompt_tokens": 768,
+            "provider_model": "qwen-plus",
+            "completion_tokens": 137,
+            "provider_request_id": "chatcmpl-ac570de5-80f9-9e31-b11c-7656c0173acf"
+          },
+          "cost": null,
+          "cost_reason": "No configured verified price snapshot; unknown is not zero"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "document_key": "warranty-process",
+      "question": "申请寄修之后就算维修好了吗？",
+      "ticket_id": "45",
+      "http_status": 201,
+      "latency_ms": 5888,
+      "status": "DRAFT_CREATED",
+      "draft_id": "41",
+      "expected_document_selected": true,
+      "expected_document_retrieved": true,
+      "pending_and_unsent": true,
+      "raw_output": {
+        "intent": {
+          "primary_intent": "申请寄修之后就算维修好了吗？",
+          "product": null,
+          "time": null,
+          "multiple_intents": false,
+          "missing_information": []
+        },
+        "quotes": [
+          {
+            "chunk_id": "39",
+            "quote": "【虚构3C业务演示政策，非真实企业规定】\n寄修应先建立人工确认的售后记录，再核对收件信息、寄回要求和安全限制。寄修登记不等于维修完成，维修进度仅引用实际业务记录。"
+          }
+        ],
+        "needs_human_confirmation": true
+      },
+      "model_version": "qwen-plus",
+      "usage": {
+        "total_tokens": 906,
+        "completion_tokens": 141,
+        "prompt_tokens": 765,
+        "cached_tokens": 0,
+        "provider_model": "qwen-plus",
+        "provider_request_id": "chatcmpl-d9400e88-64b6-90aa-93e4-551ea69e9831"
+      },
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[39] 【虚构3C业务演示政策，非真实企业规定】\n寄修应先建立人工确认的售后记录，再核对收件信息、寄回要求和安全限制。寄修登记不等于维修完成，维修进度仅引用实际业务记录。\n如信息不足，请补充具体故障现象与发生时间。",
+      "evidence": [
+        {
+          "chunk_id": "39",
+          "document_id": "39",
+          "title": "寄修流程说明",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n寄修应先建立人工确认的售后记录，再核对收件信息、寄回要求和安全限制。寄修登记不等于维修完成，维修进度仅引用实际业务记录。",
+          "text_hash": "d02d0928354124c2d8eed879f364140ff81b21be7268b2078119934ea6433929",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.6645002365112305,
+          "rerank_score": 2.544962167739868
+        },
+        {
+          "chunk_id": "37",
+          "document_id": "37",
+          "title": "保修凭证核对",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n保修核查需核对商品型号、购买凭证和设备序列号。序列号只用于必要售后核对，不能仅凭客户口述判断保修期限或最终维修费用。",
+          "text_hash": "1f49f0bda5187eb84c52eea5b7fdf41998ec6f0473941d50adfc744940aedb55",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5375764966011047,
+          "rerank_score": -2.3527135848999023
+        },
+        {
+          "chunk_id": "40",
+          "document_id": "40",
+          "title": "换新条件确认",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n是否换新需结合有效售后政策、检测结果与商品情况人工审核。AI 可展示相关依据，不得承诺无条件换新或具体替换库存。",
+          "text_hash": "7632d7a4b55d93d814cc1df041ce3f4cc66d12253fd9e1325bd60be25b0d38e2",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5438495874404907,
+          "rerank_score": -3.436279296875
+        }
+      ],
+      "invocations": [
+        {
+          "ticket_id": "45",
+          "status": "SUCCEEDED",
+          "model": "qwen-plus",
+          "usage": {
+            "total_tokens": 906,
+            "cached_tokens": 0,
+            "prompt_tokens": 765,
+            "provider_model": "qwen-plus",
+            "completion_tokens": 141,
+            "provider_request_id": "chatcmpl-d9400e88-64b6-90aa-93e4-551ea69e9831"
+          },
+          "cost": null,
+          "cost_reason": "No configured verified price snapshot; unknown is not zero"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "document_key": "warranty-replacement",
+      "question": "检测没做之前可以承诺换新吗？",
+      "ticket_id": "46",
+      "http_status": 201,
+      "latency_ms": 5753,
+      "status": "DRAFT_CREATED",
+      "draft_id": "42",
+      "expected_document_selected": true,
+      "expected_document_retrieved": true,
+      "pending_and_unsent": true,
+      "raw_output": {
+        "intent": {
+          "primary_intent": "检测没做之前可以承诺换新吗？",
+          "product": null,
+          "time": null,
+          "multiple_intents": false,
+          "missing_information": []
+        },
+        "quotes": [
+          {
+            "chunk_id": "40",
+            "quote": "【虚构3C业务演示政策，非真实企业规定】\n是否换新需结合有效售后政策、检测结果与商品情况人工审核。AI 可展示相关依据，不得承诺无条件换新或具体替换库存。"
+          }
+        ],
+        "needs_human_confirmation": true
+      },
+      "model_version": "qwen-plus",
+      "usage": {
+        "total_tokens": 903,
+        "completion_tokens": 136,
+        "prompt_tokens": 767,
+        "cached_tokens": 0,
+        "provider_model": "qwen-plus",
+        "provider_request_id": "chatcmpl-f6cdfa9d-7bb7-9b94-a36f-5332268d4d62"
+      },
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[40] 【虚构3C业务演示政策，非真实企业规定】\n是否换新需结合有效售后政策、检测结果与商品情况人工审核。AI 可展示相关依据，不得承诺无条件换新或具体替换库存。\n如信息不足，请补充具体故障现象与发生时间。",
+      "evidence": [
+        {
+          "chunk_id": "40",
+          "document_id": "40",
+          "title": "换新条件确认",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n是否换新需结合有效售后政策、检测结果与商品情况人工审核。AI 可展示相关依据，不得承诺无条件换新或具体替换库存。",
+          "text_hash": "7632d7a4b55d93d814cc1df041ce3f4cc66d12253fd9e1325bd60be25b0d38e2",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.6454271078109741,
+          "rerank_score": 4.916065692901611
+        },
+        {
+          "chunk_id": "18",
+          "document_id": "18",
+          "title": "错发商品核查",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n客户收到的商品与订单不符时，收集订单规格、实物型号及脱敏面单照片，交由仓储人工核对。不得要求客户自行支付未知费用后再承诺补偿。",
+          "text_hash": "6b5c2c4574aae96a1dcb0544ed6641d48d486b02037878c2e8759478dc04a8f0",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.48910218477249146,
+          "rerank_score": 0.6654165983200073
+        },
+        {
+          "chunk_id": "19",
+          "document_id": "19",
+          "title": "包裹少件核查",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n包裹少件需先排除拆单发货，再核对装箱清单、重量与客户开箱记录。缺少证据时记录待补充信息，不能直接承诺补发或赔款。",
+          "text_hash": "b2ce2622e9170880a0c3f174fafad8362767598f21a57d23392dfbd6a36ea145",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.4595949947834015,
+          "rerank_score": 0.13516631722450256
+        }
+      ],
+      "invocations": [
+        {
+          "ticket_id": "46",
+          "status": "SUCCEEDED",
+          "model": "qwen-plus",
+          "usage": {
+            "total_tokens": 903,
+            "cached_tokens": 0,
+            "prompt_tokens": 767,
+            "provider_model": "qwen-plus",
+            "completion_tokens": 136,
+            "provider_request_id": "chatcmpl-f6cdfa9d-7bb7-9b94-a36f-5332268d4d62"
+          },
+          "cost": null,
+          "cost_reason": "No configured verified price snapshot; unknown is not zero"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "document_key": "account-login",
+      "question": "账号登录不上客服可以帮忙输验证码吗？",
+      "ticket_id": "47",
+      "http_status": 201,
+      "latency_ms": 17043,
+      "status": "DRAFT_CREATED",
+      "draft_id": "43",
+      "expected_document_selected": true,
+      "expected_document_retrieved": true,
+      "pending_and_unsent": true,
+      "raw_output": {
+        "intent": {
+          "primary_intent": "账号登录不上客服可以帮忙输验证码吗？",
+          "product": null,
+          "time": null,
+          "multiple_intents": false,
+          "missing_information": []
+        },
+        "quotes": [
+          {
+            "chunk_id": "41",
+            "quote": "客服不索要密码或验证码，不在聊天中代替客户完成验证。"
+          },
+          {
+            "chunk_id": "13",
+            "quote": "客服不得索取支付密码、完整银行卡号、短信验证码或动态口令。"
+          }
+        ],
+        "needs_human_confirmation": true
+      },
+      "model_version": "qwen-plus",
+      "usage": {
+        "total_tokens": 902,
+        "completion_tokens": 138,
+        "prompt_tokens": 764,
+        "cached_tokens": 0,
+        "provider_model": "qwen-plus",
+        "provider_request_id": "chatcmpl-56fe0211-59de-9bd7-81d4-a15ff75c2e01"
+      },
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[41] 【虚构3C业务演示政策，非真实企业规定】\n无法登录时先确认错误提示与账户识别信息，建议通过官方账户恢复入口处理。客服不索要密码或验证码，不在聊天中代替客户完成验证。\n[13] 【虚构3C业务演示政策，非真实企业规定】\n客服不得索取支付密码、完整银行卡号、短信验证码或动态口令。提交凭证前应遮挡无关个人信息，仅保留核查所需的金额、时间与流水尾号。\n如信息不足，请补充具体故障现象与发生时间。",
+      "evidence": [
+        {
+          "chunk_id": "41",
+          "document_id": "41",
+          "title": "账户无法登录",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n无法登录时先确认错误提示与账户识别信息，建议通过官方账户恢复入口处理。客服不索要密码或验证码，不在聊天中代替客户完成验证。",
+          "text_hash": "d06a8907f20f12d921401479da4de09ca1225363d210fbbff3ceb7d1279e0513",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.6859456896781921,
+          "rerank_score": 3.8954737186431885
+        },
+        {
+          "chunk_id": "13",
+          "document_id": "13",
+          "title": "支付信息保护",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n客服不得索取支付密码、完整银行卡号、短信验证码或动态口令。提交凭证前应遮挡无关个人信息，仅保留核查所需的金额、时间与流水尾号。",
+          "text_hash": "59bfb05031065bc0b6c6e9654a648564a630b3aaf21512059e20f57e073c175b",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5732558965682983,
+          "rerank_score": 0.5481503009796143
+        },
+        {
+          "chunk_id": "44",
+          "document_id": "44",
+          "title": "账户疑似被盗",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n疑似账户被盗时，引导客户使用官方安全入口修改凭据并检查异常操作，及时转安全人工处理。客服不保证已冻结账户，也不泄露其他账户的信息。",
+          "text_hash": "ddf2bfad70ec5d7999556f4946f02fb67d286e746a7ac9c3d84e05a05f77eb72",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5659251809120178,
+          "rerank_score": -1.2596702575683594
+        }
+      ],
+      "invocations": [
+        {
+          "ticket_id": "47",
+          "status": "SUCCEEDED",
+          "model": "qwen-plus",
+          "usage": {
+            "total_tokens": 902,
+            "cached_tokens": 0,
+            "prompt_tokens": 764,
+            "provider_model": "qwen-plus",
+            "completion_tokens": 138,
+            "provider_request_id": "chatcmpl-56fe0211-59de-9bd7-81d4-a15ff75c2e01"
+          },
+          "cost": null,
+          "cost_reason": "No configured verified price snapshot; unknown is not zero"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "document_key": "account-phone",
+      "question": "原手机号停用了怎么更换绑定？",
+      "ticket_id": "48",
+      "http_status": 201,
+      "latency_ms": 16548,
+      "status": "DRAFT_CREATED",
+      "draft_id": "44",
+      "expected_document_selected": true,
+      "expected_document_retrieved": true,
+      "pending_and_unsent": true,
+      "raw_output": {
+        "intent": {
+          "primary_intent": "原手机号停用了怎么更换绑定？",
+          "product": null,
+          "time": null,
+          "multiple_intents": false,
+          "missing_information": []
+        },
+        "quotes": [
+          {
+            "chunk_id": "42",
+            "quote": "【虚构3C业务演示政策，非真实企业规定】\n更换绑定手机号需通过官方身份核验流程。无法访问原手机号时转人工账户恢复，工单中的自述不视为身份核验完成，不绕过验证码。"
+          }
+        ],
+        "needs_human_confirmation": true
+      },
+      "model_version": "qwen-plus",
+      "usage": {
+        "total_tokens": 898,
+        "completion_tokens": 137,
+        "prompt_tokens": 761,
+        "cached_tokens": 0,
+        "provider_model": "qwen-plus",
+        "provider_request_id": "chatcmpl-336398c7-39e6-9c0b-82e7-303ddb02199e"
+      },
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[42] 【虚构3C业务演示政策，非真实企业规定】\n更换绑定手机号需通过官方身份核验流程。无法访问原手机号时转人工账户恢复，工单中的自述不视为身份核验完成，不绕过验证码。\n如信息不足，请补充具体故障现象与发生时间。",
+      "evidence": [
+        {
+          "chunk_id": "42",
+          "document_id": "42",
+          "title": "更换绑定手机号",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n更换绑定手机号需通过官方身份核验流程。无法访问原手机号时转人工账户恢复，工单中的自述不视为身份核验完成，不绕过验证码。",
+          "text_hash": "04d96071f0aaa61915275a7ec19322c152e384a1bdd5c9196e25103ff657955d",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.7435844540596008,
+          "rerank_score": 4.143592357635498
+        },
+        {
+          "chunk_id": "40",
+          "document_id": "40",
+          "title": "换新条件确认",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n是否换新需结合有效售后政策、检测结果与商品情况人工审核。AI 可展示相关依据，不得承诺无条件换新或具体替换库存。",
+          "text_hash": "7632d7a4b55d93d814cc1df041ce3f4cc66d12253fd9e1325bd60be25b0d38e2",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.532523512840271,
+          "rerank_score": -3.2011466026306152
+        },
+        {
+          "chunk_id": "13",
+          "document_id": "13",
+          "title": "支付信息保护",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n客服不得索取支付密码、完整银行卡号、短信验证码或动态口令。提交凭证前应遮挡无关个人信息，仅保留核查所需的金额、时间与流水尾号。",
+          "text_hash": "59bfb05031065bc0b6c6e9654a648564a630b3aaf21512059e20f57e073c175b",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5079493522644043,
+          "rerank_score": -4.212097644805908
+        }
+      ],
+      "invocations": [
+        {
+          "ticket_id": "48",
+          "status": "SUCCEEDED",
+          "model": "qwen-plus",
+          "usage": {
+            "total_tokens": 898,
+            "cached_tokens": 0,
+            "prompt_tokens": 761,
+            "provider_model": "qwen-plus",
+            "completion_tokens": 137,
+            "provider_request_id": "chatcmpl-336398c7-39e6-9c0b-82e7-303ddb02199e"
+          },
+          "cost": null,
+          "cost_reason": "No configured verified price snapshot; unknown is not zero"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "document_key": "account-password",
+      "question": "能把新密码发给客服帮我设置吗？",
+      "ticket_id": "49",
+      "http_status": 201,
+      "latency_ms": 16907,
+      "status": "DRAFT_CREATED",
+      "draft_id": "45",
+      "expected_document_selected": true,
+      "expected_document_retrieved": true,
+      "pending_and_unsent": true,
+      "raw_output": {
+        "intent": {
+          "primary_intent": "能把新密码发给客服帮我设置吗？",
+          "product": null,
+          "time": null,
+          "multiple_intents": false,
+          "missing_information": []
+        },
+        "quotes": [
+          {
+            "chunk_id": "43",
+            "quote": "【虚构3C业务演示政策，非真实企业规定】\n密码重置应由客户在官方受控入口完成，不接收聊天中的明文密码。客服不得替客户设置固定初始密码，也不要求客户向第三方提供登录凭据。"
+          }
+        ],
+        "needs_human_confirmation": true
+      },
+      "model_version": "qwen-plus",
+      "usage": {
+        "total_tokens": 911,
+        "completion_tokens": 141,
+        "prompt_tokens": 770,
+        "cached_tokens": 0,
+        "provider_model": "qwen-plus",
+        "provider_request_id": "chatcmpl-dda38f18-b022-9a66-8954-5c666646eff0"
+      },
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[43] 【虚构3C业务演示政策，非真实企业规定】\n密码重置应由客户在官方受控入口完成，不接收聊天中的明文密码。客服不得替客户设置固定初始密码，也不要求客户向第三方提供登录凭据。\n如信息不足，请补充具体故障现象与发生时间。",
+      "evidence": [
+        {
+          "chunk_id": "43",
+          "document_id": "43",
+          "title": "密码重置安全",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n密码重置应由客户在官方受控入口完成，不接收聊天中的明文密码。客服不得替客户设置固定初始密码，也不要求客户向第三方提供登录凭据。",
+          "text_hash": "1f0cb12980ff2f7fd80dbf4787d8edce5d864d20a2894acce12241a953bfb630",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.6531642079353333,
+          "rerank_score": 3.2941908836364746
+        },
+        {
+          "chunk_id": "36",
+          "document_id": "36",
+          "title": "维修前数据备份",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n维修前提醒客户在安全可操作的情况下备份数据并退出敏感账户。无法开机或存在安全风险时，不强求通电备份；客服不得索取账户密码代为备份。",
+          "text_hash": "bb051d3a17d1f3812ebf649218a89da7ba84bfdb1dab507e515653401eaac8de",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5413259267807007,
+          "rerank_score": -0.7145459651947021
+        },
+        {
+          "chunk_id": "13",
+          "document_id": "13",
+          "title": "支付信息保护",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n客服不得索取支付密码、完整银行卡号、短信验证码或动态口令。提交凭证前应遮挡无关个人信息，仅保留核查所需的金额、时间与流水尾号。",
+          "text_hash": "59bfb05031065bc0b6c6e9654a648564a630b3aaf21512059e20f57e073c175b",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5242313146591187,
+          "rerank_score": -1.457969069480896
+        }
+      ],
+      "invocations": [
+        {
+          "ticket_id": "49",
+          "status": "SUCCEEDED",
+          "model": "qwen-plus",
+          "usage": {
+            "total_tokens": 911,
+            "cached_tokens": 0,
+            "prompt_tokens": 770,
+            "provider_model": "qwen-plus",
+            "completion_tokens": 141,
+            "provider_request_id": "chatcmpl-dda38f18-b022-9a66-8954-5c666646eff0"
+          },
+          "cost": null,
+          "cost_reason": "No configured verified price snapshot; unknown is not zero"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "document_key": "account-compromise",
+      "question": "账号疑似被盗该走什么流程？",
+      "ticket_id": "50",
+      "http_status": 201,
+      "latency_ms": 18518,
+      "status": "DRAFT_CREATED",
+      "draft_id": "46",
+      "expected_document_selected": true,
+      "expected_document_retrieved": true,
+      "pending_and_unsent": true,
+      "raw_output": {
+        "intent": {
+          "primary_intent": "账号疑似被盗该走什么流程？",
+          "product": null,
+          "time": null,
+          "multiple_intents": false,
+          "missing_information": []
+        },
+        "quotes": [
+          {
+            "chunk_id": "44",
+            "quote": "【虚构3C业务演示政策，非真实企业规定】\n疑似账户被盗时，引导客户使用官方安全入口修改凭据并检查异常操作，及时转安全人工处理。客服不保证已冻结账户，也不泄露其他账户的信息。"
+          },
+          {
+            "chunk_id": "49",
+            "quote": "【虚构3C业务演示政策，非真实企业规定】\n涉及人身安全、账户盗用、金额争议或异常赔偿请求时，应转人工专门核查并记录原因。AI 不作责任认定，不提供自动付款、退款或赔偿执行。"
+          }
+        ],
+        "needs_human_confirmation": true
+      },
+      "model_version": "qwen-plus",
+      "usage": {
+        "total_tokens": 980,
+        "completion_tokens": 212,
+        "prompt_tokens": 768,
+        "cached_tokens": 0,
+        "provider_model": "qwen-plus",
+        "provider_request_id": "chatcmpl-d1a2adbb-0819-9d33-a56d-2a0bc1eca46b"
+      },
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[44] 【虚构3C业务演示政策，非真实企业规定】\n疑似账户被盗时，引导客户使用官方安全入口修改凭据并检查异常操作，及时转安全人工处理。客服不保证已冻结账户，也不泄露其他账户的信息。\n[49] 【虚构3C业务演示政策，非真实企业规定】\n涉及人身安全、账户盗用、金额争议或异常赔偿请求时，应转人工专门核查并记录原因。AI 不作责任认定，不提供自动付款、退款或赔偿执行。\n如信息不足，请补充具体故障现象与发生时间。",
+      "evidence": [
+        {
+          "chunk_id": "44",
+          "document_id": "44",
+          "title": "账户疑似被盗",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n疑似账户被盗时，引导客户使用官方安全入口修改凭据并检查异常操作，及时转安全人工处理。客服不保证已冻结账户，也不泄露其他账户的信息。",
+          "text_hash": "ddf2bfad70ec5d7999556f4946f02fb67d286e746a7ac9c3d84e05a05f77eb72",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.6723222136497498,
+          "rerank_score": 6.086880207061768
+        },
+        {
+          "chunk_id": "49",
+          "document_id": "49",
+          "title": "高风险诉求升级",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n涉及人身安全、账户盗用、金额争议或异常赔偿请求时，应转人工专门核查并记录原因。AI 不作责任认定，不提供自动付款、退款或赔偿执行。",
+          "text_hash": "29884f18614805de1e1e21de33a45946bab9fda23ce9813be8b9c1067013f4d7",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5169336795806885,
+          "rerank_score": -0.5621671676635742
+        },
+        {
+          "chunk_id": "8",
+          "document_id": "8",
+          "title": "疑似重复扣款",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n客户反馈重复扣款时，收集支付时间、金额和脱敏流水尾号，逐条核对支付记录。不能仅凭两张截图认定重复支付，也不能自动发起退款。",
+          "text_hash": "08e1d82f559b40bfcc369596d8d0f7d2baac65f24722017486c5dd01210ed077",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.502495288848877,
+          "rerank_score": -2.705702781677246
+        }
+      ],
+      "invocations": [
+        {
+          "ticket_id": "50",
+          "status": "SUCCEEDED",
+          "model": "qwen-plus",
+          "usage": {
+            "total_tokens": 980,
+            "cached_tokens": 0,
+            "prompt_tokens": 768,
+            "provider_model": "qwen-plus",
+            "completion_tokens": 212,
+            "provider_request_id": "chatcmpl-d1a2adbb-0819-9d33-a56d-2a0bc1eca46b"
+          },
+          "cost": null,
+          "cost_reason": "No configured verified price snapshot; unknown is not zero"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "document_key": "account-privacy",
+      "question": "我能查询朋友的订单吗？",
+      "ticket_id": "51",
+      "http_status": 201,
+      "latency_ms": 16678,
+      "status": "DRAFT_CREATED",
+      "draft_id": "47",
+      "expected_document_selected": true,
+      "expected_document_retrieved": true,
+      "pending_and_unsent": true,
+      "raw_output": {
+        "intent": {
+          "primary_intent": "我能查询朋友的订单吗？",
+          "product": null,
+          "time": null,
+          "multiple_intents": false,
+          "missing_information": []
+        },
+        "quotes": [
+          {
+            "chunk_id": "45",
+            "quote": "【虚构3C业务演示政策，非真实企业规定】\n客户只能查询自己名下订单。客服需同时满足工单归属和业务组查询授权；无法证明归属时不返回订单、支付、物流或退款信息。"
+          }
+        ],
+        "needs_human_confirmation": true
+      },
+      "model_version": "qwen-plus",
+      "usage": {
+        "total_tokens": 896,
+        "completion_tokens": 133,
+        "prompt_tokens": 763,
+        "cached_tokens": 0,
+        "provider_model": "qwen-plus",
+        "provider_request_id": "chatcmpl-241c8f62-4f75-9c4c-8238-09b8b8a1e960"
+      },
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[45] 【虚构3C业务演示政策，非真实企业规定】\n客户只能查询自己名下订单。客服需同时满足工单归属和业务组查询授权；无法证明归属时不返回订单、支付、物流或退款信息。\n如信息不足，请补充具体故障现象与发生时间。",
+      "evidence": [
+        {
+          "chunk_id": "7",
+          "document_id": "7",
+          "title": "订单查询不到",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n订单号查询不到时，应核对编号格式、登录账户和购买渠道。格式正确不证明订单存在，不存在或归属不匹配时明确返回无法查询，不猜测交易状态。",
+          "text_hash": "7b3f534dfcc5dd17f74345c35e89fcb12a893d98a7a639939001200328fd50b3",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5696761608123779,
+          "rerank_score": 2.0371005535125732
+        },
+        {
+          "chunk_id": "45",
+          "document_id": "45",
+          "title": "客户数据访问边界",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n客户只能查询自己名下订单。客服需同时满足工单归属和业务组查询授权；无法证明归属时不返回订单、支付、物流或退款信息。",
+          "text_hash": "050237bb3c884590f7a5ea01976b557f28b47fc5ce1643230821b0ac4689da42",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5491819381713867,
+          "rerank_score": 0.41326531767845154
+        },
+        {
+          "chunk_id": "3",
+          "document_id": "3",
+          "title": "拆单发货查询",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n同一订单可能包含多个包裹。客服应逐条查询物流记录并核对商品明细，向客户说明各包裹当前状态，不把一个包裹签收视为整单全部收到。",
+          "text_hash": "4b3807a25cd07b8cd83a3924cc42f59b1458174fe7c3c1366846a7ed5f1d53ab",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5257773399353027,
+          "rerank_score": -1.7031997442245483
+        }
+      ],
+      "invocations": [
+        {
+          "ticket_id": "51",
+          "status": "SUCCEEDED",
+          "model": "qwen-plus",
+          "usage": {
+            "total_tokens": 896,
+            "cached_tokens": 0,
+            "prompt_tokens": 763,
+            "provider_model": "qwen-plus",
+            "completion_tokens": 133,
+            "provider_request_id": "chatcmpl-241c8f62-4f75-9c4c-8238-09b8b8a1e960"
+          },
+          "cost": null,
+          "cost_reason": "No configured verified price snapshot; unknown is not zero"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "document_key": "account-deletion",
+      "question": "提交注销工单会立刻删除全部记录吗？",
+      "ticket_id": "52",
+      "http_status": 201,
+      "latency_ms": 16980,
+      "status": "DRAFT_CREATED",
+      "draft_id": "48",
+      "expected_document_selected": true,
+      "expected_document_retrieved": true,
+      "pending_and_unsent": true,
+      "raw_output": {
+        "intent": {
+          "primary_intent": "提交注销工单会立刻删除全部记录吗？",
+          "product": null,
+          "time": null,
+          "multiple_intents": false,
+          "missing_information": []
+        },
+        "quotes": [
+          {
+            "chunk_id": "46",
+            "quote": "【虚构3C业务演示政策，非真实企业规定】\n注销申请需通过官方流程核验身份，并由人工告知未完结交易等处理要求。客服不得直接删除业务数据，也不得承诺全部审计记录立即消失。"
+          }
+        ],
+        "needs_human_confirmation": true
+      },
+      "model_version": "qwen-plus",
+      "usage": {
+        "total_tokens": 907,
+        "completion_tokens": 138,
+        "prompt_tokens": 769,
+        "cached_tokens": 0,
+        "provider_model": "qwen-plus",
+        "provider_request_id": "chatcmpl-f4655aab-f186-968c-ab7b-49895e64ef45"
+      },
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[46] 【虚构3C业务演示政策，非真实企业规定】\n注销申请需通过官方流程核验身份，并由人工告知未完结交易等处理要求。客服不得直接删除业务数据，也不得承诺全部审计记录立即消失。\n如信息不足，请补充具体故障现象与发生时间。",
+      "evidence": [
+        {
+          "chunk_id": "46",
+          "document_id": "46",
+          "title": "账户注销申请",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n注销申请需通过官方流程核验身份，并由人工告知未完结交易等处理要求。客服不得直接删除业务数据，也不得承诺全部审计记录立即消失。",
+          "text_hash": "8cf35d682e96a6999eef8e3f8536c64aca6d6899357ed3811282888bcfc713de",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.6217265725135803,
+          "rerank_score": 5.0090107917785645
+        },
+        {
+          "chunk_id": "50",
+          "document_id": "50",
+          "title": "已解决工单再次反馈",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n客户对已解决问题再次反馈时，应确认是否属于原问题和允许重开的时间窗口。系统重开后重新建立SLA周期并进入待分类分配，不抹除原有处理记录。",
+          "text_hash": "f7aaae8ae1f6582775cd70b3030b7ac23ecf06a54aa51f3e5d59fae6af8dc9bd",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5509418249130249,
+          "rerank_score": 3.67508602142334
+        },
+        {
+          "chunk_id": "2",
+          "document_id": "2",
+          "title": "未发货订单取消",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n客户申请取消未发货订单时，先核实订单归属与仓储状态，再提交人工取消申请。创建售后工单不代表订单已经取消，取消结果以业务记录为准。",
+          "text_hash": "20ca39a12a3365c2f74b6da84dcfa4f8cd4e5c90e27f140fcde4e5d6894f76fb",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.559799075126648,
+          "rerank_score": -0.0727764368057251
+        }
+      ],
+      "invocations": [
+        {
+          "ticket_id": "52",
+          "status": "SUCCEEDED",
+          "model": "qwen-plus",
+          "usage": {
+            "total_tokens": 907,
+            "cached_tokens": 0,
+            "prompt_tokens": 769,
+            "provider_model": "qwen-plus",
+            "completion_tokens": 138,
+            "provider_request_id": "chatcmpl-f4655aab-f186-968c-ab7b-49895e64ef45"
+          },
+          "cost": null,
+          "cost_reason": "No configured verified price snapshot; unknown is not zero"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "document_key": "process-multi",
+      "question": "一张工单同时要退款和查快递怎么分类？",
+      "ticket_id": "53",
+      "http_status": 201,
+      "latency_ms": 17334,
+      "status": "DRAFT_CREATED",
+      "draft_id": "49",
+      "expected_document_selected": true,
+      "expected_document_retrieved": true,
+      "pending_and_unsent": true,
+      "raw_output": {
+        "intent": {
+          "primary_intent": "一张工单同时要退款和查快递怎么分类？",
+          "product": null,
+          "time": null,
+          "multiple_intents": true,
+          "missing_information": []
+        },
+        "quotes": [
+          {
+            "chunk_id": "47",
+            "quote": "【虚构3C业务演示政策，非真实企业规定】\n同一消息包含退款、物流或质量等多个诉求时，应记录主要诉求和次要诉求，由人工确认处理顺序。分类标签只表达主要路由，不代表其他诉求可以忽略。"
+          }
+        ],
+        "needs_human_confirmation": true
+      },
+      "model_version": "qwen-plus",
+      "usage": {
+        "total_tokens": 913,
+        "completion_tokens": 142,
+        "prompt_tokens": 771,
+        "cached_tokens": 0,
+        "provider_model": "qwen-plus",
+        "provider_request_id": "chatcmpl-fcab0f82-5895-9830-9a13-0e0d0d77a01f"
+      },
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[47] 【虚构3C业务演示政策，非真实企业规定】\n同一消息包含退款、物流或质量等多个诉求时，应记录主要诉求和次要诉求，由人工确认处理顺序。分类标签只表达主要路由，不代表其他诉求可以忽略。\n如信息不足，请补充具体故障现象与发生时间。",
+      "evidence": [
+        {
+          "chunk_id": "47",
+          "document_id": "47",
+          "title": "多诉求工单处理",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n同一消息包含退款、物流或质量等多个诉求时，应记录主要诉求和次要诉求，由人工确认处理顺序。分类标签只表达主要路由，不代表其他诉求可以忽略。",
+          "text_hash": "790a7533fbdad658ea8eb19fe4c336795e2d3d2ea255488c3c0dfca18d5b5857",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.6125490069389343,
+          "rerank_score": 3.9359235763549805
+        },
+        {
+          "chunk_id": "45",
+          "document_id": "45",
+          "title": "客户数据访问边界",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n客户只能查询自己名下订单。客服需同时满足工单归属和业务组查询授权；无法证明归属时不返回订单、支付、物流或退款信息。",
+          "text_hash": "050237bb3c884590f7a5ea01976b557f28b47fc5ce1643230821b0ac4689da42",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5617415904998779,
+          "rerank_score": 2.691382884979248
+        },
+        {
+          "chunk_id": "50",
+          "document_id": "50",
+          "title": "已解决工单再次反馈",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n客户对已解决问题再次反馈时，应确认是否属于原问题和允许重开的时间窗口。系统重开后重新建立SLA周期并进入待分类分配，不抹除原有处理记录。",
+          "text_hash": "f7aaae8ae1f6582775cd70b3030b7ac23ecf06a54aa51f3e5d59fae6af8dc9bd",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5268716812133789,
+          "rerank_score": 0.6591875553131104
+        }
+      ],
+      "invocations": [
+        {
+          "ticket_id": "53",
+          "status": "SUCCEEDED",
+          "model": "qwen-plus",
+          "usage": {
+            "total_tokens": 913,
+            "cached_tokens": 0,
+            "prompt_tokens": 771,
+            "provider_model": "qwen-plus",
+            "completion_tokens": 142,
+            "provider_request_id": "chatcmpl-fcab0f82-5895-9830-9a13-0e0d0d77a01f"
+          },
+          "cost": null,
+          "cost_reason": "No configured verified price snapshot; unknown is not zero"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "document_key": "process-missing",
+      "question": "客户没说清楚问题应该补充什么？",
+      "ticket_id": "54",
+      "http_status": 409,
+      "latency_ms": 2201,
+      "status": "APP_REJECTED",
+      "error_code": "INSUFFICIENT_EVIDENCE",
+      "invocations": []
+    },
+    {
+      "id": 49,
+      "document_key": "process-escalate",
+      "question": "涉及安全和赔偿的工单如何升级？",
+      "ticket_id": "55",
+      "http_status": 201,
+      "latency_ms": 16965,
+      "status": "DRAFT_CREATED",
+      "draft_id": "50",
+      "expected_document_selected": true,
+      "expected_document_retrieved": true,
+      "pending_and_unsent": true,
+      "raw_output": {
+        "intent": {
+          "primary_intent": "涉及安全和赔偿的工单如何升级？",
+          "product": null,
+          "time": null,
+          "multiple_intents": false,
+          "missing_information": []
+        },
+        "quotes": [
+          {
+            "chunk_id": "49",
+            "quote": "【虚构3C业务演示政策，非真实企业规定】\n涉及人身安全、账户盗用、金额争议或异常赔偿请求时，应转人工专门核查并记录原因。AI 不作责任认定，不提供自动付款、退款或赔偿执行。"
+          }
+        ],
+        "needs_human_confirmation": true
+      },
+      "model_version": "qwen-plus",
+      "usage": {
+        "total_tokens": 917,
+        "completion_tokens": 142,
+        "prompt_tokens": 775,
+        "cached_tokens": 0,
+        "provider_model": "qwen-plus",
+        "provider_request_id": "chatcmpl-0dc13633-169e-9a7a-819d-68d72ef5dbb2"
+      },
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[49] 【虚构3C业务演示政策，非真实企业规定】\n涉及人身安全、账户盗用、金额争议或异常赔偿请求时，应转人工专门核查并记录原因。AI 不作责任认定，不提供自动付款、退款或赔偿执行。\n如信息不足，请补充具体故障现象与发生时间。",
+      "evidence": [
+        {
+          "chunk_id": "49",
+          "document_id": "49",
+          "title": "高风险诉求升级",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n涉及人身安全、账户盗用、金额争议或异常赔偿请求时，应转人工专门核查并记录原因。AI 不作责任认定，不提供自动付款、退款或赔偿执行。",
+          "text_hash": "29884f18614805de1e1e21de33a45946bab9fda23ce9813be8b9c1067013f4d7",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.5634385943412781,
+          "rerank_score": 2.147709369659424
+        },
+        {
+          "chunk_id": "50",
+          "document_id": "50",
+          "title": "已解决工单再次反馈",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n客户对已解决问题再次反馈时，应确认是否属于原问题和允许重开的时间窗口。系统重开后重新建立SLA周期并进入待分类分配，不抹除原有处理记录。",
+          "text_hash": "f7aaae8ae1f6582775cd70b3030b7ac23ecf06a54aa51f3e5d59fae6af8dc9bd",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.46852749586105347,
+          "rerank_score": 1.0575711727142334
+        },
+        {
+          "chunk_id": "47",
+          "document_id": "47",
+          "title": "多诉求工单处理",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n同一消息包含退款、物流或质量等多个诉求时，应记录主要诉求和次要诉求，由人工确认处理顺序。分类标签只表达主要路由，不代表其他诉求可以忽略。",
+          "text_hash": "790a7533fbdad658ea8eb19fe4c336795e2d3d2ea255488c3c0dfca18d5b5857",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.47109606862068176,
+          "rerank_score": -0.2942543923854828
+        }
+      ],
+      "invocations": [
+        {
+          "ticket_id": "55",
+          "status": "SUCCEEDED",
+          "model": "qwen-plus",
+          "usage": {
+            "total_tokens": 917,
+            "cached_tokens": 0,
+            "prompt_tokens": 775,
+            "provider_model": "qwen-plus",
+            "completion_tokens": 142,
+            "provider_request_id": "chatcmpl-0dc13633-169e-9a7a-819d-68d72ef5dbb2"
+          },
+          "cost": null,
+          "cost_reason": "No configured verified price snapshot; unknown is not zero"
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "document_key": "process-reopen",
+      "question": "问题没解决重开后还保留旧记录吗？",
+      "ticket_id": "56",
+      "http_status": 201,
+      "latency_ms": 16398,
+      "status": "DRAFT_CREATED",
+      "draft_id": "51",
+      "expected_document_selected": true,
+      "expected_document_retrieved": true,
+      "pending_and_unsent": true,
+      "raw_output": {
+        "intent": {
+          "primary_intent": "问题没解决重开后还保留旧记录吗？",
+          "product": null,
+          "time": null,
+          "multiple_intents": false,
+          "missing_information": []
+        },
+        "quotes": [
+          {
+            "chunk_id": "50",
+            "quote": "系统重开后重新建立SLA周期并进入待分类分配，不抹除原有处理记录。"
+          }
+        ],
+        "needs_human_confirmation": true
+      },
+      "model_version": "qwen-plus",
+      "usage": {
+        "total_tokens": 886,
+        "completion_tokens": 110,
+        "prompt_tokens": 776,
+        "cached_tokens": 0,
+        "provider_model": "qwen-plus",
+        "provider_request_id": "chatcmpl-24c2513a-630f-9a52-9bed-8b29b75e9302"
+      },
+      "body": "您好，以下为相关处理依据，具体适用条件请由客服核实：\n[50] 【虚构3C业务演示政策，非真实企业规定】\n客户对已解决问题再次反馈时，应确认是否属于原问题和允许重开的时间窗口。系统重开后重新建立SLA周期并进入待分类分配，不抹除原有处理记录。\n如信息不足，请补充具体故障现象与发生时间。",
+      "evidence": [
+        {
+          "chunk_id": "50",
+          "document_id": "50",
+          "title": "已解决工单再次反馈",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n客户对已解决问题再次反馈时，应确认是否属于原问题和允许重开的时间窗口。系统重开后重新建立SLA周期并进入待分类分配，不抹除原有处理记录。",
+          "text_hash": "f7aaae8ae1f6582775cd70b3030b7ac23ecf06a54aa51f3e5d59fae6af8dc9bd",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.6039808988571167,
+          "rerank_score": 3.594273567199707
+        },
+        {
+          "chunk_id": "16",
+          "document_id": "16",
+          "title": "外包装破损",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n发现外包装破损时，建议客户保留包装、面单与开箱影像，记录商品是否受损。客服依据实际证据转售后审核，不要求客户冒险通电测试受损电器。",
+          "text_hash": "f9f7bcc5936339f0634fa0e1fa5910298aa69d9cee33b585598ce19d432a46af",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.4908093810081482,
+          "rerank_score": -1.7009961605072021
+        },
+        {
+          "chunk_id": "38",
+          "document_id": "38",
+          "title": "保修期限判定",
+          "revision": 1,
+          "text": "【虚构3C业务演示政策，非真实企业规定】\n保修期限以当前有效商品政策与可验证购买记录为依据。不同商品可能适用不同规则，缺少政策或日期时明确需要人工确认，不给出通用固定年限。",
+          "text_hash": "72fae20f13e1253c9ff8a7358083c1220093ae02e3107ca08c869aa3d0232949",
+          "source": "AI_AUTHORED_FICTIONAL_3C_DEMO; NOT_REAL_COMPANY_POLICY; NOT_INDEPENDENTLY_REVIEWED",
+          "score": 0.4736824631690979,
+          "rerank_score": -2.9686384201049805
+        }
+      ],
+      "invocations": [
+        {
+          "ticket_id": "56",
+          "status": "SUCCEEDED",
+          "model": "qwen-plus",
+          "usage": {
+            "total_tokens": 886,
+            "cached_tokens": 0,
+            "prompt_tokens": 776,
+            "provider_model": "qwen-plus",
+            "completion_tokens": 110,
+            "provider_request_id": "chatcmpl-24c2513a-630f-9a52-9bed-8b29b75e9302"
+          },
+          "cost": null,
+          "cost_reason": "No configured verified price snapshot; unknown is not zero"
+        }
+      ]
+    }
+  ]
+}

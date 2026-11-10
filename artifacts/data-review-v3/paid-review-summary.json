@@ -1,0 +1,44 @@
+{
+  "budget_cap": 60,
+  "reserved_total": 58,
+  "remaining": 2,
+  "new_data_review_reservations": 4,
+  "valid_remote_review_results": 0,
+  "failed_calls_remain_counted": true,
+  "actual_money_charged": null,
+  "cost_note": "Provider bill unknown. Reserved requests are not equivalent to confirmed charges. No automatic paid retries.",
+  "calls": [
+    {
+      "id": 55,
+      "model": "qwen-plus",
+      "status": "FAILED",
+      "error_code": "ValueError",
+      "known_tokens": {}
+    },
+    {
+      "id": 56,
+      "model": "qwen-plus",
+      "status": "FAILED",
+      "error_code": "ReadTimeout",
+      "known_tokens": {}
+    },
+    {
+      "id": 57,
+      "model": "qwen-plus",
+      "status": "FAILED",
+      "error_code": "HTTPStatusError",
+      "known_tokens": {}
+    },
+    {
+      "id": 58,
+      "model": "qwen-plus",
+      "status": "FAILED",
+      "error_code": "ValueError",
+      "known_tokens": {
+        "total_tokens": 35694,
+        "prompt_tokens": 23406,
+        "completion_tokens": 12288
+      }
+    }
+  ]
+}

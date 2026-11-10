@@ -1,0 +1,123 @@
+name: smartticket-ai
+services:
+  db:
+    image: mysql:8.4.11@sha256:0744ee5ef89ce6ccfa13de3e579fe6b9e27f93dd70da9c06d2c908b1b193fb8d
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: smartticket_ai
+      MYSQL_ROOT_PASSWORD_FILE: /run/secrets/root_password
+      MYSQL_ROOT_HOST: '%'
+    command: ['--character-set-server=utf8mb4', '--collation-server=utf8mb4_0900_ai_ci', '--default-time-zone=+00:00', '--local-infile=0']
+    secrets: [root_password]
+    volumes: [mysql_data:/var/lib/mysql]
+    healthcheck:
+      test: ['CMD', 'mysqladmin', 'ping', '-h', '127.0.0.1']
+      interval: 5s
+      timeout: 3s
+      retries: 20
+      start_period: 40s
+    mem_limit: 768m
+  migrate:
+    image: smartticket-ai-app:1.0.0
+    build:
+      context: .
+    command: ['python', '-m', 'scripts.container_bootstrap']
+    environment:
+      SMARTTICKET_SECRETS_DIR: /run/secrets
+      SMARTTICKET_ALLOW_MIGRATION: smartticket_ai
+    secrets:
+      - source: migration_database_url
+        target: SMARTTICKET_DATABASE_URL
+      - source: jwt_secret
+        target: SMARTTICKET_JWT_SECRET
+      - app_password
+      - admin_password
+      - demo_password
+    depends_on:
+      db: {condition: service_healthy}
+    restart: 'no'
+    mem_limit: 512m
+  api:
+    image: smartticket-ai-app:1.0.0
+    build:
+      context: .
+    restart: unless-stopped
+    environment: &app_env
+      SMARTTICKET_ENV: production
+      SMARTTICKET_SECRETS_DIR: /run/secrets
+      SMARTTICKET_LLM_ENABLED: 'false'
+      SMARTTICKET_LLM_CALL_BUDGET: '0'
+      SMARTTICKET_LLM_BASE_URL: https://dashscope.aliyuncs.com/compatible-mode/v1
+      SMARTTICKET_LLM_MODEL: qwen-plus
+      SMARTTICKET_CLASSIFIER_MANIFEST: ${SMARTTICKET_DOCKER_CLASSIFIER_MANIFEST:-}
+      SMARTTICKET_RETRIEVAL_URL: http://retrieval:8011
+      SMARTTICKET_WORKER_HEARTBEAT_PATH: /app/artifacts/operations/worker.json
+    secrets: &app_secrets
+      - source: app_database_url
+        target: SMARTTICKET_DATABASE_URL
+      - source: jwt_secret
+        target: SMARTTICKET_JWT_SECRET
+      - source: retrieval_secret
+        target: SMARTTICKET_RETRIEVAL_SECRET
+    ports: ['127.0.0.1:8012:8010']
+    volumes:
+      - './artifacts/evaluation:/app/artifacts/evaluation:ro'
+      - './artifacts/runs:/app/artifacts/runs:ro'
+      - governance_data:/app/artifacts/governance
+      - operations_data:/app/artifacts/operations:ro
+    depends_on:
+      migrate: {condition: service_completed_successfully}
+    healthcheck:
+      test: ['CMD', 'python', '-c', "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8010/health/ready', timeout=3)"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
+    mem_limit: 512m
+  worker:
+    image: smartticket-ai-app:1.0.0
+    command: ['python', '-m', 'scripts.run_worker']
+    restart: unless-stopped
+    environment: *app_env
+    secrets: *app_secrets
+    volumes: ['governance_data:/app/artifacts/governance:ro', 'operations_data:/app/artifacts/operations']
+    depends_on:
+      api: {condition: service_healthy}
+    mem_limit: 512m
+    healthcheck:
+      test: ['CMD', 'python', '-c', "from backend.app.core.config import Settings; from backend.app.core.observability import heartbeat_status; s=Settings(); assert heartbeat_status(s.worker_heartbeat_path,s.worker_stale_seconds)[0]=='healthy'"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 45s
+  retrieval:
+    profiles: [rag]
+    build:
+      context: .
+      dockerfile: docker/retrieval.Dockerfile
+    image: smartticket-ai-retrieval:1.0.0
+    restart: unless-stopped
+    environment:
+      SMARTTICKET_ARTIFACT_ROOT: /app/artifacts
+    secrets:
+      - source: retrieval_secret
+        target: SMARTTICKET_RETRIEVAL_SECRET
+    volumes:
+      - './artifacts/pretrained:/app/artifacts/pretrained:ro'
+      - retrieval_indexes:/app/artifacts/indexes
+    mem_limit: 3g
+    cpus: 4
+secrets:
+  root_password: {file: ./.docker-secrets/root_password}
+  app_password: {file: ./.docker-secrets/app_password}
+  admin_password: {file: ./.docker-secrets/admin_password}
+  demo_password: {file: ./.docker-secrets/demo_password}
+  app_database_url: {file: ./.docker-secrets/app_database_url}
+  migration_database_url: {file: ./.docker-secrets/migration_database_url}
+  jwt_secret: {file: ./.docker-secrets/jwt_secret}
+  retrieval_secret: {file: ./.docker-secrets/retrieval_secret}
+volumes:
+  mysql_data:
+  retrieval_indexes:
+  governance_data:
+  operations_data:

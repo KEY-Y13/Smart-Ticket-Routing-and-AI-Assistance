@@ -1,0 +1,143 @@
+{
+  "at": "2026-11-10T03:34:52.253022+00:00",
+  "scope": "2026-11-10 data scale + fictional-business AI review + offline training; not production acceptance",
+  "samples": 1238,
+  "class_counts": {
+    "0": 280,
+    "5": 224,
+    "2": 276,
+    "3": 112,
+    "1": 253,
+    "4": 93
+  },
+  "split_counts": {
+    "train": 952,
+    "validation": 144,
+    "test": 142
+  },
+  "lexical_groups": 1148,
+  "original_282_review_counts": {
+    "reference-classification-v1": {
+      "APPROVED": 71,
+      "REJECTED": 1
+    },
+    "reference-knowledge-v1": {
+      "APPROVED": 50
+    },
+    "reference-retrieval-v1": {
+      "APPROVED": 110
+    },
+    "reference-llm-v1": {
+      "APPROVED": 50
+    }
+  },
+  "retired_initial_translation_candidates": {
+    "PENDING": 2642
+  },
+  "four_model_macro_f1": {
+    "tfidf_rf": 1.0,
+    "tfidf_logreg": 0.9947801973737868,
+    "fasttext_char": 0.9947801973737868,
+    "bert_base_chinese": 1.0
+  },
+  "domain_shift_macro_f1": {
+    "tfidf_rf": 0.6978158356719076,
+    "tfidf_logreg": 0.7399002849002848,
+    "fasttext_char": 0.7435940248001959,
+    "bert_base_chinese": 0.7214400736139867
+  },
+  "validation_report": "artifacts\\validation\\20261110T033017105714Z\\checks.json",
+  "validation_current_and_passed": true,
+  "browser_passed": true,
+  "runtime_passed": true,
+  "retrieval_review_snapshot": {
+    "snapshot_id": "2",
+    "snapshot_sha256": "eb96fb8df9b4ab08844fb9077742a56ae6f57c7b7087c2c464b164bd7488225f",
+    "review_method": "AI",
+    "human_gold_certified": false,
+    "scope": "review ledger bound; policy validity and production approval are separate"
+  },
+  "paid_calls": {
+    "budget_cap": 60,
+    "reserved_total": 58,
+    "remaining": 2,
+    "new_data_review_reservations": 4,
+    "valid_remote_review_results": 0,
+    "failed_calls_remain_counted": true,
+    "actual_money_charged": null,
+    "cost_note": "Provider bill unknown. Reserved requests are not equivalent to confirmed charges. No automatic paid retries.",
+    "calls": [
+      {
+        "id": 55,
+        "model": "qwen-plus",
+        "status": "FAILED",
+        "error_code": "ValueError",
+        "known_tokens": {}
+      },
+      {
+        "id": 56,
+        "model": "qwen-plus",
+        "status": "FAILED",
+        "error_code": "ReadTimeout",
+        "known_tokens": {}
+      },
+      {
+        "id": 57,
+        "model": "qwen-plus",
+        "status": "FAILED",
+        "error_code": "HTTPStatusError",
+        "known_tokens": {}
+      },
+      {
+        "id": 58,
+        "model": "qwen-plus",
+        "status": "FAILED",
+        "error_code": "ValueError",
+        "known_tokens": {
+          "total_tokens": 35694,
+          "prompt_tokens": 23406,
+          "completion_tokens": 12288
+        }
+      }
+    ]
+  },
+  "current_source_sha256": "18f91d219651b647622b973dba6e0604b0bd491ae73347f7c3a8424421d95d85",
+  "classification_deployment_approved": false,
+  "limitations": [
+    "AI reference, no human gold or real customer-data certification",
+    "Same-source synthetic test is optimistic; native 3C diagnostic is lower",
+    "Automatic routing not enabled; human confirmation retained",
+    "Two historical answerable queries still failed the automatic evidence gate",
+    "Large remote review protocols failed and were retired, not counted as approvals"
+  ],
+  "completed_at": "2026-11-10T06:19:18.888301+00:00",
+  "offline_training_complete": true,
+  "release": {
+    "archive": "E:\\AI_project\\SmartTicket-AI\\artifacts\\releases\\SmartTicket-AI-20261110T033920217923Z.zip",
+    "files": 300,
+    "bytes": 2583897,
+    "archive_sha256": "486e242694821785985f024267a4190f70637071cd174502c04272e052c03e7c",
+    "all_members_hash_verified": true,
+    "configured_secret_scan_passed": true,
+    "environments_databases_keys_and_model_weights_included": false
+  },
+  "release_extraction_verification": {
+    "at": "2026-11-10T03:40:19.118362+00:00",
+    "archive": "E:\\AI_project\\SmartTicket-AI\\artifacts\\releases\\SmartTicket-AI-20261110T033920217923Z.zip",
+    "scope": "extracted source; SQLite; existing Python deps; not clean-machine install",
+    "checks": {
+      "archive_hash_matches": true,
+      "all_member_hashes_match": true,
+      "no_private_directories": true,
+      "isolated_business_tests_pass": true
+    },
+    "passed": true
+  },
+  "scope_completed": true,
+  "mysql_final_report": "artifacts/data-research/mysql-final.xml",
+  "services_restored": [
+    "api",
+    "retrieval",
+    "worker"
+  ]
+}
